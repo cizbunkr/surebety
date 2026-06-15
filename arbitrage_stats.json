@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:00:14.306863+00:00",
+  "generatedAt": "2026-06-15T21:06:35.156810+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,9 +12,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 6,
-  "opportunitiesFound": 11,
+  "opportunitiesFound": 10,
   "byStat": {
-    "fouls": 6,
+    "fouls": 5,
     "shots": 4,
     "cards": 1
   },
@@ -45,6 +45,42 @@
           "odd": 2.4,
           "bookmaker": "Tipsport",
           "stake": 437.94
+        }
+      ]
+    },
+    {
+      "match": "Rakousko - Jordánsko",
+      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Kdo víc — fauly (1x2)",
+      "isArbitrage": true,
+      "profitPct": 4.82,
+      "sumInverse": 0.954,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1048.18,
+      "guaranteedProfit": 48.18,
+      "legs": [
+        {
+          "key": "fouls|1x2|home",
+          "label": "Rakousko více",
+          "odd": 2.46,
+          "bookmaker": "Rainbet",
+          "stake": 426.09
+        },
+        {
+          "key": "fouls|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 11.0,
+          "bookmaker": "Rainbet",
+          "stake": 95.29
+        },
+        {
+          "key": "fouls|1x2|away",
+          "label": "Jordánsko více",
+          "odd": 2.19,
+          "bookmaker": "Tipsport",
+          "stake": 478.62
         }
       ]
     },
@@ -161,71 +197,6 @@
           "odd": 2.2,
           "bookmaker": "Rainbet",
           "stake": 467.31
-        }
-      ]
-    },
-    {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Kdo víc — fauly (1x2)",
-      "isArbitrage": true,
-      "profitPct": 2.47,
-      "sumInverse": 0.9759,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1024.71,
-      "guaranteedProfit": 24.71,
-      "legs": [
-        {
-          "key": "fouls|1x2|home",
-          "label": "Rakousko více",
-          "odd": 2.46,
-          "bookmaker": "Rainbet",
-          "stake": 416.55
-        },
-        {
-          "key": "fouls|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 11.0,
-          "bookmaker": "Rainbet",
-          "stake": 93.16
-        },
-        {
-          "key": "fouls|1x2|away",
-          "label": "Jordánsko více",
-          "odd": 2.09,
-          "bookmaker": "Tipsport",
-          "stake": 490.29
-        }
-      ]
-    },
-    {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Handicap fauly (+1.5)",
-      "isArbitrage": true,
-      "profitPct": 1.91,
-      "sumInverse": 0.9812,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1019.14,
-      "guaranteedProfit": 19.14,
-      "legs": [
-        {
-          "key": "fouls|handicap|home|1.5",
-          "label": "Rakousko (+1.5)",
-          "odd": 1.74,
-          "bookmaker": "Rainbet",
-          "stake": 585.71
-        },
-        {
-          "key": "fouls|handicap|away|-1.5",
-          "label": "Jordánsko (-1.5)",
-          "odd": 2.46,
-          "bookmaker": "Tipsport",
-          "stake": 414.29
         }
       ]
     },
