@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:06:35.156810+00:00",
+  "generatedAt": "2026-06-15T21:12:51.336320+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -201,6 +201,36 @@
       ]
     },
     {
+      "match": "Írán - Nový Zéland",
+      "startTime": "2026-06-16T03:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 1.26,
+      "sumInverse": 0.9876,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1012.56,
+      "guaranteedProfit": 12.56,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 3.16,
+          "bookmaker": "Tipsport",
+          "stake": 320.43
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.49,
+          "bookmaker": "Rainbet",
+          "stake": 679.57
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
       "match": "Irák - Norsko",
       "startTime": "2026-06-17T00:00:00.000+02:00",
       "stat": "fouls",
@@ -228,36 +258,6 @@
           "stake": 327.51
         }
       ]
-    },
-    {
-      "match": "Írán - Nový Zéland",
-      "startTime": "2026-06-16T03:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 4.5",
-      "isArbitrage": true,
-      "profitPct": 0.79,
-      "sumInverse": 0.9921,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1007.93,
-      "guaranteedProfit": 7.93,
-      "legs": [
-        {
-          "key": "cards|total|over|4.5",
-          "label": "Více než 4.5",
-          "odd": 3.16,
-          "bookmaker": "Tipsport",
-          "stake": 318.97
-        },
-        {
-          "key": "cards|total|under|4.5",
-          "label": "Méně než 4.5",
-          "odd": 1.48,
-          "bookmaker": "Rainbet",
-          "stake": 681.03
-        }
-      ],
-      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
     },
     {
       "match": "Rakousko - Jordánsko",
