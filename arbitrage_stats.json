@@ -1,0 +1,357 @@
+{
+  "generatedAt": "2026-06-15T20:50:15.797818+00:00",
+  "sources": [
+    "tipsport.cz",
+    "rainbet.com"
+  ],
+  "markets": [
+    "fouls",
+    "cards",
+    "shots"
+  ],
+  "stakeTotal": 1000,
+  "currency": "CZK",
+  "matchesPaired": 6,
+  "opportunitiesFound": 11,
+  "byStat": {
+    "fouls": 6,
+    "shots": 4,
+    "cards": 1
+  },
+  "opportunities": [
+    {
+      "match": "Rakousko - Jordánsko",
+      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 22.5",
+      "isArbitrage": true,
+      "profitPct": 5.11,
+      "sumInverse": 0.9514,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1051.05,
+      "guaranteedProfit": 51.05,
+      "legs": [
+        {
+          "key": "fouls|total|over|22.5",
+          "label": "Více než 22.5",
+          "odd": 1.87,
+          "bookmaker": "Rainbet",
+          "stake": 562.06
+        },
+        {
+          "key": "fouls|total|under|22.5",
+          "label": "Méně než 22.5",
+          "odd": 2.4,
+          "bookmaker": "Tipsport",
+          "stake": 437.94
+        }
+      ]
+    },
+    {
+      "match": "Rakousko - Jordánsko",
+      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 21.5",
+      "isArbitrage": true,
+      "profitPct": 4.7,
+      "sumInverse": 0.9551,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1046.99,
+      "guaranteedProfit": 46.99,
+      "legs": [
+        {
+          "key": "fouls|total|over|21.5",
+          "label": "Více než 21.5",
+          "odd": 1.62,
+          "bookmaker": "Rainbet",
+          "stake": 646.29
+        },
+        {
+          "key": "fouls|total|under|21.5",
+          "label": "Méně než 21.5",
+          "odd": 2.96,
+          "bookmaker": "Tipsport",
+          "stake": 353.71
+        }
+      ]
+    },
+    {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 4.17,
+      "sumInverse": 0.96,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1041.69,
+      "guaranteedProfit": 41.69,
+      "legs": [
+        {
+          "key": "shots|total|over|9.5",
+          "label": "Více než 9.5",
+          "odd": 2.69,
+          "bookmaker": "Tipsport",
+          "stake": 387.24
+        },
+        {
+          "key": "shots|total|under|9.5",
+          "label": "Méně než 9.5",
+          "odd": 1.7,
+          "bookmaker": "Rainbet",
+          "stake": 612.76
+        }
+      ]
+    },
+    {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 3.76,
+      "sumInverse": 0.9638,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1037.6,
+      "guaranteedProfit": 37.6,
+      "legs": [
+        {
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 1.98,
+          "bookmaker": "Tipsport",
+          "stake": 524.04
+        },
+        {
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 2.18,
+          "bookmaker": "Rainbet",
+          "stake": 475.96
+        }
+      ]
+    },
+    {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Francie, hranice 5.5",
+      "isArbitrage": true,
+      "profitPct": 2.81,
+      "sumInverse": 0.9727,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1028.09,
+      "guaranteedProfit": 28.09,
+      "legs": [
+        {
+          "key": "shots|team|home|over|5.5",
+          "label": "Více než 5.5 (Francie)",
+          "odd": 1.93,
+          "bookmaker": "Tipsport",
+          "stake": 532.69
+        },
+        {
+          "key": "shots|team|home|under|5.5",
+          "label": "Méně než 5.5 (Francie)",
+          "odd": 2.2,
+          "bookmaker": "Rainbet",
+          "stake": 467.31
+        }
+      ]
+    },
+    {
+      "match": "Rakousko - Jordánsko",
+      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Kdo víc — fauly (1x2)",
+      "isArbitrage": true,
+      "profitPct": 2.47,
+      "sumInverse": 0.9759,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1024.71,
+      "guaranteedProfit": 24.71,
+      "legs": [
+        {
+          "key": "fouls|1x2|home",
+          "label": "Rakousko více",
+          "odd": 2.46,
+          "bookmaker": "Rainbet",
+          "stake": 416.55
+        },
+        {
+          "key": "fouls|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 11.0,
+          "bookmaker": "Rainbet",
+          "stake": 93.16
+        },
+        {
+          "key": "fouls|1x2|away",
+          "label": "Jordánsko více",
+          "odd": 2.09,
+          "bookmaker": "Tipsport",
+          "stake": 490.29
+        }
+      ]
+    },
+    {
+      "match": "Rakousko - Jordánsko",
+      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Handicap fauly (+1.5)",
+      "isArbitrage": true,
+      "profitPct": 1.91,
+      "sumInverse": 0.9812,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1019.14,
+      "guaranteedProfit": 19.14,
+      "legs": [
+        {
+          "key": "fouls|handicap|home|1.5",
+          "label": "Rakousko (+1.5)",
+          "odd": 1.74,
+          "bookmaker": "Rainbet",
+          "stake": 585.71
+        },
+        {
+          "key": "fouls|handicap|away|-1.5",
+          "label": "Jordánsko (-1.5)",
+          "odd": 2.46,
+          "bookmaker": "Tipsport",
+          "stake": 414.29
+        }
+      ]
+    },
+    {
+      "match": "Irák - Norsko",
+      "startTime": "2026-06-17T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Norsko, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 0.87,
+      "sumInverse": 0.9913,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1008.73,
+      "guaranteedProfit": 8.73,
+      "legs": [
+        {
+          "key": "fouls|team|away|over|8.5",
+          "label": "Více než 8.5 (Norsko)",
+          "odd": 1.5,
+          "bookmaker": "Rainbet",
+          "stake": 672.49
+        },
+        {
+          "key": "fouls|team|away|under|8.5",
+          "label": "Méně než 8.5 (Norsko)",
+          "odd": 3.08,
+          "bookmaker": "Tipsport",
+          "stake": 327.51
+        }
+      ]
+    },
+    {
+      "match": "Írán - Nový Zéland",
+      "startTime": "2026-06-16T03:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 0.79,
+      "sumInverse": 0.9921,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1007.93,
+      "guaranteedProfit": 7.93,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 3.16,
+          "bookmaker": "Tipsport",
+          "stake": 318.97
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.48,
+          "bookmaker": "Rainbet",
+          "stake": 681.03
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
+      "match": "Rakousko - Jordánsko",
+      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Jordánsko, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.54,
+      "sumInverse": 0.9946,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.4,
+      "guaranteedProfit": 5.4,
+      "legs": [
+        {
+          "key": "shots|team|away|over|2.5",
+          "label": "Více než 2.5 (Jordánsko)",
+          "odd": 1.71,
+          "bookmaker": "Tipsport",
+          "stake": 587.95
+        },
+        {
+          "key": "shots|team|away|under|2.5",
+          "label": "Méně než 2.5 (Jordánsko)",
+          "odd": 2.44,
+          "bookmaker": "Rainbet",
+          "stake": 412.05
+        }
+      ]
+    },
+    {
+      "match": "Irák - Norsko",
+      "startTime": "2026-06-17T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Kdo víc — fauly (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.34,
+      "sumInverse": 0.9966,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1003.41,
+      "guaranteedProfit": 3.41,
+      "legs": [
+        {
+          "key": "fouls|1x2|home",
+          "label": "Irák více",
+          "odd": 1.7,
+          "bookmaker": "Tipsport",
+          "stake": 590.24
+        },
+        {
+          "key": "fouls|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 11.0,
+          "bookmaker": "Rainbet",
+          "stake": 91.22
+        },
+        {
+          "key": "fouls|1x2|away",
+          "label": "Norsko více",
+          "odd": 3.15,
+          "bookmaker": "Rainbet",
+          "stake": 318.54
+        }
+      ]
+    }
+  ]
+}
