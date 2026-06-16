@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T13:28:25.999051+00:00",
+  "generatedAt": "2026-06-16T13:34:42.835316+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -24,26 +24,55 @@
       "stat": "fouls",
       "market": "Počet — fauly, hranice 22.5",
       "isArbitrage": true,
-      "profitPct": 10.46,
-      "sumInverse": 0.9053,
+      "profitPct": 6.37,
+      "sumInverse": 0.9401,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1104.58,
-      "guaranteedProfit": 104.58,
+      "guaranteedReturn": 1063.74,
+      "guaranteedProfit": 63.74,
       "legs": [
         {
           "key": "fouls|total|over|22.5",
           "label": "Více než 22.5",
           "odd": 1.82,
           "bookmaker": "Rainbet",
-          "stake": 606.91
+          "stake": 584.47
         },
         {
           "key": "fouls|total|under|22.5",
           "label": "Méně než 22.5",
-          "odd": 2.81,
+          "odd": 2.56,
           "bookmaker": "Tipsport",
-          "stake": 393.09
+          "stake": 415.53
+        }
+      ]
+    },
+    {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 21.5",
+      "isArbitrage": true,
+      "profitPct": 5.66,
+      "sumInverse": 0.9464,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1056.65,
+      "guaranteedProfit": 56.65,
+      "legs": [
+        {
+          "key": "fouls|total|over|21.5",
+          "label": "Více než 21.5",
+          "odd": 1.58,
+          "bookmaker": "Rainbet",
+          "stake": 668.76
+        },
+        {
+          "key": "fouls|total|under|21.5",
+          "label": "Méně než 21.5",
+          "odd": 3.19,
+          "bookmaker": "Tipsport",
+          "stake": 331.24
         }
       ]
     },
@@ -73,35 +102,6 @@
           "odd": 1.99,
           "bookmaker": "Rainbet",
           "stake": 529.55
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Senegal, hranice 11.5",
-      "isArbitrage": true,
-      "profitPct": 4.59,
-      "sumInverse": 0.9561,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1045.89,
-      "guaranteedProfit": 45.89,
-      "legs": [
-        {
-          "key": "fouls|team|away|over|11.5",
-          "label": "Více než 11.5 (Senegal)",
-          "odd": 1.6,
-          "bookmaker": "Rainbet",
-          "stake": 653.68
-        },
-        {
-          "key": "fouls|team|away|under|11.5",
-          "label": "Méně než 11.5 (Senegal)",
-          "odd": 3.02,
-          "bookmaker": "Tipsport",
-          "stake": 346.32
         }
       ]
     },
@@ -164,6 +164,35 @@
       ]
     },
     {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Senegal, hranice 11.5",
+      "isArbitrage": true,
+      "profitPct": 2.21,
+      "sumInverse": 0.9784,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1022.12,
+      "guaranteedProfit": 22.12,
+      "legs": [
+        {
+          "key": "fouls|team|away|over|11.5",
+          "label": "Více než 11.5 (Senegal)",
+          "odd": 1.6,
+          "bookmaker": "Rainbet",
+          "stake": 638.83
+        },
+        {
+          "key": "fouls|team|away|under|11.5",
+          "label": "Méně než 11.5 (Senegal)",
+          "odd": 2.83,
+          "bookmaker": "Tipsport",
+          "stake": 361.17
+        }
+      ]
+    },
+    {
       "match": "Ghana - Panama",
       "startTime": "2026-06-18T01:00:00.000+02:00",
       "stat": "fouls",
@@ -196,35 +225,6 @@
           "odd": 1.97,
           "bookmaker": "Tipsport",
           "stake": 516.32
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Francie, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 1.28,
-      "sumInverse": 0.9874,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1012.81,
-      "guaranteedProfit": 12.81,
-      "legs": [
-        {
-          "key": "fouls|team|home|over|9.5",
-          "label": "Více než 9.5 (Francie)",
-          "odd": 1.59,
-          "bookmaker": "Rainbet",
-          "stake": 636.99
-        },
-        {
-          "key": "fouls|team|home|under|9.5",
-          "label": "Méně než 9.5 (Francie)",
-          "odd": 2.79,
-          "bookmaker": "Tipsport",
-          "stake": 363.01
         }
       ]
     },
