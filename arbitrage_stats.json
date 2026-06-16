@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T09:34:28.398455+00:00",
+  "generatedAt": "2026-06-16T10:25:55.216969+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,11 +12,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 9,
-  "opportunitiesFound": 15,
+  "opportunitiesFound": 14,
   "byStat": {
     "fouls": 11,
-    "shots": 3,
-    "cards": 1
+    "shots": 3
   },
   "opportunities": [
     {
@@ -351,36 +350,6 @@
           "stake": 318.54
         }
       ]
-    },
-    {
-      "match": "Česko - JAR",
-      "startTime": "2026-06-18T18:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 4.5",
-      "isArbitrage": true,
-      "profitPct": 0.33,
-      "sumInverse": 0.9967,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1003.26,
-      "guaranteedProfit": 3.26,
-      "legs": [
-        {
-          "key": "cards|total|over|4.5",
-          "label": "Více než 4.5",
-          "odd": 2.69,
-          "bookmaker": "Tipsport",
-          "stake": 372.96
-        },
-        {
-          "key": "cards|total|under|4.5",
-          "label": "Méně než 4.5",
-          "odd": 1.6,
-          "bookmaker": "Rainbet",
-          "stake": 627.04
-        }
-      ],
-      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
     },
     {
       "match": "Anglie - Chorvatsko",
