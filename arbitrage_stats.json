@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T17:16:29.976512+00:00",
+  "generatedAt": "2026-06-16T17:22:57.467117+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,9 +12,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 9,
-  "opportunitiesFound": 15,
+  "opportunitiesFound": 14,
   "byStat": {
-    "fouls": 12,
+    "fouls": 11,
     "shots": 3
   },
   "opportunities": [
@@ -102,35 +102,6 @@
           "odd": 2.3,
           "bookmaker": "Tipsport",
           "stake": 448.44
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Senegal, hranice 11.5",
-      "isArbitrage": true,
-      "profitPct": 2.21,
-      "sumInverse": 0.9784,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1022.12,
-      "guaranteedProfit": 22.12,
-      "legs": [
-        {
-          "key": "fouls|team|away|over|11.5",
-          "label": "Více než 11.5 (Senegal)",
-          "odd": 1.6,
-          "bookmaker": "Rainbet",
-          "stake": 638.83
-        },
-        {
-          "key": "fouls|team|away|under|11.5",
-          "label": "Méně než 11.5 (Senegal)",
-          "odd": 2.83,
-          "bookmaker": "Tipsport",
-          "stake": 361.17
         }
       ]
     },
