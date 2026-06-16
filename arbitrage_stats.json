@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T20:53:23.060730+00:00",
+  "generatedAt": "2026-06-16T20:59:48.428812+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,9 +12,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 8,
-  "opportunitiesFound": 11,
+  "opportunitiesFound": 8,
   "byStat": {
-    "fouls": 11
+    "fouls": 8
   },
   "opportunities": [
     {
@@ -137,93 +137,6 @@
           "odd": 1.97,
           "bookmaker": "Tipsport",
           "stake": 516.32
-        }
-      ]
-    },
-    {
-      "match": "Irák - Norsko",
-      "startTime": "2026-06-17T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 20.5",
-      "isArbitrage": true,
-      "profitPct": 1.56,
-      "sumInverse": 0.9846,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1015.62,
-      "guaranteedProfit": 15.62,
-      "legs": [
-        {
-          "key": "fouls|total|over|20.5",
-          "label": "Více než 20.5",
-          "odd": 1.72,
-          "bookmaker": "Rainbet",
-          "stake": 590.48
-        },
-        {
-          "key": "fouls|total|under|20.5",
-          "label": "Méně než 20.5",
-          "odd": 2.48,
-          "bookmaker": "Tipsport",
-          "stake": 409.52
-        }
-      ]
-    },
-    {
-      "match": "Irák - Norsko",
-      "startTime": "2026-06-17T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 19.5",
-      "isArbitrage": true,
-      "profitPct": 1.19,
-      "sumInverse": 0.9882,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.93,
-      "guaranteedProfit": 11.93,
-      "legs": [
-        {
-          "key": "fouls|total|over|19.5",
-          "label": "Více než 19.5",
-          "odd": 1.5,
-          "bookmaker": "Rainbet",
-          "stake": 674.62
-        },
-        {
-          "key": "fouls|total|under|19.5",
-          "label": "Méně než 19.5",
-          "odd": 3.11,
-          "bookmaker": "Tipsport",
-          "stake": 325.38
-        }
-      ]
-    },
-    {
-      "match": "Irák - Norsko",
-      "startTime": "2026-06-17T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Irák, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 1.19,
-      "sumInverse": 0.9882,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.9,
-      "guaranteedProfit": 11.9,
-      "legs": [
-        {
-          "key": "fouls|team|home|over|10.5",
-          "label": "Více než 10.5 (Irák)",
-          "odd": 1.7,
-          "bookmaker": "Rainbet",
-          "stake": 595.24
-        },
-        {
-          "key": "fouls|team|home|under|10.5",
-          "label": "Méně než 10.5 (Irák)",
-          "odd": 2.5,
-          "bookmaker": "Tipsport",
-          "stake": 404.76
         }
       ]
     },
