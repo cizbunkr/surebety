@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T08:37:45.182147+00:00",
+  "generatedAt": "2026-06-16T08:44:11.932882+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -11,242 +11,133 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 4,
-  "opportunitiesFound": 12,
+  "matchesPaired": 9,
+  "opportunitiesFound": 14,
   "byStat": {
-    "fouls": 6,
-    "shots": 6
+    "fouls": 11,
+    "shots": 3
   },
   "opportunities": [
     {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "match": "Anglie - Chorvatsko",
+      "startTime": "2026-06-17T22:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet — fauly, hranice 22.5",
+      "market": "Počet fauly — Chorvatsko, hranice 12.5",
       "isArbitrage": true,
-      "profitPct": 5.11,
-      "sumInverse": 0.9514,
+      "profitPct": 5.38,
+      "sumInverse": 0.9489,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1051.05,
-      "guaranteedProfit": 51.05,
+      "guaranteedReturn": 1053.81,
+      "guaranteedProfit": 53.81,
       "legs": [
         {
-          "key": "fouls|total|over|22.5",
-          "label": "Více než 22.5",
+          "key": "fouls|team|away|over|12.5",
+          "label": "Více než 12.5 (Chorvatsko)",
+          "odd": 2.24,
+          "bookmaker": "Tipsport",
+          "stake": 470.45
+        },
+        {
+          "key": "fouls|team|away|under|12.5",
+          "label": "Méně než 12.5 (Chorvatsko)",
+          "odd": 1.99,
+          "bookmaker": "Rainbet",
+          "stake": 529.55
+        }
+      ]
+    },
+    {
+      "match": "Ghana - Panama",
+      "startTime": "2026-06-18T01:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Ghana, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 3.33,
+      "sumInverse": 0.9677,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1033.33,
+      "guaranteedProfit": 33.33,
+      "legs": [
+        {
+          "key": "fouls|team|home|over|10.5",
+          "label": "Více než 10.5 (Ghana)",
+          "odd": 1.55,
+          "bookmaker": "Rainbet",
+          "stake": 666.67
+        },
+        {
+          "key": "fouls|team|home|under|10.5",
+          "label": "Méně než 10.5 (Ghana)",
+          "odd": 3.1,
+          "bookmaker": "Tipsport",
+          "stake": 333.33
+        }
+      ]
+    },
+    {
+      "match": "Ghana - Panama",
+      "startTime": "2026-06-18T01:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Handicap fauly (+1.5)",
+      "isArbitrage": true,
+      "profitPct": 3.14,
+      "sumInverse": 0.9695,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1031.41,
+      "guaranteedProfit": 31.41,
+      "legs": [
+        {
+          "key": "fouls|handicap|home|1.5",
+          "label": "Ghana (+1.5)",
           "odd": 1.87,
           "bookmaker": "Rainbet",
-          "stake": 562.06
+          "stake": 551.56
         },
         {
-          "key": "fouls|total|under|22.5",
-          "label": "Méně než 22.5",
-          "odd": 2.4,
+          "key": "fouls|handicap|away|-1.5",
+          "label": "Panama (-1.5)",
+          "odd": 2.3,
           "bookmaker": "Tipsport",
-          "stake": 437.94
+          "stake": 448.44
         }
       ]
     },
     {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "match": "Ghana - Panama",
+      "startTime": "2026-06-18T01:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet — fauly, hranice 21.5",
+      "market": "Kdo víc — fauly (1x2)",
       "isArbitrage": true,
-      "profitPct": 4.7,
-      "sumInverse": 0.9551,
+      "profitPct": 1.72,
+      "sumInverse": 0.9831,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1046.99,
-      "guaranteedProfit": 46.99,
+      "guaranteedReturn": 1017.15,
+      "guaranteedProfit": 17.15,
       "legs": [
         {
-          "key": "fouls|total|over|21.5",
-          "label": "Více než 21.5",
-          "odd": 1.62,
+          "key": "fouls|1x2|home",
+          "label": "Ghana více",
+          "odd": 2.6,
           "bookmaker": "Rainbet",
-          "stake": 646.29
+          "stake": 391.21
         },
         {
-          "key": "fouls|total|under|21.5",
-          "label": "Méně než 21.5",
-          "odd": 2.96,
-          "bookmaker": "Tipsport",
-          "stake": 353.71
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 4.17,
-      "sumInverse": 0.96,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1041.69,
-      "guaranteedProfit": 41.69,
-      "legs": [
-        {
-          "key": "shots|total|over|9.5",
-          "label": "Více než 9.5",
-          "odd": 2.69,
-          "bookmaker": "Tipsport",
-          "stake": 387.24
+          "key": "fouls|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 11.0,
+          "bookmaker": "Rainbet",
+          "stake": 92.47
         },
         {
-          "key": "shots|total|under|9.5",
-          "label": "Méně než 9.5",
-          "odd": 1.7,
-          "bookmaker": "Rainbet",
-          "stake": 612.76
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 8.5",
-      "isArbitrage": true,
-      "profitPct": 3.76,
-      "sumInverse": 0.9638,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1037.6,
-      "guaranteedProfit": 37.6,
-      "legs": [
-        {
-          "key": "shots|total|over|8.5",
-          "label": "Více než 8.5",
-          "odd": 1.98,
+          "key": "fouls|1x2|away",
+          "label": "Panama více",
+          "odd": 1.97,
           "bookmaker": "Tipsport",
-          "stake": 524.04
-        },
-        {
-          "key": "shots|total|under|8.5",
-          "label": "Méně než 8.5",
-          "odd": 2.18,
-          "bookmaker": "Rainbet",
-          "stake": 475.96
-        }
-      ]
-    },
-    {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Rakousko, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 3.7,
-      "sumInverse": 0.9643,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1037.04,
-      "guaranteedProfit": 37.04,
-      "legs": [
-        {
-          "key": "fouls|team|home|over|9.5",
-          "label": "Více než 9.5 (Rakousko)",
-          "odd": 1.5,
-          "bookmaker": "Rainbet",
-          "stake": 691.36
-        },
-        {
-          "key": "fouls|team|home|under|9.5",
-          "label": "Méně než 9.5 (Rakousko)",
-          "odd": 3.36,
-          "bookmaker": "Tipsport",
-          "stake": 308.64
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Francie, hranice 6.5",
-      "isArbitrage": true,
-      "profitPct": 2.89,
-      "sumInverse": 0.9719,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1028.89,
-      "guaranteedProfit": 28.89,
-      "legs": [
-        {
-          "key": "shots|team|home|over|6.5",
-          "label": "Více než 6.5 (Francie)",
-          "odd": 2.79,
-          "bookmaker": "Tipsport",
-          "stake": 368.78
-        },
-        {
-          "key": "shots|team|home|under|6.5",
-          "label": "Méně než 6.5 (Francie)",
-          "odd": 1.63,
-          "bookmaker": "Rainbet",
-          "stake": 631.22
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Francie, hranice 5.5",
-      "isArbitrage": true,
-      "profitPct": 2.81,
-      "sumInverse": 0.9727,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1028.09,
-      "guaranteedProfit": 28.09,
-      "legs": [
-        {
-          "key": "shots|team|home|over|5.5",
-          "label": "Více než 5.5 (Francie)",
-          "odd": 1.93,
-          "bookmaker": "Tipsport",
-          "stake": 532.69
-        },
-        {
-          "key": "shots|team|home|under|5.5",
-          "label": "Méně než 5.5 (Francie)",
-          "odd": 2.2,
-          "bookmaker": "Rainbet",
-          "stake": 467.31
-        }
-      ]
-    },
-    {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Jordánsko, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 1.67,
-      "sumInverse": 0.9835,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1016.73,
-      "guaranteedProfit": 16.73,
-      "legs": [
-        {
-          "key": "shots|team|away|over|3.5",
-          "label": "Více než 3.5 (Jordánsko)",
-          "odd": 2.82,
-          "bookmaker": "Tipsport",
-          "stake": 360.54
-        },
-        {
-          "key": "shots|team|away|under|3.5",
-          "label": "Méně než 3.5 (Jordánsko)",
-          "odd": 1.59,
-          "bookmaker": "Rainbet",
-          "stake": 639.46
+          "stake": 516.32
         }
       ]
     },
@@ -280,6 +171,35 @@
       ]
     },
     {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 1.19,
+      "sumInverse": 0.9882,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1011.9,
+      "guaranteedProfit": 11.9,
+      "legs": [
+        {
+          "key": "shots|total|over|9.5",
+          "label": "Více než 9.5",
+          "odd": 2.5,
+          "bookmaker": "Tipsport",
+          "stake": 404.76
+        },
+        {
+          "key": "shots|total|under|9.5",
+          "label": "Méně než 9.5",
+          "odd": 1.7,
+          "bookmaker": "Rainbet",
+          "stake": 595.24
+        }
+      ]
+    },
+    {
       "match": "Irák - Norsko",
       "startTime": "2026-06-17T00:00:00.000+02:00",
       "stat": "fouls",
@@ -309,31 +229,89 @@
       ]
     },
     {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
       "stat": "shots",
-      "market": "Počet střely na branku — Jordánsko, hranice 2.5",
+      "market": "Počet — střely na branku, hranice 8.5",
       "isArbitrage": true,
-      "profitPct": 0.54,
-      "sumInverse": 0.9946,
+      "profitPct": 0.66,
+      "sumInverse": 0.9935,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1005.4,
-      "guaranteedProfit": 5.4,
+      "guaranteedReturn": 1006.57,
+      "guaranteedProfit": 6.57,
       "legs": [
         {
-          "key": "shots|team|away|over|2.5",
-          "label": "Více než 2.5 (Jordánsko)",
-          "odd": 1.71,
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 1.87,
           "bookmaker": "Tipsport",
-          "stake": 587.95
+          "stake": 538.27
         },
         {
-          "key": "shots|team|away|under|2.5",
-          "label": "Méně než 2.5 (Jordánsko)",
-          "odd": 2.44,
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 2.18,
           "bookmaker": "Rainbet",
-          "stake": 412.05
+          "stake": 461.73
+        }
+      ]
+    },
+    {
+      "match": "Rakousko - Jordánsko",
+      "startTime": "2026-06-17T06:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Rakousko, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 0.55,
+      "sumInverse": 0.9945,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.49,
+      "guaranteedProfit": 5.49,
+      "legs": [
+        {
+          "key": "fouls|team|home|over|9.5",
+          "label": "Více než 9.5 (Rakousko)",
+          "odd": 1.5,
+          "bookmaker": "Rainbet",
+          "stake": 670.33
+        },
+        {
+          "key": "fouls|team|home|under|9.5",
+          "label": "Méně než 9.5 (Rakousko)",
+          "odd": 3.05,
+          "bookmaker": "Tipsport",
+          "stake": 329.67
+        }
+      ]
+    },
+    {
+      "match": "Anglie - Chorvatsko",
+      "startTime": "2026-06-17T22:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 23.5",
+      "isArbitrage": true,
+      "profitPct": 0.51,
+      "sumInverse": 0.9949,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.08,
+      "guaranteedProfit": 5.08,
+      "legs": [
+        {
+          "key": "fouls|total|over|23.5",
+          "label": "Více než 23.5",
+          "odd": 2.48,
+          "bookmaker": "Tipsport",
+          "stake": 405.28
+        },
+        {
+          "key": "fouls|total|under|23.5",
+          "label": "Méně než 23.5",
+          "odd": 1.69,
+          "bookmaker": "Rainbet",
+          "stake": 594.72
         }
       ]
     },
@@ -370,6 +348,100 @@
           "odd": 3.15,
           "bookmaker": "Rainbet",
           "stake": 318.54
+        }
+      ]
+    },
+    {
+      "match": "Anglie - Chorvatsko",
+      "startTime": "2026-06-17T22:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Kdo víc — fauly (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.2,
+      "sumInverse": 0.9981,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1001.95,
+      "guaranteedProfit": 1.95,
+      "legs": [
+        {
+          "key": "fouls|1x2|home",
+          "label": "Anglie více",
+          "odd": 3.6,
+          "bookmaker": "Rainbet",
+          "stake": 278.32
+        },
+        {
+          "key": "fouls|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 12.0,
+          "bookmaker": "Rainbet",
+          "stake": 83.5
+        },
+        {
+          "key": "fouls|1x2|away",
+          "label": "Chorvatsko více",
+          "odd": 1.57,
+          "bookmaker": "Tipsport",
+          "stake": 638.18
+        }
+      ]
+    },
+    {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Francie, hranice 6.5",
+      "isArbitrage": true,
+      "profitPct": 0.19,
+      "sumInverse": 0.9981,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1001.89,
+      "guaranteedProfit": 1.89,
+      "legs": [
+        {
+          "key": "shots|team|home|over|6.5",
+          "label": "Více než 6.5 (Francie)",
+          "odd": 2.6,
+          "bookmaker": "Tipsport",
+          "stake": 385.34
+        },
+        {
+          "key": "shots|team|home|under|6.5",
+          "label": "Méně než 6.5 (Francie)",
+          "odd": 1.63,
+          "bookmaker": "Rainbet",
+          "stake": 614.66
+        }
+      ]
+    },
+    {
+      "match": "Uzbekistán - Kolumbie",
+      "startTime": "2026-06-18T04:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Kolumbie, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 0.07,
+      "sumInverse": 0.9993,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.7,
+      "guaranteedProfit": 0.7,
+      "legs": [
+        {
+          "key": "fouls|team|away|over|10.5",
+          "label": "Více než 10.5 (Kolumbie)",
+          "odd": 1.59,
+          "bookmaker": "Rainbet",
+          "stake": 629.37
+        },
+        {
+          "key": "fouls|team|away|under|10.5",
+          "label": "Méně než 10.5 (Kolumbie)",
+          "odd": 2.7,
+          "bookmaker": "Tipsport",
+          "stake": 370.63
         }
       ]
     }
