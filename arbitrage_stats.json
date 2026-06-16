@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:44:20.889962+00:00",
+  "generatedAt": "2026-06-16T21:50:35.295762+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,9 +12,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 8,
-  "opportunitiesFound": 8,
+  "opportunitiesFound": 7,
   "byStat": {
-    "fouls": 8
+    "fouls": 7
   },
   "opportunities": [
     {
@@ -137,35 +137,6 @@
           "odd": 1.97,
           "bookmaker": "Tipsport",
           "stake": 516.32
-        }
-      ]
-    },
-    {
-      "match": "Rakousko - Jordánsko",
-      "startTime": "2026-06-17T06:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Rakousko, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 0.55,
-      "sumInverse": 0.9945,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1005.49,
-      "guaranteedProfit": 5.49,
-      "legs": [
-        {
-          "key": "fouls|team|home|over|9.5",
-          "label": "Více než 9.5 (Rakousko)",
-          "odd": 1.5,
-          "bookmaker": "Rainbet",
-          "stake": 670.33
-        },
-        {
-          "key": "fouls|team|home|under|9.5",
-          "label": "Méně než 9.5 (Rakousko)",
-          "odd": 3.05,
-          "bookmaker": "Tipsport",
-          "stake": 329.67
         }
       ]
     },
