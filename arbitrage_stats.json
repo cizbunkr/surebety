@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T14:19:00.298137+00:00",
+  "generatedAt": "2026-06-16T14:25:18.384705+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,9 +12,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 9,
-  "opportunitiesFound": 14,
+  "opportunitiesFound": 16,
   "byStat": {
     "fouls": 11,
+    "cards": 2,
     "shots": 3
   },
   "opportunities": [
@@ -229,6 +230,36 @@
       ]
     },
     {
+      "match": "Česko - JAR",
+      "startTime": "2026-06-18T18:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 1.5,
+      "sumInverse": 0.9852,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1014.98,
+      "guaranteedProfit": 14.98,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 2.69,
+          "bookmaker": "Tipsport",
+          "stake": 377.31
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.63,
+          "bookmaker": "Rainbet",
+          "stake": 622.69
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
       "match": "Francie - Senegal",
       "startTime": "2026-06-16T21:00:00.000+02:00",
       "stat": "shots",
@@ -256,6 +287,36 @@
           "stake": 595.24
         }
       ]
+    },
+    {
+      "match": "Česko - JAR",
+      "startTime": "2026-06-18T18:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — JAR, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 0.73,
+      "sumInverse": 0.9928,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1007.28,
+      "guaranteedProfit": 7.28,
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (JAR)",
+          "odd": 1.47,
+          "bookmaker": "Tipsport",
+          "stake": 685.22
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (JAR)",
+          "odd": 3.2,
+          "bookmaker": "Rainbet",
+          "stake": 314.78
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
     },
     {
       "match": "Francie - Senegal",
