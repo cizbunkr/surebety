@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T16:57:15.510619+00:00",
+  "generatedAt": "2026-06-16T17:03:39.566875+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,70 +12,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 9,
-  "opportunitiesFound": 14,
+  "opportunitiesFound": 15,
   "byStat": {
-    "fouls": 11,
+    "fouls": 12,
     "shots": 3
   },
   "opportunities": [
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 22.5",
-      "isArbitrage": true,
-      "profitPct": 6.37,
-      "sumInverse": 0.9401,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1063.74,
-      "guaranteedProfit": 63.74,
-      "legs": [
-        {
-          "key": "fouls|total|over|22.5",
-          "label": "Více než 22.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 584.47
-        },
-        {
-          "key": "fouls|total|under|22.5",
-          "label": "Méně než 22.5",
-          "odd": 2.56,
-          "bookmaker": "Tipsport",
-          "stake": 415.53
-        }
-      ]
-    },
-    {
-      "match": "Francie - Senegal",
-      "startTime": "2026-06-16T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 21.5",
-      "isArbitrage": true,
-      "profitPct": 5.66,
-      "sumInverse": 0.9464,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1056.65,
-      "guaranteedProfit": 56.65,
-      "legs": [
-        {
-          "key": "fouls|total|over|21.5",
-          "label": "Více než 21.5",
-          "odd": 1.58,
-          "bookmaker": "Rainbet",
-          "stake": 668.76
-        },
-        {
-          "key": "fouls|total|under|21.5",
-          "label": "Méně než 21.5",
-          "odd": 3.19,
-          "bookmaker": "Tipsport",
-          "stake": 331.24
-        }
-      ]
-    },
     {
       "match": "Anglie - Chorvatsko",
       "startTime": "2026-06-17T22:00:00.000+02:00",
@@ -193,6 +135,64 @@
       ]
     },
     {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 21.5",
+      "isArbitrage": true,
+      "profitPct": 2.03,
+      "sumInverse": 0.9801,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1020.26,
+      "guaranteedProfit": 20.26,
+      "legs": [
+        {
+          "key": "fouls|total|over|21.5",
+          "label": "Více než 21.5",
+          "odd": 1.5,
+          "bookmaker": "Rainbet",
+          "stake": 680.17
+        },
+        {
+          "key": "fouls|total|under|21.5",
+          "label": "Méně než 21.5",
+          "odd": 3.19,
+          "bookmaker": "Tipsport",
+          "stake": 319.83
+        }
+      ]
+    },
+    {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 22.5",
+      "isArbitrage": true,
+      "profitPct": 1.8,
+      "sumInverse": 0.9823,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1017.98,
+      "guaranteedProfit": 17.98,
+      "legs": [
+        {
+          "key": "fouls|total|over|22.5",
+          "label": "Více než 22.5",
+          "odd": 1.69,
+          "bookmaker": "Rainbet",
+          "stake": 602.35
+        },
+        {
+          "key": "fouls|total|under|22.5",
+          "label": "Méně než 22.5",
+          "odd": 2.56,
+          "bookmaker": "Tipsport",
+          "stake": 397.65
+        }
+      ]
+    },
+    {
       "match": "Ghana - Panama",
       "startTime": "2026-06-18T01:00:00.000+02:00",
       "stat": "fouls",
@@ -254,6 +254,35 @@
           "odd": 1.7,
           "bookmaker": "Rainbet",
           "stake": 595.24
+        }
+      ]
+    },
+    {
+      "match": "Francie - Senegal",
+      "startTime": "2026-06-16T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 23.5",
+      "isArbitrage": true,
+      "profitPct": 0.8,
+      "sumInverse": 0.9921,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1008.0,
+      "guaranteedProfit": 8.0,
+      "legs": [
+        {
+          "key": "fouls|total|over|23.5",
+          "label": "Více než 23.5",
+          "odd": 1.93,
+          "bookmaker": "Rainbet",
+          "stake": 522.28
+        },
+        {
+          "key": "fouls|total|under|23.5",
+          "label": "Méně než 23.5",
+          "odd": 2.11,
+          "bookmaker": "Tipsport",
+          "stake": 477.72
         }
       ]
     },
