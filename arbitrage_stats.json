@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T18:13:52.757514+00:00",
+  "generatedAt": "2026-06-16T18:20:21.038144+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,11 +12,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 9,
-  "opportunitiesFound": 18,
+  "opportunitiesFound": 17,
   "byStat": {
     "fouls": 14,
-    "shots": 3,
-    "cards": 1
+    "shots": 3
   },
   "opportunities": [
     {
@@ -288,6 +287,35 @@
       ]
     },
     {
+      "match": "Irák - Norsko",
+      "startTime": "2026-06-17T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Irák, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 1.19,
+      "sumInverse": 0.9882,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1011.9,
+      "guaranteedProfit": 11.9,
+      "legs": [
+        {
+          "key": "fouls|team|home|over|10.5",
+          "label": "Více než 10.5 (Irák)",
+          "odd": 1.7,
+          "bookmaker": "Rainbet",
+          "stake": 595.24
+        },
+        {
+          "key": "fouls|team|home|under|10.5",
+          "label": "Méně než 10.5 (Irák)",
+          "odd": 2.5,
+          "bookmaker": "Tipsport",
+          "stake": 404.76
+        }
+      ]
+    },
+    {
       "match": "Francie - Senegal",
       "startTime": "2026-06-16T21:00:00.000+02:00",
       "stat": "fouls",
@@ -404,36 +432,6 @@
       ]
     },
     {
-      "match": "Ghana - Panama",
-      "startTime": "2026-06-18T01:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 4.5",
-      "isArbitrage": true,
-      "profitPct": 0.38,
-      "sumInverse": 0.9962,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1003.83,
-      "guaranteedProfit": 3.83,
-      "legs": [
-        {
-          "key": "cards|total|over|4.5",
-          "label": "Více než 4.5",
-          "odd": 3.12,
-          "bookmaker": "Tipsport",
-          "stake": 321.74
-        },
-        {
-          "key": "cards|total|under|4.5",
-          "label": "Méně než 4.5",
-          "odd": 1.48,
-          "bookmaker": "Rainbet",
-          "stake": 678.26
-        }
-      ],
-      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
-    },
-    {
       "match": "Anglie - Chorvatsko",
       "startTime": "2026-06-17T22:00:00.000+02:00",
       "stat": "fouls",
@@ -524,35 +522,6 @@
           "odd": 2.7,
           "bookmaker": "Tipsport",
           "stake": 370.63
-        }
-      ]
-    },
-    {
-      "match": "Irák - Norsko",
-      "startTime": "2026-06-17T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Irák, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 0.02,
-      "sumInverse": 0.9998,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1000.24,
-      "guaranteedProfit": 0.24,
-      "legs": [
-        {
-          "key": "fouls|team|home|over|10.5",
-          "label": "Více než 10.5 (Irák)",
-          "odd": 1.7,
-          "bookmaker": "Rainbet",
-          "stake": 588.38
-        },
-        {
-          "key": "fouls|team|home|under|10.5",
-          "label": "Méně než 10.5 (Irák)",
-          "odd": 2.43,
-          "bookmaker": "Tipsport",
-          "stake": 411.62
         }
       ]
     }
