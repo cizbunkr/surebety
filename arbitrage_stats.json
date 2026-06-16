@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T17:29:15.577174+00:00",
+  "generatedAt": "2026-06-16T17:35:33.107552+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,10 +12,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 9,
-  "opportunitiesFound": 14,
+  "opportunitiesFound": 15,
   "byStat": {
     "fouls": 11,
-    "shots": 3
+    "shots": 3,
+    "cards": 1
   },
   "opportunities": [
     {
@@ -343,6 +344,36 @@
           "stake": 594.72
         }
       ]
+    },
+    {
+      "match": "Ghana - Panama",
+      "startTime": "2026-06-18T01:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 0.38,
+      "sumInverse": 0.9962,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1003.83,
+      "guaranteedProfit": 3.83,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 3.12,
+          "bookmaker": "Tipsport",
+          "stake": 321.74
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.48,
+          "bookmaker": "Rainbet",
+          "stake": 678.26
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
     },
     {
       "match": "Anglie - Chorvatsko",
