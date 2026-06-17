@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:32:34.707035+00:00",
+  "generatedAt": "2026-06-17T21:38:38.543391+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -25,26 +25,26 @@
       "stat": "cards",
       "market": "Počet — žluté karty, hranice 4.5",
       "isArbitrage": true,
-      "profitPct": 1.77,
-      "sumInverse": 0.9826,
+      "profitPct": 1.39,
+      "sumInverse": 0.9863,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1017.67,
-      "guaranteedProfit": 17.67,
+      "guaranteedReturn": 1013.9,
+      "guaranteedProfit": 13.9,
       "legs": [
         {
           "key": "cards|total|over|4.5",
           "label": "Více než 4.5",
           "odd": 2.63,
           "bookmaker": "Tipsport",
-          "stake": 386.95
+          "stake": 385.51
         },
         {
           "key": "cards|total|under|4.5",
           "label": "Méně než 4.5",
-          "odd": 1.66,
+          "odd": 1.65,
           "bookmaker": "Rainbet",
-          "stake": 613.05
+          "stake": 614.49
         }
       ],
       "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
