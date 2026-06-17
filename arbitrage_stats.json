@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:02:19.201314+00:00",
+  "generatedAt": "2026-06-17T21:08:22.331440+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -14,40 +14,11 @@
   "matchesPaired": 8,
   "opportunitiesFound": 6,
   "byStat": {
-    "fouls": 4,
     "cards": 1,
-    "shots": 1
+    "shots": 1,
+    "fouls": 4
   },
   "opportunities": [
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Turecko, hranice 7.5",
-      "isArbitrage": true,
-      "profitPct": 2.84,
-      "sumInverse": 0.9724,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1028.42,
-      "guaranteedProfit": 28.42,
-      "legs": [
-        {
-          "key": "fouls|team|home|over|7.5",
-          "label": "Více než 7.5 (Turecko)",
-          "odd": 1.65,
-          "bookmaker": "Rainbet",
-          "stake": 623.29
-        },
-        {
-          "key": "fouls|team|home|under|7.5",
-          "label": "Méně než 7.5 (Turecko)",
-          "odd": 2.73,
-          "bookmaker": "Tipsport",
-          "stake": 376.71
-        }
-      ]
-    },
     {
       "match": "Skotsko - Maroko",
       "startTime": "2026-06-20T00:00:00.000+02:00",
@@ -104,6 +75,35 @@
           "odd": 1.83,
           "bookmaker": "Rainbet",
           "stake": 552.57
+        }
+      ]
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Turecko, hranice 7.5",
+      "isArbitrage": true,
+      "profitPct": 1.09,
+      "sumInverse": 0.9892,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1010.92,
+      "guaranteedProfit": 10.92,
+      "legs": [
+        {
+          "key": "fouls|team|home|over|7.5",
+          "label": "Více než 7.5 (Turecko)",
+          "odd": 1.65,
+          "bookmaker": "Rainbet",
+          "stake": 612.68
+        },
+        {
+          "key": "fouls|team|home|under|7.5",
+          "label": "Méně než 7.5 (Turecko)",
+          "odd": 2.61,
+          "bookmaker": "Tipsport",
+          "stake": 387.32
         }
       ]
     },
