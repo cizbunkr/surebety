@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T16:28:06.228717+00:00",
+  "generatedAt": "2026-06-18T16:34:09.883861+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -11,10 +11,10 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 3,
-  "opportunitiesFound": 5,
+  "matchesPaired": 7,
+  "opportunitiesFound": 6,
   "byStat": {
-    "fouls": 3,
+    "fouls": 4,
     "cards": 1,
     "shots": 1
   },
@@ -74,6 +74,35 @@
           "odd": 2.12,
           "bookmaker": "Rainbet",
           "stake": 498.82
+        }
+      ]
+    },
+    {
+      "match": "Mexiko - Jižní Korea",
+      "startTime": "2026-06-19T03:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 22.5",
+      "isArbitrage": true,
+      "profitPct": 5.35,
+      "sumInverse": 0.9492,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1053.47,
+      "guaranteedProfit": 53.47,
+      "legs": [
+        {
+          "key": "fouls|total|over|22.5",
+          "label": "Více než 22.5",
+          "odd": 1.7,
+          "bookmaker": "Rainbet",
+          "stake": 619.69
+        },
+        {
+          "key": "fouls|total|under|22.5",
+          "label": "Méně než 22.5",
+          "odd": 2.77,
+          "bookmaker": "Tipsport",
+          "stake": 380.31
         }
       ]
     },
