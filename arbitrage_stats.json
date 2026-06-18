@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T19:47:48.723604+00:00",
+  "generatedAt": "2026-06-18T19:49:37.146303+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -7,7 +7,9 @@
   "markets": [
     "fouls",
     "cards",
-    "shots"
+    "shots",
+    "corners",
+    "offsides"
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
