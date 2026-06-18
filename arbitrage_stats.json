@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T19:32:51.898794+00:00",
+  "generatedAt": "2026-06-18T19:40:13.939603+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -12,9 +12,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 10,
-  "opportunitiesFound": 5,
+  "opportunitiesFound": 8,
   "byStat": {
-    "fouls": 4,
+    "fouls": 7,
     "cards": 1
   },
   "opportunities": [
@@ -139,6 +139,66 @@
       "sport": "fotbal"
     },
     {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Pobřeží slonoviny, hranice 12.5",
+      "isArbitrage": true,
+      "profitPct": 2.67,
+      "sumInverse": 0.974,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1026.68,
+      "guaranteedProfit": 26.68,
+      "legs": [
+        {
+          "key": "fouls|team|away|over|12.5",
+          "label": "Více než 12.5 (Pobřeží slonoviny)",
+          "odd": 1.91,
+          "bookmaker": "Tipsport",
+          "stake": 537.53
+        },
+        {
+          "key": "fouls|team|away|under|12.5",
+          "label": "Méně než 12.5 (Pobřeží slonoviny)",
+          "odd": 2.22,
+          "bookmaker": "Rainbet",
+          "stake": 462.47
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 25.5",
+      "isArbitrage": true,
+      "profitPct": 1.01,
+      "sumInverse": 0.99,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1010.12,
+      "guaranteedProfit": 10.12,
+      "legs": [
+        {
+          "key": "fouls|total|over|25.5",
+          "label": "Více než 25.5",
+          "odd": 2.27,
+          "bookmaker": "Tipsport",
+          "stake": 444.99
+        },
+        {
+          "key": "fouls|total|under|25.5",
+          "label": "Méně než 25.5",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 555.01
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Nizozemsko - Švédsko",
       "startTime": "2026-06-20T19:00:00.000+02:00",
       "stat": "cards",
@@ -164,6 +224,36 @@
           "odd": 1.91,
           "bookmaker": "Tipsport",
           "stake": 528.4
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 24.5",
+      "isArbitrage": true,
+      "profitPct": 0.64,
+      "sumInverse": 0.9936,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1006.44,
+      "guaranteedProfit": 6.44,
+      "legs": [
+        {
+          "key": "fouls|total|over|24.5",
+          "label": "Více než 24.5",
+          "odd": 1.9,
+          "bookmaker": "Tipsport",
+          "stake": 529.7
+        },
+        {
+          "key": "fouls|total|under|24.5",
+          "label": "Méně než 24.5",
+          "odd": 2.14,
+          "bookmaker": "Rainbet",
+          "stake": 470.3
         }
       ],
       "sport": "fotbal"
