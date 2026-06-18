@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T14:11:24.766438+00:00",
+  "generatedAt": "2026-06-18T15:56:47.321799+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -11,11 +11,11 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 6,
-  "opportunitiesFound": 6,
+  "matchesPaired": 8,
+  "opportunitiesFound": 10,
   "byStat": {
     "fouls": 4,
-    "cards": 1,
+    "cards": 5,
     "shots": 1
   },
   "opportunities": [
@@ -136,6 +136,66 @@
       ]
     },
     {
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — USA, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 2.44,
+      "sumInverse": 0.9762,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1024.39,
+      "guaranteedProfit": 24.39,
+      "legs": [
+        {
+          "key": "cards|team|home|over|1.5",
+          "label": "Více než 1.5 (USA)",
+          "odd": 2.1,
+          "bookmaker": "Tipsport",
+          "stake": 487.8
+        },
+        {
+          "key": "cards|team|home|under|1.5",
+          "label": "Méně než 1.5 (USA)",
+          "odd": 2.0,
+          "bookmaker": "Rainbet",
+          "stake": 512.2
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 1.72,
+      "sumInverse": 0.9831,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1017.17,
+      "guaranteedProfit": 17.17,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 3.16,
+          "bookmaker": "Tipsport",
+          "stake": 321.89
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.5,
+          "bookmaker": "Rainbet",
+          "stake": 678.11
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
       "match": "Skotsko - Maroko",
       "startTime": "2026-06-20T00:00:00.000+02:00",
       "stat": "cards",
@@ -161,6 +221,66 @@
           "odd": 1.65,
           "bookmaker": "Rainbet",
           "stake": 614.49
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 1.3,
+      "sumInverse": 0.9872,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1012.99,
+      "guaranteedProfit": 12.99,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 4.25,
+          "bookmaker": "Tipsport",
+          "stake": 238.35
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.33,
+          "bookmaker": "Rainbet",
+          "stake": 761.65
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
+      "match": "Mexiko - Jižní Korea",
+      "startTime": "2026-06-19T03:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 0.44,
+      "sumInverse": 0.9956,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1004.38,
+      "guaranteedProfit": 4.38,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 3.69,
+          "bookmaker": "Tipsport",
+          "stake": 272.19
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.38,
+          "bookmaker": "Rainbet",
+          "stake": 727.81
         }
       ],
       "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
