@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T16:02:57.887337+00:00",
+  "generatedAt": "2026-06-18T16:09:05.126669+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -136,36 +136,6 @@
       ]
     },
     {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Turecko, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 1.22,
-      "sumInverse": 0.9879,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1012.25,
-      "guaranteedProfit": 12.25,
-      "legs": [
-        {
-          "key": "cards|team|home|over|1.5",
-          "label": "Více než 1.5 (Turecko)",
-          "odd": 1.72,
-          "bookmaker": "Tipsport",
-          "stake": 588.52
-        },
-        {
-          "key": "cards|team|home|under|1.5",
-          "label": "Méně než 1.5 (Turecko)",
-          "odd": 2.46,
-          "bookmaker": "Rainbet",
-          "stake": 411.48
-        }
-      ],
-      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
-    },
-    {
       "match": "Nizozemsko - Švédsko",
       "startTime": "2026-06-20T19:00:00.000+02:00",
       "stat": "cards",
@@ -191,6 +161,36 @@
           "odd": 1.91,
           "bookmaker": "Tipsport",
           "stake": 528.4
+        }
+      ],
+      "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Turecko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 0.88,
+      "sumInverse": 0.9912,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1008.85,
+      "guaranteedProfit": 8.85,
+      "legs": [
+        {
+          "key": "cards|team|home|over|1.5",
+          "label": "Více než 1.5 (Turecko)",
+          "odd": 1.72,
+          "bookmaker": "Tipsport",
+          "stake": 586.54
+        },
+        {
+          "key": "cards|team|home|under|1.5",
+          "label": "Méně než 1.5 (Turecko)",
+          "odd": 2.44,
+          "bookmaker": "Rainbet",
+          "stake": 413.46
         }
       ],
       "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
