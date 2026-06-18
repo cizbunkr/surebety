@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:50:46.725812+00:00",
+  "generatedAt": "2026-06-18T00:46:47.297373+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -11,108 +11,14 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 8,
-  "opportunitiesFound": 9,
+  "matchesPaired": 7,
+  "opportunitiesFound": 5,
   "byStat": {
-    "fouls": 6,
     "cards": 1,
-    "shots": 2
+    "fouls": 3,
+    "shots": 1
   },
   "opportunities": [
-    {
-      "match": "Ghana - Panama",
-      "startTime": "2026-06-18T01:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Handicap fauly (+1.5)",
-      "isArbitrage": true,
-      "profitPct": 3.74,
-      "sumInverse": 0.9639,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1037.4,
-      "guaranteedProfit": 37.4,
-      "legs": [
-        {
-          "key": "fouls|handicap|home|1.5",
-          "label": "Ghana (+1.5)",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 554.76
-        },
-        {
-          "key": "fouls|handicap|away|-1.5",
-          "label": "Panama (-1.5)",
-          "odd": 2.33,
-          "bookmaker": "Tipsport",
-          "stake": 445.24
-        }
-      ]
-    },
-    {
-      "match": "Ghana - Panama",
-      "startTime": "2026-06-18T01:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Panama, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 2.91,
-      "sumInverse": 0.9717,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1029.13,
-      "guaranteedProfit": 29.13,
-      "legs": [
-        {
-          "key": "fouls|team|away|over|12.5",
-          "label": "Více než 12.5 (Panama)",
-          "odd": 2,
-          "bookmaker": "Tipsport",
-          "stake": 514.56
-        },
-        {
-          "key": "fouls|team|away|under|12.5",
-          "label": "Méně než 12.5 (Panama)",
-          "odd": 2.12,
-          "bookmaker": "Rainbet",
-          "stake": 485.44
-        }
-      ]
-    },
-    {
-      "match": "Ghana - Panama",
-      "startTime": "2026-06-18T01:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Kdo víc — fauly (1x2)",
-      "isArbitrage": true,
-      "profitPct": 1.98,
-      "sumInverse": 0.9806,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1019.81,
-      "guaranteedProfit": 19.81,
-      "legs": [
-        {
-          "key": "fouls|1x2|home",
-          "label": "Ghana více",
-          "odd": 2.6,
-          "bookmaker": "Rainbet",
-          "stake": 392.23
-        },
-        {
-          "key": "fouls|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 11.0,
-          "bookmaker": "Rainbet",
-          "stake": 92.71
-        },
-        {
-          "key": "fouls|1x2|away",
-          "label": "Panama více",
-          "odd": 1.98,
-          "bookmaker": "Tipsport",
-          "stake": 515.06
-        }
-      ]
-    },
     {
       "match": "Skotsko - Maroko",
       "startTime": "2026-06-20T00:00:00.000+02:00",
@@ -142,35 +48,6 @@
         }
       ],
       "metricNote": "Tipsport = žluté karty, Rainbet = bookings (možná vč. červených) — ověř metriku."
-    },
-    {
-      "match": "Ghana - Panama",
-      "startTime": "2026-06-18T01:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Ghana, hranice 4.5",
-      "isArbitrage": true,
-      "profitPct": 1.12,
-      "sumInverse": 0.9889,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.2,
-      "guaranteedProfit": 11.2,
-      "legs": [
-        {
-          "key": "shots|team|home|over|4.5",
-          "label": "Více než 4.5 (Ghana)",
-          "odd": 2.26,
-          "bookmaker": "Tipsport",
-          "stake": 447.43
-        },
-        {
-          "key": "shots|team|home|under|4.5",
-          "label": "Méně než 4.5 (Ghana)",
-          "odd": 1.83,
-          "bookmaker": "Rainbet",
-          "stake": 552.57
-        }
-      ]
     },
     {
       "match": "Turecko - Paraguay",
