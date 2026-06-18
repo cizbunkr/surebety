@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T21:40:05.298582+00:00",
+  "generatedAt": "2026-06-18T21:56:02.180709+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -13,10 +13,11 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 4,
-  "opportunitiesFound": 7,
+  "matchesPaired": 18,
+  "opportunitiesFound": 11,
   "byStat": {
-    "fouls": 7
+    "fouls": 10,
+    "shots": 1
   },
   "opportunities": [
     {
@@ -87,31 +88,61 @@
       "sport": "fotbal"
     },
     {
-      "match": "Mexiko - Jižní Korea",
-      "startTime": "2026-06-19T03:00:00.000+02:00",
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet — fauly, hranice 22.5",
+      "market": "Počet — fauly, hranice 27.5",
       "isArbitrage": true,
-      "profitPct": 5.35,
-      "sumInverse": 0.9492,
+      "profitPct": 5.85,
+      "sumInverse": 0.9447,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1053.47,
-      "guaranteedProfit": 53.47,
+      "guaranteedReturn": 1058.53,
+      "guaranteedProfit": 58.53,
       "legs": [
         {
-          "key": "fouls|total|over|22.5",
-          "label": "Více než 22.5",
-          "odd": 1.7,
-          "bookmaker": "Rainbet",
-          "stake": 619.69
+          "key": "fouls|total|over|27.5",
+          "label": "Více než 27.5",
+          "odd": 2.53,
+          "bookmaker": "Tipsport",
+          "stake": 418.39
         },
         {
-          "key": "fouls|total|under|22.5",
-          "label": "Méně než 22.5",
-          "odd": 2.77,
+          "key": "fouls|total|under|27.5",
+          "label": "Méně než 27.5",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 581.61
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 26.5",
+      "isArbitrage": true,
+      "profitPct": 5.75,
+      "sumInverse": 0.9456,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1057.49,
+      "guaranteedProfit": 57.49,
+      "legs": [
+        {
+          "key": "fouls|total|over|26.5",
+          "label": "Více než 26.5",
+          "odd": 2.11,
           "bookmaker": "Tipsport",
-          "stake": 380.31
+          "stake": 501.18
+        },
+        {
+          "key": "fouls|total|under|26.5",
+          "label": "Méně než 26.5",
+          "odd": 2.12,
+          "bookmaker": "Rainbet",
+          "stake": 498.82
         }
       ],
       "sport": "fotbal"
@@ -142,6 +173,36 @@
           "odd": 2.2,
           "bookmaker": "Rainbet",
           "stake": 469.88
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Haiti, hranice 14.5",
+      "isArbitrage": true,
+      "profitPct": 3.11,
+      "sumInverse": 0.9698,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1031.14,
+      "guaranteedProfit": 31.14,
+      "legs": [
+        {
+          "key": "fouls|team|away|over|14.5",
+          "label": "Více než 14.5 (Haiti)",
+          "odd": 2.14,
+          "bookmaker": "Tipsport",
+          "stake": 481.84
+        },
+        {
+          "key": "fouls|team|away|under|14.5",
+          "label": "Méně než 14.5 (Haiti)",
+          "odd": 1.99,
+          "bookmaker": "Rainbet",
+          "stake": 518.16
         }
       ],
       "sport": "fotbal"
@@ -210,35 +271,95 @@
       "match": "Mexiko - Jižní Korea",
       "startTime": "2026-06-19T03:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Kdo víc — fauly (1x2)",
+      "market": "Počet — fauly, hranice 22.5",
       "isArbitrage": true,
-      "profitPct": 1.01,
-      "sumInverse": 0.99,
+      "profitPct": 1.19,
+      "sumInverse": 0.9882,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1010.09,
-      "guaranteedProfit": 10.09,
+      "guaranteedReturn": 1011.9,
+      "guaranteedProfit": 11.9,
+      "legs": [
+        {
+          "key": "fouls|total|over|22.5",
+          "label": "Více než 22.5",
+          "odd": 1.7,
+          "bookmaker": "Rainbet",
+          "stake": 595.24
+        },
+        {
+          "key": "fouls|total|under|22.5",
+          "label": "Méně než 22.5",
+          "odd": 2.5,
+          "bookmaker": "Tipsport",
+          "stake": 404.76
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Mexiko - Jižní Korea",
+      "startTime": "2026-06-19T03:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Kdo víc — fauly (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.7,
+      "sumInverse": 0.993,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1007.0,
+      "guaranteedProfit": 7.0,
       "legs": [
         {
           "key": "fouls|1x2|home",
           "label": "Mexiko více",
-          "odd": 1.82,
+          "odd": 1.81,
           "bookmaker": "Tipsport",
-          "stake": 554.99
+          "stake": 556.36
         },
         {
           "key": "fouls|1x2|draw",
           "label": "Oba stejně",
           "odd": 11.0,
           "bookmaker": "Rainbet",
-          "stake": 91.83
+          "stake": 91.55
         },
         {
           "key": "fouls|1x2|away",
           "label": "Jižní Korea více",
           "odd": 2.86,
           "bookmaker": "Rainbet",
-          "stake": 353.18
+          "stake": 352.1
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Haiti, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 0.1,
+      "sumInverse": 0.999,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.99,
+      "guaranteedProfit": 0.99,
+      "legs": [
+        {
+          "key": "shots|team|away|over|1.5",
+          "label": "Více než 1.5 (Haiti)",
+          "odd": 1.49,
+          "bookmaker": "Tipsport",
+          "stake": 671.81
+        },
+        {
+          "key": "shots|team|away|under|1.5",
+          "label": "Méně než 1.5 (Haiti)",
+          "odd": 3.05,
+          "bookmaker": "Rainbet",
+          "stake": 328.19
         }
       ],
       "sport": "fotbal"
