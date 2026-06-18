@@ -105,7 +105,7 @@ function computeStakes(legs) {
 
 function buildFilters() {
   const sports = [...new Set((DATA.opportunities || []).map(o => o.sport || "fotbal"))];
-  const stats = ["fouls", "cards", "shots", "corners", "offsides"].filter(s => (DATA.opportunities || []).some(o => o.stat === s));
+  const stats = ["fouls", "cards", "shots", "corners", "offsides"];  // zobraz vždy všechny příležitosti
   const mk = (host, items, group, labels) => {
     document.getElementById(host).innerHTML = items.map(k =>
       `<label class="chk"><input type="checkbox" data-group="${group}" data-key="${k}" ${settings[group][k] !== false ? "checked" : ""}>${labels[k] || cap(k)}</label>`).join("");
