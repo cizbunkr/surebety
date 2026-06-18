@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T20:17:41.255701+00:00",
+  "generatedAt": "2026-06-18T20:37:06.740004+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -14,12 +14,109 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 10,
-  "opportunitiesFound": 8,
+  "opportunitiesFound": 10,
   "byStat": {
-    "fouls": 7,
+    "fouls": 9,
     "shots": 1
   },
   "opportunities": [
+    {
+      "match": "Kanada - Katar",
+      "startTime": "2026-06-19T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Handicap fauly (+1.5)",
+      "isArbitrage": true,
+      "profitPct": 8.15,
+      "sumInverse": 0.9246,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1081.5,
+      "guaranteedProfit": 81.5,
+      "legs": [
+        {
+          "key": "fouls|handicap|home|1.5",
+          "label": "Kanada (+1.5)",
+          "odd": 1.93,
+          "bookmaker": "Rainbet",
+          "stake": 560.36
+        },
+        {
+          "key": "fouls|handicap|away|-1.5",
+          "label": "Katar (-1.5)",
+          "odd": 2.46,
+          "bookmaker": "Tipsport",
+          "stake": 439.64
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kanada - Katar",
+      "startTime": "2026-06-19T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Katar, hranice 12.5",
+      "isArbitrage": true,
+      "profitPct": 7.75,
+      "sumInverse": 0.9281,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1077.49,
+      "guaranteedProfit": 77.49,
+      "legs": [
+        {
+          "key": "fouls|team|away|over|12.5",
+          "label": "Více než 12.5 (Katar)",
+          "odd": 2.15,
+          "bookmaker": "Tipsport",
+          "stake": 501.16
+        },
+        {
+          "key": "fouls|team|away|under|12.5",
+          "label": "Méně než 12.5 (Katar)",
+          "odd": 2.16,
+          "bookmaker": "Rainbet",
+          "stake": 498.84
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kanada - Katar",
+      "startTime": "2026-06-19T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Kdo víc — fauly (1x2)",
+      "isArbitrage": true,
+      "profitPct": 6.72,
+      "sumInverse": 0.937,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1067.21,
+      "guaranteedProfit": 67.21,
+      "legs": [
+        {
+          "key": "fouls|1x2|home",
+          "label": "Kanada více",
+          "odd": 2.72,
+          "bookmaker": "Rainbet",
+          "stake": 392.36
+        },
+        {
+          "key": "fouls|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 11.0,
+          "bookmaker": "Rainbet",
+          "stake": 97.02
+        },
+        {
+          "key": "fouls|1x2|away",
+          "label": "Katar více",
+          "odd": 2.09,
+          "bookmaker": "Tipsport",
+          "stake": 510.63
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Brazílie - Haiti",
       "startTime": "2026-06-20T02:30:00.000+02:00",
@@ -136,36 +233,6 @@
           "odd": 1.99,
           "bookmaker": "Rainbet",
           "stake": 518.16
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Kanada - Katar",
-      "startTime": "2026-06-19T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Katar, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 1.7,
-      "sumInverse": 0.9833,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1017.03,
-      "guaranteedProfit": 17.03,
-      "legs": [
-        {
-          "key": "fouls|team|away|over|12.5",
-          "label": "Více než 12.5 (Katar)",
-          "odd": 2.15,
-          "bookmaker": "Tipsport",
-          "stake": 473.04
-        },
-        {
-          "key": "fouls|team|away|under|12.5",
-          "label": "Méně než 12.5 (Katar)",
-          "odd": 1.93,
-          "bookmaker": "Rainbet",
-          "stake": 526.96
         }
       ],
       "sport": "fotbal"
