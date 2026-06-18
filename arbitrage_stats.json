@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T21:01:20.930562+00:00",
+  "generatedAt": "2026-06-18T21:03:01.360215+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -14,9 +14,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 10,
-  "opportunitiesFound": 10,
+  "opportunitiesFound": 11,
   "byStat": {
-    "fouls": 9,
+    "fouls": 10,
     "shots": 1
   },
   "opportunities": [
@@ -46,36 +46,6 @@
           "odd": 2.46,
           "bookmaker": "Tipsport",
           "stake": 439.64
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Kanada - Katar",
-      "startTime": "2026-06-19T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Katar, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 7.75,
-      "sumInverse": 0.9281,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1077.49,
-      "guaranteedProfit": 77.49,
-      "legs": [
-        {
-          "key": "fouls|team|away|over|12.5",
-          "label": "Více než 12.5 (Katar)",
-          "odd": 2.15,
-          "bookmaker": "Tipsport",
-          "stake": 501.16
-        },
-        {
-          "key": "fouls|team|away|under|12.5",
-          "label": "Méně než 12.5 (Katar)",
-          "odd": 2.16,
-          "bookmaker": "Rainbet",
-          "stake": 498.84
         }
       ],
       "sport": "fotbal"
@@ -208,6 +178,36 @@
       "sport": "fotbal"
     },
     {
+      "match": "Kanada - Katar",
+      "startTime": "2026-06-19T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Katar, hranice 12.5",
+      "isArbitrage": true,
+      "profitPct": 4.91,
+      "sumInverse": 0.9532,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1049.14,
+      "guaranteedProfit": 49.14,
+      "legs": [
+        {
+          "key": "fouls|team|away|over|12.5",
+          "label": "Více než 12.5 (Katar)",
+          "odd": 2.04,
+          "bookmaker": "Tipsport",
+          "stake": 514.29
+        },
+        {
+          "key": "fouls|team|away|under|12.5",
+          "label": "Méně než 12.5 (Katar)",
+          "odd": 2.16,
+          "bookmaker": "Rainbet",
+          "stake": 485.71
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Brazílie - Haiti",
       "startTime": "2026-06-20T02:30:00.000+02:00",
       "stat": "fouls",
@@ -300,6 +300,36 @@
           "odd": 2.86,
           "bookmaker": "Rainbet",
           "stake": 353.18
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kanada - Katar",
+      "startTime": "2026-06-19T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Kanada, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 1.0,
+      "sumInverse": 0.9901,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1009.98,
+      "guaranteedProfit": 9.98,
+      "legs": [
+        {
+          "key": "fouls|team|home|over|10.5",
+          "label": "Více než 10.5 (Kanada)",
+          "odd": 1.52,
+          "bookmaker": "Rainbet",
+          "stake": 664.46
+        },
+        {
+          "key": "fouls|team|home|under|10.5",
+          "label": "Méně než 10.5 (Kanada)",
+          "odd": 3.01,
+          "bookmaker": "Tipsport",
+          "stake": 335.54
         }
       ],
       "sport": "fotbal"
