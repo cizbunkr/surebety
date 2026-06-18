@@ -8,89 +8,165 @@
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
   body { margin: 0; font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
-         background: #0f1117; color: #e8eaed; padding: 14px; }
-  header { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+         background: #0f1117; color: #e8eaed; padding: 14px; -webkit-text-size-adjust: 100%; }
+  header { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
   h1 { font-size: 18px; margin: 0; font-weight: 650; }
   .meta { font-size: 12px; color: #9aa0aa; }
-  .filters { display: flex; gap: 6px; margin: 10px 0 14px; flex-wrap: wrap; }
-  .chip { font-size: 12px; padding: 5px 11px; border: 1px solid #2b2f3a; border-radius: 999px;
-          background: #161a23; color: #cfd3da; cursor: pointer; user-select: none; }
-  .chip.active { background: #1f6feb; border-color: #1f6feb; color: #fff; }
-  .card { background: #161a23; border: 1px solid #232734; border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
-  .top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+
+  .panel { background: #141823; border: 1px solid #232734; border-radius: 12px; padding: 10px 12px; margin: 12px 0; }
+  .panel h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #8b93a1; margin: 0 0 8px; font-weight: 600; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+  label.chk { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; cursor: pointer; user-select: none; }
+  label.chk input { accent-color: #1f6feb; width: 16px; height: 16px; }
+  .stakes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .field { display: flex; flex-direction: column; gap: 3px; }
+  .field span { font-size: 11.5px; color: #9aa0aa; }
+  .field input { background: #0f1117; border: 1px solid #2b2f3a; border-radius: 8px; color: #e8eaed;
+                 padding: 8px 10px; font-size: 15px; width: 100%; }
+  .field input::placeholder { color: #5b6473; }
+
+  .card { background: #161a23; border: 1px solid #232734; border-radius: 12px; padding: 11px 13px; margin-bottom: 10px; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
   .match { font-weight: 600; font-size: 15px; }
   .sub { font-size: 12px; color: #9aa0aa; margin-top: 2px; }
+  .tag { display: inline-block; font-size: 10px; text-transform: uppercase; letter-spacing: .04em;
+         padding: 2px 6px; border-radius: 5px; background: #222838; color: #aeb6c4; margin-right: 6px; }
   .profit { font-weight: 700; font-size: 16px; color: #1ecb6b; white-space: nowrap; }
-  .stat { display: inline-block; font-size: 10.5px; text-transform: uppercase; letter-spacing: .04em;
-          padding: 2px 7px; border-radius: 5px; background: #222838; color: #aeb6c4; margin-right: 6px; }
-  table { width: 100%; border-collapse: collapse; margin-top: 9px; font-size: 13px; }
-  td { padding: 5px 4px; border-top: 1px solid #232734; vertical-align: top; }
-  .odd { font-weight: 600; }
-  .book { color: #9aa0aa; }
-  .stake { text-align: right; white-space: nowrap; color: #cfd3da; }
-  .warn { font-size: 11.5px; color: #e0a23a; margin-top: 8px; }
+
+  /* zarovnané sloupce noh: výsledek | kurz | sázkovka | vklad */
+  .legs { display: grid; grid-template-columns: minmax(0,1fr) 3.6em 5.4em 5.6em;
+          column-gap: 10px; row-gap: 5px; align-items: baseline; margin-top: 9px; font-size: 13px; }
+  .oc { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .kz { text-align: right; font-weight: 600; }
+  .bk { color: #9aa0aa; }
+  .vk { text-align: right; font-variant-numeric: tabular-nums; }
+  .capped { color: #e0a23a; }                 /* leg omezený stropem sázkovky */
+  .foot { font-size: 12px; color: #9aa0aa; margin-top: 8px; }
   .empty { text-align: center; color: #9aa0aa; padding: 40px 0; }
   footer { text-align: center; font-size: 11px; color: #6b7280; margin-top: 18px; }
 </style>
 </head>
 <body>
 <header>
-  <h1>⚽ Surebety — fauly / karty / střely</h1>
+  <h1>⚽ Surebety</h1>
   <div class="meta" id="meta">načítám…</div>
 </header>
-<div class="filters" id="filters"></div>
+
+<div class="panel">
+  <h2>Filtr</h2>
+  <div style="margin-bottom:8px"><div class="sub" style="margin-bottom:4px">Sporty</div><div class="row" id="sportFilter"></div></div>
+  <div><div class="sub" style="margin-bottom:4px">Příležitosti</div><div class="row" id="statFilter"></div></div>
+</div>
+
+<div class="panel">
+  <h2>Vklad</h2>
+  <div class="stakes">
+    <div class="field"><span>Celkový vklad na příležitost (Kč)</span><input id="total" type="number" inputmode="numeric" min="0" placeholder="1000"></div>
+    <div class="field"><span>Měna</span><input id="cur" value="Kč" disabled></div>
+    <div class="field"><span>Max na Tipsport (Kč)</span><input id="maxTipsport" type="number" inputmode="numeric" min="0" placeholder="bez limitu"></div>
+    <div class="field"><span>Max na Rainbet (Kč)</span><input id="maxRainbet" type="number" inputmode="numeric" min="0" placeholder="bez limitu"></div>
+  </div>
+  <div class="foot">Strop na sázkovku = nejvíc, co tam dát (kvůli minimalizaci blokací). Prázdné pole = bez limitu. Celkový vklad je horní hranice — když strop sázkovky sníží sázku pod něj, je to v pořádku.</div>
+</div>
+
 <div id="list"></div>
-<footer>Tipsport × Rainbet · auto-refresh 60 s · data jsou orientační, před vsazením ověř kurz</footer>
+<footer>Tipsport × Rainbet · auto-refresh 60 s · kurzy se mění — před vsazením ověř aktuální kurz</footer>
 
 <script>
-const STAT_CZ = { fouls: "fauly", cards: "žluté karty", shots: "střely" };
-let DATA = null, FILTER = "all";
+const STAT_CZ = { fouls: "Fauly", cards: "Žluté karty", shots: "Střely na branku" };
+const SPORT_CZ = { fotbal: "Fotbal" };
+const BOOKS = ["Tipsport", "Rainbet"];
+const LS = "surebet_settings_v2";
+let DATA = null, builtFilters = false;
 
-function fmtTime(iso) { if (!iso) return ""; const d = new Date(iso); return d.toLocaleString("cs-CZ", { day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit" }); }
+function defaults() { return { stats: {}, sports: {}, total: 1000, max: {} }; }
+function loadSettings() { try { return Object.assign(defaults(), JSON.parse(localStorage.getItem(LS) || "{}")); } catch (e) { return defaults(); } }
+function saveSettings() { localStorage.setItem(LS, JSON.stringify(settings)); }
+let settings = loadSettings();
 
-function render() {
+const cap = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+function fmtDate(iso) { if (!iso) return ""; const d = new Date(iso); return d.toLocaleString("cs-CZ", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }); }
+
+// rozpočet sázky: poměr 1/kurz, omezený celkovým vkladem i stropem na sázkovku
+function computeStakes(legs) {
+  const inv = legs.map(l => 1 / l.odd);
+  const sumInv = inv.reduce((a, b) => a + b, 0);
+  const prop = inv.map(x => x / sumInv);
+  let T = settings.total > 0 ? settings.total : 0;
+  const capped = legs.map(() => false);
+  legs.forEach((l, i) => {
+    const m = settings.max[l.bookmaker];
+    if (m != null && m > 0) { const c = m / prop[i]; if (c < T) T = c; }
+  });
+  const stakes = prop.map((p, i) => T * p);
+  legs.forEach((l, i) => { const m = settings.max[l.bookmaker]; if (m != null && m > 0 && Math.round(stakes[i]) >= Math.round(m) - 1) capped[i] = true; });
+  return { stakes, T, profit: T / sumInv - T, profitPct: (1 / sumInv - 1) * 100, capped };
+}
+
+function buildFilters() {
+  const sports = [...new Set((DATA.opportunities || []).map(o => o.sport || "fotbal"))];
+  const stats = ["fouls", "cards", "shots"].filter(s => (DATA.opportunities || []).some(o => o.stat === s));
+  const mk = (host, items, group, labels) => {
+    document.getElementById(host).innerHTML = items.map(k =>
+      `<label class="chk"><input type="checkbox" data-group="${group}" data-key="${k}" ${settings[group][k] !== false ? "checked" : ""}>${labels[k] || cap(k)}</label>`).join("");
+  };
+  mk("sportFilter", sports.length ? sports : ["fotbal"], "sports", SPORT_CZ);
+  mk("statFilter", stats.length ? stats : ["fouls", "cards", "shots"], "stats", STAT_CZ);
+  document.querySelectorAll('input[data-group]').forEach(c => c.onchange = () => {
+    settings[c.dataset.group][c.dataset.key] = c.checked; saveSettings(); renderList();
+  });
+  builtFilters = true;
+}
+
+function bindStakeInputs() {
+  const t = document.getElementById("total");
+  t.value = settings.total ?? 1000;
+  t.oninput = () => { settings.total = t.value === "" ? 0 : Number(t.value); saveSettings(); renderList(); };
+  BOOKS.forEach(b => {
+    const el = document.getElementById("max" + b);
+    el.value = settings.max[b] != null ? settings.max[b] : "";
+    el.oninput = () => { settings.max[b] = el.value === "" ? null : Number(el.value); saveSettings(); renderList(); };
+  });
+}
+
+function renderList() {
   const list = document.getElementById("list");
   if (!DATA) { list.innerHTML = '<div class="empty">Nepodařilo se načíst data.</div>'; return; }
-  const opps = (DATA.opportunities || []).filter(o => FILTER === "all" || o.stat === FILTER);
+  const opps = (DATA.opportunities || []).filter(o =>
+    settings.sports[o.sport || "fotbal"] !== false && settings.stats[o.stat] !== false);
   document.getElementById("meta").textContent =
-    `aktualizováno ${fmtTime(DATA.generatedAt)} · ${DATA.opportunitiesFound || 0} příležitostí · ${DATA.matchesPaired || 0} spárováno`;
+    `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
 
-  // filtry
-  const counts = {}; (DATA.opportunities || []).forEach(o => counts[o.stat] = (counts[o.stat] || 0) + 1);
-  const fdiv = document.getElementById("filters");
-  const chips = [["all", "Vše", (DATA.opportunities || []).length]].concat(
-    Object.keys(STAT_CZ).map(s => [s, STAT_CZ[s], counts[s] || 0]));
-  fdiv.innerHTML = chips.map(([k, lbl, n]) =>
-    `<span class="chip ${FILTER === k ? "active" : ""}" data-f="${k}">${lbl} ${n}</span>`).join("");
-  fdiv.querySelectorAll(".chip").forEach(c => c.onclick = () => { FILTER = c.dataset.f; render(); });
-
-  if (!opps.length) { list.innerHTML = '<div class="empty">Žádné surebety pro tento filtr.</div>'; return; }
-  list.innerHTML = opps.map(o => `
-    <div class="card">
+  if (!opps.length) { list.innerHTML = '<div class="empty">Žádné surebety pro zvolený filtr.</div>'; return; }
+  list.innerHTML = opps.map(o => {
+    const c = computeStakes(o.legs);
+    const legsHtml = o.legs.map((l, i) => `
+      <div class="oc">${l.label}</div>
+      <div class="kz">${l.odd}</div>
+      <div class="bk">${l.bookmaker}</div>
+      <div class="vk ${c.capped[i] ? "capped" : ""}">${Math.round(c.stakes[i])} ${DATA.currency}</div>`).join("");
+    return `<div class="card">
       <div class="top">
-        <div>
-          <div class="match"><span class="stat">${o.stat}</span>${o.match}</div>
-          <div class="sub">${o.market} · výkop ${fmtTime(o.startTime)}</div>
-        </div>
+        <div><div class="match"><span class="tag">${o.stat}</span>${o.match}</div>
+             <div class="sub">${o.market} · ${fmtDate(o.startTime)}</div></div>
         <div class="profit">+${o.profitPct}%</div>
       </div>
-      <table>${o.legs.map(l => `
-        <tr><td>${l.label}</td>
-            <td class="odd">${l.odd} <span class="book">@ ${l.bookmaker}</span></td>
-            <td class="stake">${l.stake} ${o.currency}</td></tr>`).join("")}
-      </table>
-      <div class="sub">vklad ${o.stakeTotal} ${o.currency} → zisk ${o.guaranteedProfit} ${o.currency}</div>
-      ${o.metricNote ? `<div class="warn">⚠️ ${o.metricNote}</div>` : ""}
-    </div>`).join("");
+      <div class="legs">${legsHtml}</div>
+      <div class="foot">vklad ${Math.round(c.T)} ${DATA.currency} → zisk ${Math.round(c.profit)} ${DATA.currency}${c.capped.some(x => x) ? " · žlutě = omezeno stropem sázkovky" : ""}</div>
+    </div>`;
+  }).join("");
 }
 
 async function load() {
   try {
     const r = await fetch("arbitrage_stats.json?t=" + Date.now(), { cache: "no-store" });
     DATA = await r.json();
-  } catch (e) { DATA = DATA || null; }
-  render();
+  } catch (e) { /* ponech předchozí data */ }
+  if (DATA && !builtFilters) buildFilters();
+  renderList();
 }
+
+bindStakeInputs();
 load();
 setInterval(load, 60000);
 </script>
