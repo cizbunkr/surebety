@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T21:45:00.178234+00:00",
+  "generatedAt": "2026-06-19T21:45:25.647518+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,80 +14,14 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 3,
-  "opportunitiesFound": 16,
+  "matchesPaired": 19,
+  "opportunitiesFound": 15,
   "byStat": {
-    "fouls": 11,
+    "fouls": 10,
     "shots": 2,
     "offsides": 3
   },
   "opportunities": [
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 24.5",
-      "isArbitrage": true,
-      "profitPct": 11.31,
-      "sumInverse": 0.8984,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1113.1,
-      "guaranteedProfit": 113.1,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|24.5",
-          "label": "Více než 24.5",
-          "odd": 2.75,
-          "bookmaker": "Tipsport",
-          "stake": 404.76
-        },
-        {
-          "key": "fouls|total|under|24.5",
-          "label": "Méně než 24.5",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 595.24
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 23.5",
-      "isArbitrage": true,
-      "profitPct": 10.96,
-      "sumInverse": 0.9012,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1109.64,
-      "guaranteedProfit": 109.64,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|23.5",
-          "label": "Více než 23.5",
-          "odd": 2.26,
-          "bookmaker": "Tipsport",
-          "stake": 490.99
-        },
-        {
-          "key": "fouls|total|under|23.5",
-          "label": "Méně než 23.5",
-          "odd": 2.18,
-          "bookmaker": "Rainbet",
-          "stake": 509.01
-        }
-      ],
-      "sport": "fotbal"
-    },
     {
       "match": "Skotsko - Maroko",
       "startTime": "2026-06-20T00:00:00.000+02:00",
@@ -150,6 +84,72 @@
           "odd": 1.7,
           "bookmaker": "Rainbet",
           "stake": 618.83
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 24.5",
+      "isArbitrage": true,
+      "profitPct": 3.94,
+      "sumInverse": 0.9621,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1039.38,
+      "guaranteedProfit": 39.38,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|24.5",
+          "label": "Více než 24.5",
+          "odd": 2.34,
+          "bookmaker": "Tipsport",
+          "stake": 444.18
+        },
+        {
+          "key": "fouls|total|under|24.5",
+          "label": "Méně než 24.5",
+          "odd": 1.87,
+          "bookmaker": "Rainbet",
+          "stake": 555.82
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 23.5",
+      "isArbitrage": true,
+      "profitPct": 2.93,
+      "sumInverse": 0.9715,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1029.3,
+      "guaranteedProfit": 29.3,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|23.5",
+          "label": "Více než 23.5",
+          "odd": 1.95,
+          "bookmaker": "Tipsport",
+          "stake": 527.85
+        },
+        {
+          "key": "fouls|total|under|23.5",
+          "label": "Méně než 23.5",
+          "odd": 2.18,
+          "bookmaker": "Rainbet",
+          "stake": 472.15
         }
       ],
       "sport": "fotbal"
@@ -531,39 +531,6 @@
         {
           "key": "fouls|team|away|under|13.5",
           "label": "Méně než 13.5 (Maroko)",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 534.83
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Turecko, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 0.01,
-      "sumInverse": 0.9999,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1000.12,
-      "guaranteedProfit": 0.12,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|9.5",
-          "label": "Více než 9.5 (Turecko)",
-          "odd": 2.15,
-          "bookmaker": "Tipsport",
-          "stake": 465.17
-        },
-        {
-          "key": "fouls|team|home|under|9.5",
-          "label": "Méně než 9.5 (Turecko)",
           "odd": 1.87,
           "bookmaker": "Rainbet",
           "stake": 534.83
