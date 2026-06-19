@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T22:56:12.826310+00:00",
+  "generatedAt": "2026-06-19T23:10:05.605693+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 18,
-  "opportunitiesFound": 25,
+  "opportunitiesFound": 24,
   "byStat": {
-    "fouls": 14,
-    "offsides": 4,
-    "shots": 7
+    "fouls": 13,
+    "shots": 7,
+    "offsides": 4
   },
   "opportunities": [
     {
@@ -188,6 +188,39 @@
       "sport": "fotbal"
     },
     {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "shots",
+      "market": "Handicap střely na branku (-5.5)",
+      "isArbitrage": true,
+      "profitPct": 2.75,
+      "sumInverse": 0.9732,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1027.49,
+      "guaranteedProfit": 27.49,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|handicap|home|-5.5",
+          "label": "Brazílie (-5.5)",
+          "odd": 2.05,
+          "bookmaker": "Tipsport",
+          "stake": 501.22
+        },
+        {
+          "key": "shots|handicap|away|5.5",
+          "label": "Haiti (+5.5)",
+          "odd": 2.06,
+          "bookmaker": "Rainbet",
+          "stake": 498.78
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Nový Zéland - Egypt",
       "startTime": "2026-06-22T03:00:00.000+02:00",
       "stat": "fouls",
@@ -216,6 +249,39 @@
           "odd": 2.5,
           "bookmaker": "Fortuna",
           "stake": 410.38
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Brazílie, hranice 7.5",
+      "isArbitrage": true,
+      "profitPct": 2.5,
+      "sumInverse": 0.9756,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1024.98,
+      "guaranteedProfit": 24.98,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|team|home|over|7.5",
+          "label": "Více než 7.5 (Brazílie)",
+          "odd": 2.06,
+          "bookmaker": "Tipsport",
+          "stake": 497.56
+        },
+        {
+          "key": "shots|team|home|under|7.5",
+          "label": "Méně než 7.5 (Brazílie)",
+          "odd": 2.04,
+          "bookmaker": "Rainbet",
+          "stake": 502.44
         }
       ],
       "sport": "fotbal"
@@ -386,39 +452,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Brazílie - Haiti",
-      "startTime": "2026-06-20T02:30:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Brazílie, hranice 7.5",
-      "isArbitrage": true,
-      "profitPct": 1.22,
-      "sumInverse": 0.9879,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1012.2,
-      "guaranteedProfit": 12.2,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|home|over|7.5",
-          "label": "Více než 7.5 (Brazílie)",
-          "odd": 2.06,
-          "bookmaker": "Tipsport",
-          "stake": 491.36
-        },
-        {
-          "key": "shots|team|home|under|7.5",
-          "label": "Méně než 7.5 (Brazílie)",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 508.64
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Turecko - Paraguay",
       "startTime": "2026-06-20T05:00:00.000+02:00",
       "stat": "offsides",
@@ -492,39 +525,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Brazílie - Haiti",
-      "startTime": "2026-06-20T02:30:00.000+02:00",
-      "stat": "shots",
-      "market": "Handicap střely na branku (-5.5)",
-      "isArbitrage": true,
-      "profitPct": 0.98,
-      "sumInverse": 0.9903,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1009.78,
-      "guaranteedProfit": 9.78,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|handicap|home|-5.5",
-          "label": "Brazílie (-5.5)",
-          "odd": 2.05,
-          "bookmaker": "Tipsport",
-          "stake": 492.57
-        },
-        {
-          "key": "shots|handicap|away|5.5",
-          "label": "Haiti (+5.5)",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 507.43
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Turecko - Paraguay",
       "startTime": "2026-06-20T05:00:00.000+02:00",
       "stat": "offsides",
@@ -553,46 +553,6 @@
           "odd": 1.99,
           "bookmaker": "Rainbet",
           "stake": 507.43
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Kdo víc — fauly (1x2)",
-      "isArbitrage": true,
-      "profitPct": 0.95,
-      "sumInverse": 0.9906,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1009.5,
-      "guaranteedProfit": 9.5,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|1x2|home",
-          "label": "Turecko více",
-          "odd": 5.5,
-          "bookmaker": "Fortuna",
-          "stake": 183.55
-        },
-        {
-          "key": "fouls|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 16.0,
-          "bookmaker": "Fortuna",
-          "stake": 63.09
-        },
-        {
-          "key": "fouls|1x2|away",
-          "label": "Paraguay více",
-          "odd": 1.34,
-          "bookmaker": "Rainbet",
-          "stake": 753.36
         }
       ],
       "sport": "fotbal"
