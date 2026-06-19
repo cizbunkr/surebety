@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T14:44:19.406082+00:00",
+  "generatedAt": "2026-06-19T14:46:17.757747+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 24,
+  "opportunitiesFound": 23,
   "byStat": {
     "fouls": 11,
     "offsides": 4,
     "shots": 5,
-    "cards": 4
+    "cards": 3
   },
   "opportunities": [
     {
@@ -663,36 +663,6 @@
           "odd": 1.95,
           "bookmaker": "Rainbet",
           "stake": 513.72
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Nový Zéland - Egypt",
-      "startTime": "2026-06-22T03:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Egypt, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 0.12,
-      "sumInverse": 0.9988,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1001.2,
-      "guaranteedProfit": 1.2,
-      "legs": [
-        {
-          "key": "cards|team|away|over|1.5",
-          "label": "Více než 1.5 (Egypt)",
-          "odd": 2.5,
-          "bookmaker": "Fortuna",
-          "stake": 400.48
-        },
-        {
-          "key": "cards|team|away|under|1.5",
-          "label": "Méně než 1.5 (Egypt)",
-          "odd": 1.67,
-          "bookmaker": "Tipsport",
-          "stake": 599.52
         }
       ],
       "sport": "fotbal"
