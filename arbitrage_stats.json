@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:50:05.300472+00:00",
+  "generatedAt": "2026-06-19T23:52:03.483383+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,9 +15,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 18,
-  "opportunitiesFound": 25,
+  "opportunitiesFound": 24,
   "byStat": {
-    "fouls": 14,
+    "fouls": 13,
     "shots": 7,
     "offsides": 4
   },
@@ -117,39 +117,6 @@
           "odd": 3.14,
           "bookmaker": "Tipsport",
           "stake": 333.33
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Brazílie - Haiti",
-      "startTime": "2026-06-20T02:30:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Brazílie, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 4.43,
-      "sumInverse": 0.9576,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1044.26,
-      "guaranteedProfit": 44.26,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|10.5",
-          "label": "Více než 10.5 (Brazílie)",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 573.77
-        },
-        {
-          "key": "fouls|team|home|under|10.5",
-          "label": "Méně než 10.5 (Brazílie)",
-          "odd": 2.45,
-          "bookmaker": "Fortuna",
-          "stake": 426.23
         }
       ],
       "sport": "fotbal"
