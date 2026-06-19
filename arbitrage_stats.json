@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T18:13:53.433481+00:00",
+  "generatedAt": "2026-06-19T19:43:19.599274+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,208 +14,157 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 20,
-  "opportunitiesFound": 21,
+  "matchesPaired": 11,
+  "opportunitiesFound": 8,
   "byStat": {
-    "fouls": 12,
-    "offsides": 4,
-    "shots": 5
+    "corners": 3,
+    "offsides": 2,
+    "fouls": 2,
+    "shots": 1
   },
   "opportunities": [
     {
-      "match": "Nový Zéland - Egypt",
-      "startTime": "2026-06-22T03:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 20.5",
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Počet rohy — Austrálie, hranice 2.5",
       "isArbitrage": true,
-      "profitPct": 7.73,
-      "sumInverse": 0.9282,
+      "profitPct": 21.68,
+      "sumInverse": 0.8218,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1077.31,
-      "guaranteedProfit": 77.31,
+      "guaranteedReturn": 1216.8,
+      "guaranteedProfit": 216.8,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
+      "statRisk": "nízká",
       "legs": [
         {
-          "key": "fouls|total|over|20.5",
-          "label": "Více než 20.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 591.93
-        },
-        {
-          "key": "fouls|total|under|20.5",
-          "label": "Méně než 20.5",
-          "odd": 2.64,
+          "key": "corners|team|away|over|2.5",
+          "label": "Více než 2.5 (Austrálie)",
+          "odd": 1.63,
           "bookmaker": "Tipsport",
-          "stake": 408.07
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Nový Zéland - Egypt",
-      "startTime": "2026-06-22T03:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 19.5",
-      "isArbitrage": true,
-      "profitPct": 6.9,
-      "sumInverse": 0.9355,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1069.0,
-      "guaranteedProfit": 69.0,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|19.5",
-          "label": "Více než 19.5",
-          "odd": 1.57,
-          "bookmaker": "Rainbet",
-          "stake": 680.89
+          "stake": 746.5
         },
         {
-          "key": "fouls|total|under|19.5",
-          "label": "Méně než 19.5",
-          "odd": 3.35,
-          "bookmaker": "Tipsport",
-          "stake": 319.11
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Jordánsko - Alžírsko",
-      "startTime": "2026-06-23T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 20.5",
-      "isArbitrage": true,
-      "profitPct": 6.84,
-      "sumInverse": 0.9359,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1068.44,
-      "guaranteedProfit": 68.44,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|20.5",
-          "label": "Více než 20.5",
-          "odd": 1.58,
-          "bookmaker": "Rainbet",
-          "stake": 676.23
-        },
-        {
-          "key": "fouls|total|under|20.5",
-          "label": "Méně než 20.5",
-          "odd": 3.3,
+          "key": "corners|team|away|under|2.5",
+          "label": "Méně než 2.5 (Austrálie)",
+          "odd": 4.8,
           "bookmaker": "Fortuna",
-          "stake": 323.77
+          "stake": 253.5
         }
       ],
       "sport": "fotbal"
     },
     {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 23.5",
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Kdo víc — rohy (1x2)",
       "isArbitrage": true,
-      "profitPct": 5.82,
-      "sumInverse": 0.945,
+      "profitPct": 5.72,
+      "sumInverse": 0.9459,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1058.21,
-      "guaranteedProfit": 58.21,
+      "guaranteedReturn": 1057.22,
+      "guaranteedProfit": 57.22,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
+      "statRisk": "nízká",
       "legs": [
         {
-          "key": "fouls|total|over|23.5",
-          "label": "Více než 23.5",
-          "odd": 2.26,
-          "bookmaker": "Tipsport",
-          "stake": 468.24
+          "key": "corners|1x2|home",
+          "label": "USA více",
+          "odd": 1.62,
+          "bookmaker": "Fortuna",
+          "stake": 652.6
         },
         {
-          "key": "fouls|total|under|23.5",
-          "label": "Méně než 23.5",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 531.76
+          "key": "corners|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 9.07,
+          "bookmaker": "Tipsport",
+          "stake": 116.56
+        },
+        {
+          "key": "corners|1x2|away",
+          "label": "Austrálie více",
+          "odd": 4.58,
+          "bookmaker": "Tipsport",
+          "stake": 230.83
         }
       ],
       "sport": "fotbal"
     },
     {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 24.5",
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
       "isArbitrage": true,
-      "profitPct": 5.06,
-      "sumInverse": 0.9519,
+      "profitPct": 3.24,
+      "sumInverse": 0.9686,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1050.56,
-      "guaranteedProfit": 50.56,
+      "guaranteedReturn": 1032.41,
+      "guaranteedProfit": 32.41,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
       "legs": [
         {
-          "key": "fouls|total|over|24.5",
-          "label": "Více než 24.5",
-          "odd": 2.75,
-          "bookmaker": "Tipsport",
-          "stake": 382.02
+          "key": "offsides|1x2|home",
+          "label": "USA více",
+          "odd": 2.45,
+          "bookmaker": "Fortuna",
+          "stake": 421.39
         },
         {
-          "key": "fouls|total|under|24.5",
-          "label": "Méně než 24.5",
-          "odd": 1.7,
-          "bookmaker": "Rainbet",
-          "stake": 617.98
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 3.64,
+          "bookmaker": "Tipsport",
+          "stake": 283.63
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Austrálie více",
+          "odd": 3.5,
+          "bookmaker": "Tipsport",
+          "stake": 294.98
         }
       ],
       "sport": "fotbal"
     },
     {
-      "match": "Nový Zéland - Egypt",
-      "startTime": "2026-06-22T03:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Egypt, hranice 9.5",
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Počet rohy — USA, hranice 4.5",
       "isArbitrage": true,
-      "profitPct": 3.43,
-      "sumInverse": 0.9669,
+      "profitPct": 1.6,
+      "sumInverse": 0.9843,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1034.27,
-      "guaranteedProfit": 34.27,
+      "guaranteedReturn": 1015.96,
+      "guaranteedProfit": 15.96,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
+      "statRisk": "nízká",
       "legs": [
         {
-          "key": "fouls|team|away|over|9.5",
-          "label": "Více než 9.5 (Egypt)",
-          "odd": 1.74,
-          "bookmaker": "Rainbet",
-          "stake": 594.41
+          "key": "corners|team|home|over|4.5",
+          "label": "Více než 4.5 (USA)",
+          "odd": 1.64,
+          "bookmaker": "Fortuna",
+          "stake": 619.49
         },
         {
-          "key": "fouls|team|away|under|9.5",
-          "label": "Méně než 9.5 (Egypt)",
-          "odd": 2.55,
+          "key": "corners|team|home|under|4.5",
+          "label": "Méně než 4.5 (USA)",
+          "odd": 2.67,
           "bookmaker": "Tipsport",
-          "stake": 405.59
+          "stake": 380.51
         }
       ],
       "sport": "fotbal"
@@ -224,408 +173,104 @@
       "match": "Skotsko - Maroko",
       "startTime": "2026-06-20T00:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet fauly — Maroko, hranice 13.5",
+      "market": "Počet — fauly, hranice 27.5",
       "isArbitrage": true,
-      "profitPct": 2.26,
-      "sumInverse": 0.9779,
+      "profitPct": 1.41,
+      "sumInverse": 0.9861,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1022.56,
-      "guaranteedProfit": 22.56,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "guaranteedReturn": 1014.06,
+      "guaranteedProfit": 14.06,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
       "legs": [
         {
-          "key": "fouls|team|away|over|13.5",
-          "label": "Více než 13.5 (Maroko)",
-          "odd": 2.15,
-          "bookmaker": "Fortuna",
-          "stake": 475.61
+          "key": "fouls|total|over|27.5",
+          "label": "Více než 27.5",
+          "odd": 2.29,
+          "bookmaker": "Tipsport",
+          "stake": 442.82
         },
         {
-          "key": "fouls|team|away|under|13.5",
-          "label": "Méně než 13.5 (Maroko)",
-          "odd": 1.95,
+          "key": "fouls|total|under|27.5",
+          "label": "Méně než 27.5",
+          "odd": 1.82,
           "bookmaker": "Rainbet",
-          "stake": 524.39
+          "stake": 557.18
         }
       ],
       "sport": "fotbal"
     },
     {
-      "match": "Norsko - Senegal",
-      "startTime": "2026-06-23T02:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Senegal, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 2.25,
-      "sumInverse": 0.978,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1022.49,
-      "guaranteedProfit": 22.49,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Senegal)",
-          "odd": 2.05,
-          "bookmaker": "Fortuna",
-          "stake": 498.78
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Senegal)",
-          "odd": 2.04,
-          "bookmaker": "Rainbet",
-          "stake": 501.22
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Argentina - Rakousko",
-      "startTime": "2026-06-22T19:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Argentina, hranice 5.5",
-      "isArbitrage": true,
-      "profitPct": 2.12,
-      "sumInverse": 0.9792,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1021.24,
-      "guaranteedProfit": 21.24,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|home|over|5.5",
-          "label": "Více než 5.5 (Argentina)",
-          "odd": 2.25,
-          "bookmaker": "Fortuna",
-          "stake": 453.88
-        },
-        {
-          "key": "shots|team|home|under|5.5",
-          "label": "Méně než 5.5 (Argentina)",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 546.12
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Jordánsko - Alžírsko",
-      "startTime": "2026-06-23T05:00:00.000+02:00",
+      "match": "Skotsko - Maroko",
+      "startTime": "2026-06-20T00:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet fauly — Alžírsko, hranice 9.5",
+      "market": "Počet — fauly, hranice 26.5",
       "isArbitrage": true,
-      "profitPct": 2.06,
-      "sumInverse": 0.9799,
+      "profitPct": 1.03,
+      "sumInverse": 0.9898,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1020.56,
-      "guaranteedProfit": 20.56,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "guaranteedReturn": 1010.27,
+      "guaranteedProfit": 10.27,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
       "legs": [
         {
-          "key": "fouls|team|away|over|9.5",
-          "label": "Více než 9.5 (Alžírsko)",
-          "odd": 1.68,
-          "bookmaker": "Rainbet",
-          "stake": 607.48
+          "key": "fouls|total|over|26.5",
+          "label": "Více než 26.5",
+          "odd": 1.93,
+          "bookmaker": "Tipsport",
+          "stake": 523.46
         },
         {
-          "key": "fouls|team|away|under|9.5",
-          "label": "Méně než 9.5 (Alžírsko)",
-          "odd": 2.6,
-          "bookmaker": "Fortuna",
-          "stake": 392.52
+          "key": "fouls|total|under|26.5",
+          "label": "Méně než 26.5",
+          "odd": 2.12,
+          "bookmaker": "Rainbet",
+          "stake": 476.54
         }
       ],
       "sport": "fotbal"
     },
     {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "match": "Skotsko - Maroko",
+      "startTime": "2026-06-20T00:00:00.000+02:00",
       "stat": "offsides",
       "market": "Kdo víc — ofsajdy (1x2)",
       "isArbitrage": true,
-      "profitPct": 1.79,
-      "sumInverse": 0.9825,
+      "profitPct": 0.92,
+      "sumInverse": 0.9908,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1017.86,
-      "guaranteedProfit": 17.86,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "guaranteedReturn": 1009.23,
+      "guaranteedProfit": 9.23,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
       "legs": [
         {
           "key": "offsides|1x2|home",
-          "label": "Turecko více",
-          "odd": 2.28,
+          "label": "Skotsko více",
+          "odd": 5.0,
           "bookmaker": "Rainbet",
-          "stake": 446.43
+          "stake": 201.85
         },
         {
           "key": "offsides|1x2|draw",
           "label": "Oba stejně",
-          "odd": 4.75,
+          "odd": 4.25,
           "bookmaker": "Fortuna",
-          "stake": 214.29
+          "stake": 237.47
         },
         {
           "key": "offsides|1x2|away",
-          "label": "Paraguay více",
-          "odd": 3.0,
-          "bookmaker": "Fortuna",
-          "stake": 339.29
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Francie - Irák",
-      "startTime": "2026-06-22T23:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Irák, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 1.7,
-      "sumInverse": 0.9833,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1017.03,
-      "guaranteedProfit": 17.03,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|away|over|1.5",
-          "label": "Více než 1.5 (Irák)",
-          "odd": 2.15,
-          "bookmaker": "Fortuna",
-          "stake": 473.04
-        },
-        {
-          "key": "shots|team|away|under|1.5",
-          "label": "Méně než 1.5 (Irák)",
-          "odd": 1.93,
-          "bookmaker": "Rainbet",
-          "stake": 526.96
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Belgie - Írán",
-      "startTime": "2026-06-21T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Belgie, hranice 8.5",
-      "isArbitrage": true,
-      "profitPct": 1.61,
-      "sumInverse": 0.9841,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1016.13,
-      "guaranteedProfit": 16.13,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|8.5",
-          "label": "Více než 8.5 (Belgie)",
-          "odd": 1.5,
-          "bookmaker": "Rainbet",
-          "stake": 677.42
-        },
-        {
-          "key": "fouls|team|home|under|8.5",
-          "label": "Méně než 8.5 (Belgie)",
-          "odd": 3.15,
+          "label": "Maroko více",
+          "odd": 1.8,
           "bookmaker": "Tipsport",
-          "stake": 322.58
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Norsko - Senegal",
-      "startTime": "2026-06-23T02:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Norsko, hranice 4.5",
-      "isArbitrage": true,
-      "profitPct": 0.99,
-      "sumInverse": 0.9902,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1009.9,
-      "guaranteedProfit": 9.9,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|home|over|4.5",
-          "label": "Více než 4.5 (Norsko)",
-          "odd": 2.0,
-          "bookmaker": "Fortuna",
-          "stake": 504.95
-        },
-        {
-          "key": "shots|team|home|under|4.5",
-          "label": "Méně než 4.5 (Norsko)",
-          "odd": 2.04,
-          "bookmaker": "Rainbet",
-          "stake": 495.05
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Paraguay, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 0.98,
-      "sumInverse": 0.9903,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1009.78,
-      "guaranteedProfit": 9.78,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Paraguay)",
-          "odd": 2.05,
-          "bookmaker": "Tipsport",
-          "stake": 492.57
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Paraguay)",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 507.43
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Argentina - Rakousko",
-      "startTime": "2026-06-22T19:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Kdo víc — střely na branku (1x2)",
-      "isArbitrage": true,
-      "profitPct": 0.78,
-      "sumInverse": 0.9923,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1007.77,
-      "guaranteedProfit": 7.77,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|1x2|home",
-          "label": "Argentina více",
-          "odd": 1.35,
-          "bookmaker": "Fortuna",
-          "stake": 746.49
-        },
-        {
-          "key": "shots|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 9.2,
-          "bookmaker": "Rainbet",
-          "stake": 109.54
-        },
-        {
-          "key": "shots|1x2|away",
-          "label": "Rakousko více",
-          "odd": 7.0,
-          "bookmaker": "Rainbet",
-          "stake": 143.97
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Ekvádor - Curacao",
-      "startTime": "2026-06-21T02:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Ekvádor, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 0.65,
-      "sumInverse": 0.9936,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1006.45,
-      "guaranteedProfit": 6.45,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "offsides|team|home|over|1.5",
-          "label": "Více než 1.5 (Ekvádor)",
-          "odd": 1.95,
-          "bookmaker": "Fortuna",
-          "stake": 516.13
-        },
-        {
-          "key": "offsides|team|home|under|1.5",
-          "label": "Méně než 1.5 (Ekvádor)",
-          "odd": 2.08,
-          "bookmaker": "Rainbet",
-          "stake": 483.87
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Francie - Irák",
-      "startTime": "2026-06-22T23:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Irák, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 0.48,
-      "sumInverse": 0.9952,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.78,
-      "guaranteedProfit": 4.78,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|10.5",
-          "label": "Více než 10.5 (Irák)",
-          "odd": 1.68,
-          "bookmaker": "Rainbet",
-          "stake": 598.09
-        },
-        {
-          "key": "fouls|team|away|under|10.5",
-          "label": "Méně než 10.5 (Irák)",
-          "odd": 2.5,
-          "bookmaker": "Fortuna",
-          "stake": 401.91
+          "stake": 560.69
         }
       ],
       "sport": "fotbal"
@@ -659,72 +304,6 @@
           "odd": 1.95,
           "bookmaker": "Rainbet",
           "stake": 513.72
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Ekvádor - Curacao",
-      "startTime": "2026-06-21T02:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Ekvádor, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 0.02,
-      "sumInverse": 0.9998,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1000.25,
-      "guaranteedProfit": 0.25,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|12.5",
-          "label": "Více než 12.5 (Ekvádor)",
-          "odd": 1.77,
-          "bookmaker": "Rainbet",
-          "stake": 565.11
-        },
-        {
-          "key": "fouls|team|home|under|12.5",
-          "label": "Méně než 12.5 (Ekvádor)",
-          "odd": 2.3,
-          "bookmaker": "Fortuna",
-          "stake": 434.89
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Turecko, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 0.01,
-      "sumInverse": 0.9999,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1000.12,
-      "guaranteedProfit": 0.12,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|9.5",
-          "label": "Více než 9.5 (Turecko)",
-          "odd": 2.15,
-          "bookmaker": "Tipsport",
-          "stake": 465.17
-        },
-        {
-          "key": "fouls|team|home|under|9.5",
-          "label": "Méně než 9.5 (Turecko)",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 534.83
         }
       ],
       "sport": "fotbal"
