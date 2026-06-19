@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:42:04.368543+00:00",
+  "generatedAt": "2026-06-19T23:44:10.190276+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -216,6 +216,39 @@
           "odd": 1.96,
           "bookmaker": "Rainbet",
           "stake": 529.98
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Brazílie, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 3.43,
+      "sumInverse": 0.9668,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1034.32,
+      "guaranteedProfit": 34.32,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|10.5",
+          "label": "Více než 10.5 (Brazílie)",
+          "odd": 1.79,
+          "bookmaker": "Rainbet",
+          "stake": 577.83
+        },
+        {
+          "key": "fouls|team|home|under|10.5",
+          "label": "Méně než 10.5 (Brazílie)",
+          "odd": 2.45,
+          "bookmaker": "Fortuna",
+          "stake": 422.17
         }
       ],
       "sport": "fotbal"
@@ -758,39 +791,6 @@
           "odd": 2.5,
           "bookmaker": "Fortuna",
           "stake": 401.91
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Brazílie - Haiti",
-      "startTime": "2026-06-20T02:30:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Brazílie, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 0.36,
-      "sumInverse": 0.9964,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1003.61,
-      "guaranteedProfit": 3.61,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|10.5",
-          "label": "Více než 10.5 (Brazílie)",
-          "odd": 1.7,
-          "bookmaker": "Rainbet",
-          "stake": 590.36
-        },
-        {
-          "key": "fouls|team|home|under|10.5",
-          "label": "Méně než 10.5 (Brazílie)",
-          "odd": 2.45,
-          "bookmaker": "Fortuna",
-          "stake": 409.64
         }
       ],
       "sport": "fotbal"
