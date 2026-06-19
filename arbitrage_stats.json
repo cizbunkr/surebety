@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T15:10:17.061655+00:00",
+  "generatedAt": "2026-06-19T15:12:18.068742+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -34,6 +34,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1077.31,
       "guaranteedProfit": 77.31,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|total|over|20.5",
@@ -64,6 +67,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1069.0,
       "guaranteedProfit": 69.0,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|total|over|19.5",
@@ -94,6 +100,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1068.44,
       "guaranteedProfit": 68.44,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|total|over|20.5",
@@ -124,6 +133,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1058.21,
       "guaranteedProfit": 58.21,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|total|over|23.5",
@@ -154,6 +166,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1050.56,
       "guaranteedProfit": 50.56,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|total|over|24.5",
@@ -184,6 +199,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1034.27,
       "guaranteedProfit": 34.27,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|team|away|over|9.5",
@@ -214,6 +232,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1022.56,
       "guaranteedProfit": 22.56,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|team|away|over|13.5",
@@ -244,6 +265,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1022.49,
       "guaranteedProfit": 22.49,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "offsides|team|away|over|1.5",
@@ -274,6 +298,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1021.24,
       "guaranteedProfit": 21.24,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
       "legs": [
         {
           "key": "shots|team|home|over|5.5",
@@ -304,6 +331,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1020.56,
       "guaranteedProfit": 20.56,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|team|away|over|9.5",
@@ -334,6 +364,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1017.86,
       "guaranteedProfit": 17.86,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "offsides|1x2|home",
@@ -371,6 +404,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1017.03,
       "guaranteedProfit": 17.03,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
       "legs": [
         {
           "key": "shots|team|away|over|1.5",
@@ -401,6 +437,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1016.13,
       "guaranteedProfit": 16.13,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|team|home|over|8.5",
@@ -431,6 +470,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1009.9,
       "guaranteedProfit": 9.9,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
       "legs": [
         {
           "key": "shots|team|home|over|4.5",
@@ -461,6 +503,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1009.78,
       "guaranteedProfit": 9.78,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "offsides|team|away|over|1.5",
@@ -491,6 +536,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1007.77,
       "guaranteedProfit": 7.77,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
       "legs": [
         {
           "key": "shots|1x2|home",
@@ -528,6 +576,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1006.45,
       "guaranteedProfit": 6.45,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "offsides|team|home|over|1.5",
@@ -558,6 +609,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1004.78,
       "guaranteedProfit": 4.78,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|team|away|over|10.5",
@@ -588,6 +642,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1001.75,
       "guaranteedProfit": 1.75,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "střední",
       "legs": [
         {
           "key": "shots|team|home|over|7.5",
@@ -618,6 +675,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1000.25,
       "guaranteedProfit": 0.25,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|team|home|over|12.5",
@@ -648,6 +708,9 @@
       "currency": "CZK",
       "guaranteedReturn": 1000.12,
       "guaranteedProfit": 0.12,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
       "legs": [
         {
           "key": "fouls|team|home|over|9.5",
