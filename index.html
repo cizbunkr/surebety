@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Surebety — fauly / karty / střely</title>
+<title>Surebety</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
@@ -15,15 +15,25 @@
 
   .panel { background: #141823; border: 1px solid #232734; border-radius: 12px; padding: 10px 12px; margin: 12px 0; }
   .panel h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #8b93a1; margin: 0 0 8px; font-weight: 600; }
-  .row { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+  .grp { margin-bottom: 8px; }
+  .grp:last-child { margin-bottom: 0; }
+  .glbl { font-size: 11.5px; color: #9aa0aa; margin-bottom: 4px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
   label.chk { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; cursor: pointer; user-select: none; }
   label.chk input { accent-color: #1f6feb; width: 16px; height: 16px; }
+
   .stakes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   .field { display: flex; flex-direction: column; gap: 3px; }
   .field span { font-size: 11.5px; color: #9aa0aa; }
   .field input { background: #0f1117; border: 1px solid #2b2f3a; border-radius: 8px; color: #e8eaed;
                  padding: 8px 10px; font-size: 15px; width: 100%; }
   .field input::placeholder { color: #5b6473; }
+
+  /* interaktivní výběr sázkovky pro max vklad */
+  .bookchip { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; padding: 7px 12px;
+              border: 1px solid #2b2f3a; border-radius: 999px; background: #161a23; color: #cfd3da; cursor: pointer; user-select: none; }
+  .bookchip.sel { border-color: #1f6feb; background: rgba(31,111,235,.18); color: #fff; }
+  .bookchip i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
 
   .card { background: #161a23; border: 1px solid #232734; border-radius: 12px; padding: 11px 13px; margin-bottom: 10px; }
   .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
@@ -34,13 +44,14 @@
   .profit { font-weight: 700; font-size: 16px; color: #1ecb6b; white-space: nowrap; }
 
   /* zarovnané sloupce noh: výsledek | kurz | sázkovka | vklad */
-  .legs { display: grid; grid-template-columns: minmax(0,1fr) 3.6em 5.4em 5.6em;
+  .legs { display: grid; grid-template-columns: minmax(0,1fr) 3.6em 5.6em 5.6em;
           column-gap: 10px; row-gap: 5px; align-items: baseline; margin-top: 9px; font-size: 13px; }
   .oc { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .kz { text-align: right; font-weight: 600; }
-  .bk { color: #9aa0aa; }
+  .bk { color: #9aa0aa; display: inline-flex; align-items: center; gap: 5px; }
+  .bk i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
   .vk { text-align: right; font-variant-numeric: tabular-nums; }
-  .capped { color: #e0a23a; }                 /* leg omezený stropem sázkovky */
+  .capped { color: #e0a23a; }
   .foot { font-size: 12px; color: #9aa0aa; margin-top: 8px; }
   .empty { text-align: center; color: #9aa0aa; padding: 40px 0; }
   footer { text-align: center; font-size: 11px; color: #6b7280; margin-top: 18px; }
@@ -54,32 +65,34 @@
 
 <div class="panel">
   <h2>Filtr</h2>
-  <div style="margin-bottom:8px"><div class="sub" style="margin-bottom:4px">Sporty</div><div class="row" id="sportFilter"></div></div>
-  <div><div class="sub" style="margin-bottom:4px">Příležitosti</div><div class="row" id="statFilter"></div></div>
+  <div class="grp"><div class="glbl">Sporty</div><div class="row" id="sportFilter"></div></div>
+  <div class="grp"><div class="glbl">Příležitosti</div><div class="row" id="statFilter"></div></div>
+  <div class="grp"><div class="glbl">Sázkovky</div><div class="row" id="bookFilter"></div></div>
 </div>
 
 <div class="panel">
   <h2>Vklad</h2>
   <div class="stakes">
     <div class="field"><span>Celkový vklad na příležitost (Kč)</span><input id="total" type="number" inputmode="numeric" min="0" placeholder="1000"></div>
-    <div class="field"><span>Měna</span><input id="cur" value="Kč" disabled></div>
-    <div class="field"><span>Max na Tipsport (Kč)</span><input id="maxTipsport" type="number" inputmode="numeric" min="0" placeholder="bez limitu"></div>
-    <div class="field"><span>Max na Rainbet (Kč)</span><input id="maxRainbet" type="number" inputmode="numeric" min="0" placeholder="bez limitu"></div>
+    <div class="field"><span>Max vklad (Kč)</span><input id="maxStake" type="number" inputmode="numeric" min="0" placeholder="bez limitu"></div>
   </div>
-  <div class="foot">Strop na sázkovku = nejvíc, co tam dát (kvůli minimalizaci blokací). Prázdné pole = bez limitu. Celkový vklad je horní hranice — když strop sázkovky sníží sázku pod něj, je to v pořádku.</div>
+  <div class="glbl" style="margin:10px 0 5px">Max vklad platí pro vybranou sázkovku:</div>
+  <div class="row" id="maxBookSel"></div>
+  <div class="foot">Vyber <b>jednu</b> sázkovku — strop se počítá jen pro ni (kulatá částka proti blokacím účtů). „Žádná" nebo prázdný max = bez limitu.</div>
 </div>
 
 <div id="list"></div>
-<footer>Tipsport × Rainbet · auto-refresh 60 s · kurzy se mění — před vsazením ověř aktuální kurz</footer>
+<footer>auto-refresh 60 s · kurzy se mění — před vsazením vždy ověř aktuální kurz</footer>
 
 <script>
 const STAT_CZ = { fouls: "Fauly", cards: "Žluté karty", shots: "Střely na branku", corners: "Rohy", offsides: "Ofsajdy" };
 const SPORT_CZ = { fotbal: "Fotbal" };
-const BOOKS = ["Tipsport", "Rainbet"];
-const LS = "surebet_settings_v2";
+const BOOK_COLOR = { Tipsport: "#1aa34a", Rainbet: "#6c5ce7", Fortuna: "#e2001a" };
+const bookColor = (b) => BOOK_COLOR[b] || "#7f8794";
+const LS = "surebet_settings_v3";
 let DATA = null, builtFilters = false;
 
-function defaults() { return { stats: {}, sports: {}, total: 1000, max: {} }; }
+function defaults() { return { stats: {}, sports: {}, books: {}, total: 1000, maxStake: null, maxBook: null }; }
 function loadSettings() { try { return Object.assign(defaults(), JSON.parse(localStorage.getItem(LS) || "{}")); } catch (e) { return defaults(); } }
 function saveSettings() { localStorage.setItem(LS, JSON.stringify(settings)); }
 let settings = loadSettings();
@@ -87,53 +100,69 @@ let settings = loadSettings();
 const cap = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 function fmtDate(iso) { if (!iso) return ""; const d = new Date(iso); return d.toLocaleString("cs-CZ", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }); }
 
-// rozpočet sázky: poměr 1/kurz, omezený celkovým vkladem i stropem na sázkovku
+// rozpočet sázky: poměr 1/kurz, omezený celkovým vkladem i stropem na JEDNU vybranou sázkovku
 function computeStakes(legs) {
   const inv = legs.map(l => 1 / l.odd);
   const sumInv = inv.reduce((a, b) => a + b, 0);
   const prop = inv.map(x => x / sumInv);
   let T = settings.total > 0 ? settings.total : 0;
-  const capped = legs.map(() => false);
-  legs.forEach((l, i) => {
-    const m = settings.max[l.bookmaker];
-    if (m != null && m > 0) { const c = m / prop[i]; if (c < T) T = c; }
-  });
-  const stakes = prop.map((p, i) => T * p);
-  legs.forEach((l, i) => { const m = settings.max[l.bookmaker]; if (m != null && m > 0 && Math.round(stakes[i]) >= Math.round(m) - 1) capped[i] = true; });
+  if (settings.maxBook && settings.maxStake > 0) {
+    const i = legs.findIndex(l => l.bookmaker === settings.maxBook);
+    if (i >= 0) { const c = settings.maxStake / prop[i]; if (c < T) T = c; }
+  }
+  const stakes = prop.map(p => T * p);
+  const capped = legs.map((l, i) => settings.maxBook && l.bookmaker === settings.maxBook && settings.maxStake > 0
+    && Math.round(stakes[i]) >= Math.round(settings.maxStake) - 1);
   return { stakes, T, profit: T / sumInv - T, profitPct: (1 / sumInv - 1) * 100, capped };
+}
+
+function booksInData() {
+  return [...new Set((DATA.opportunities || []).flatMap(o => o.legs.map(l => l.bookmaker)))].sort();
+}
+
+function renderMaxBookSel() {
+  const sel = document.getElementById("maxBookSel");
+  const books = booksInData();
+  sel.innerHTML = books.map(b =>
+    `<span class="bookchip ${settings.maxBook === b ? "sel" : ""}" data-book="${b}"><i style="background:${bookColor(b)}"></i>${b}</span>`).join("")
+    + `<span class="bookchip ${!settings.maxBook ? "sel" : ""}" data-book="">Žádná</span>`;
+  sel.querySelectorAll(".bookchip").forEach(ch => ch.onclick = () => {
+    settings.maxBook = ch.dataset.book || null; saveSettings(); renderMaxBookSel(); renderList();
+  });
 }
 
 function buildFilters() {
   const sports = [...new Set((DATA.opportunities || []).map(o => o.sport || "fotbal"))];
-  const stats = ["fouls", "cards", "shots", "corners", "offsides"];  // zobraz vždy všechny příležitosti
+  const stats = ["fouls", "cards", "shots", "corners", "offsides"];
   const mk = (host, items, group, labels) => {
-    document.getElementById(host).innerHTML = items.map(k =>
+    document.getElementById(host).innerHTML = (items.length ? items : Object.keys(labels)).map(k =>
       `<label class="chk"><input type="checkbox" data-group="${group}" data-key="${k}" ${settings[group][k] !== false ? "checked" : ""}>${labels[k] || cap(k)}</label>`).join("");
   };
-  mk("sportFilter", sports.length ? sports : ["fotbal"], "sports", SPORT_CZ);
-  mk("statFilter", stats.length ? stats : ["fouls", "cards", "shots"], "stats", STAT_CZ);
+  mk("sportFilter", sports, "sports", SPORT_CZ);
+  mk("statFilter", stats, "stats", STAT_CZ);
+  mk("bookFilter", booksInData(), "books", {});
   document.querySelectorAll('input[data-group]').forEach(c => c.onchange = () => {
     settings[c.dataset.group][c.dataset.key] = c.checked; saveSettings(); renderList();
   });
+  renderMaxBookSel();
   builtFilters = true;
 }
 
 function bindStakeInputs() {
-  const t = document.getElementById("total");
+  const t = document.getElementById("total"), m = document.getElementById("maxStake");
   t.value = settings.total ?? 1000;
+  m.value = settings.maxStake != null ? settings.maxStake : "";
   t.oninput = () => { settings.total = t.value === "" ? 0 : Number(t.value); saveSettings(); renderList(); };
-  BOOKS.forEach(b => {
-    const el = document.getElementById("max" + b);
-    el.value = settings.max[b] != null ? settings.max[b] : "";
-    el.oninput = () => { settings.max[b] = el.value === "" ? null : Number(el.value); saveSettings(); renderList(); };
-  });
+  m.oninput = () => { settings.maxStake = m.value === "" ? null : Number(m.value); saveSettings(); renderList(); };
 }
 
 function renderList() {
   const list = document.getElementById("list");
   if (!DATA) { list.innerHTML = '<div class="empty">Nepodařilo se načíst data.</div>'; return; }
   const opps = (DATA.opportunities || []).filter(o =>
-    settings.sports[o.sport || "fotbal"] !== false && settings.stats[o.stat] !== false);
+    settings.sports[o.sport || "fotbal"] !== false &&
+    settings.stats[o.stat] !== false &&
+    o.legs.every(l => settings.books[l.bookmaker] !== false));
   document.getElementById("meta").textContent =
     `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
 
@@ -143,7 +172,7 @@ function renderList() {
     const legsHtml = o.legs.map((l, i) => `
       <div class="oc">${l.label}</div>
       <div class="kz">${l.odd}</div>
-      <div class="bk">${l.bookmaker}</div>
+      <div class="bk"><i style="background:${bookColor(l.bookmaker)}"></i>${l.bookmaker}</div>
       <div class="vk ${c.capped[i] ? "capped" : ""}">${Math.round(c.stakes[i])} ${DATA.currency}</div>`).join("");
     return `<div class="card">
       <div class="top">
