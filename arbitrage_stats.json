@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T14:21:10.399665+00:00",
+  "generatedAt": "2026-06-19T14:23:09.961742+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -77,36 +77,6 @@
           "odd": 1.7,
           "bookmaker": "Rainbet",
           "stake": 617.98
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Turecko, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 3.35,
-      "sumInverse": 0.9676,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1033.45,
-      "guaranteedProfit": 33.45,
-      "legs": [
-        {
-          "key": "fouls|team|home|over|9.5",
-          "label": "Více než 9.5 (Turecko)",
-          "odd": 2.15,
-          "bookmaker": "Tipsport",
-          "stake": 480.68
-        },
-        {
-          "key": "fouls|team|home|under|9.5",
-          "label": "Méně než 9.5 (Turecko)",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 519.32
         }
       ],
       "sport": "fotbal"
@@ -234,6 +204,36 @@
           "odd": 2.95,
           "bookmaker": "Tipsport",
           "stake": 339.05
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Turecko, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 0.01,
+      "sumInverse": 0.9999,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.12,
+      "guaranteedProfit": 0.12,
+      "legs": [
+        {
+          "key": "fouls|team|home|over|9.5",
+          "label": "Více než 9.5 (Turecko)",
+          "odd": 2.15,
+          "bookmaker": "Tipsport",
+          "stake": 465.17
+        },
+        {
+          "key": "fouls|team|home|under|9.5",
+          "label": "Méně než 9.5 (Turecko)",
+          "odd": 1.87,
+          "bookmaker": "Rainbet",
+          "stake": 534.83
         }
       ],
       "sport": "fotbal"
