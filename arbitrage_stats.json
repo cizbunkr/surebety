@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T12:12:56.948695+00:00",
+  "generatedAt": "2026-06-19T12:57:20.249935+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -13,77 +13,40 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 4,
-  "opportunitiesFound": 8,
+  "matchesPaired": 20,
+  "opportunitiesFound": 7,
   "byStat": {
+    "fouls": 4,
     "offsides": 2,
-    "fouls": 5,
     "shots": 1
   },
   "opportunities": [
     {
       "match": "Turecko - Paraguay",
       "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Kdo víc — ofsajdy (1x2)",
-      "isArbitrage": true,
-      "profitPct": 11.03,
-      "sumInverse": 0.9006,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1110.34,
-      "guaranteedProfit": 110.34,
-      "legs": [
-        {
-          "key": "offsides|1x2|home",
-          "label": "Turecko více",
-          "odd": 2.28,
-          "bookmaker": "Rainbet",
-          "stake": 486.99
-        },
-        {
-          "key": "offsides|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 4.5,
-          "bookmaker": "Tipsport",
-          "stake": 246.74
-        },
-        {
-          "key": "offsides|1x2|away",
-          "label": "Paraguay více",
-          "odd": 4.17,
-          "bookmaker": "Tipsport",
-          "stake": 266.27
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet fauly — Paraguay, hranice 14.5",
+      "market": "Počet fauly — Turecko, hranice 9.5",
       "isArbitrage": true,
-      "profitPct": 7.33,
-      "sumInverse": 0.9317,
+      "profitPct": 7.75,
+      "sumInverse": 0.9281,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1073.28,
-      "guaranteedProfit": 73.28,
+      "guaranteedReturn": 1077.49,
+      "guaranteedProfit": 77.49,
       "legs": [
         {
-          "key": "fouls|team|away|over|14.5",
-          "label": "Více než 14.5 (Paraguay)",
-          "odd": 2.45,
+          "key": "fouls|team|home|over|9.5",
+          "label": "Více než 9.5 (Turecko)",
+          "odd": 2.15,
           "bookmaker": "Tipsport",
-          "stake": 438.07
+          "stake": 501.16
         },
         {
-          "key": "fouls|team|away|under|14.5",
-          "label": "Méně než 14.5 (Paraguay)",
-          "odd": 1.91,
+          "key": "fouls|team|home|under|9.5",
+          "label": "Méně než 9.5 (Turecko)",
+          "odd": 2.16,
           "bookmaker": "Rainbet",
-          "stake": 561.93
+          "stake": 498.84
         }
       ],
       "sport": "fotbal"
@@ -149,36 +112,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Paraguay, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 3.58,
-      "sumInverse": 0.9655,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1035.76,
-      "guaranteedProfit": 35.76,
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Paraguay)",
-          "odd": 2.16,
-          "bookmaker": "Tipsport",
-          "stake": 479.52
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Paraguay)",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 520.48
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Skotsko - Maroko",
       "startTime": "2026-06-20T00:00:00.000+02:00",
       "stat": "fouls",
@@ -211,29 +144,29 @@
     {
       "match": "Turecko - Paraguay",
       "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Handicap fauly (+4.5)",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Paraguay, hranice 1.5",
       "isArbitrage": true,
-      "profitPct": 0.92,
-      "sumInverse": 0.9908,
+      "profitPct": 0.98,
+      "sumInverse": 0.9903,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1009.23,
-      "guaranteedProfit": 9.23,
+      "guaranteedReturn": 1009.78,
+      "guaranteedProfit": 9.78,
       "legs": [
         {
-          "key": "fouls|handicap|home|4.5",
-          "label": "Turecko (+4.5)",
-          "odd": 2.14,
-          "bookmaker": "Rainbet",
-          "stake": 471.6
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Paraguay)",
+          "odd": 2.05,
+          "bookmaker": "Tipsport",
+          "stake": 492.57
         },
         {
-          "key": "fouls|handicap|away|-4.5",
-          "label": "Paraguay (-4.5)",
-          "odd": 1.91,
-          "bookmaker": "Tipsport",
-          "stake": 528.4
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Paraguay)",
+          "odd": 1.99,
+          "bookmaker": "Rainbet",
+          "stake": 507.43
         }
       ],
       "sport": "fotbal"
@@ -264,6 +197,43 @@
           "odd": 1.95,
           "bookmaker": "Rainbet",
           "stake": 513.72
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.02,
+      "sumInverse": 0.9998,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.2,
+      "guaranteedProfit": 0.2,
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Turecko více",
+          "odd": 2.28,
+          "bookmaker": "Rainbet",
+          "stake": 438.68
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 4.5,
+          "bookmaker": "Tipsport",
+          "stake": 222.27
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Paraguay více",
+          "odd": 2.95,
+          "bookmaker": "Tipsport",
+          "stake": 339.05
         }
       ],
       "sport": "fotbal"
