@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T10:41:53.394892+00:00",
+  "generatedAt": "2026-06-19T10:43:53.377240+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -14,10 +14,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 4,
-  "opportunitiesFound": 7,
+  "opportunitiesFound": 8,
   "byStat": {
     "offsides": 2,
-    "fouls": 5
+    "fouls": 5,
+    "shots": 1
   },
   "opportunities": [
     {
@@ -233,6 +234,36 @@
           "odd": 1.91,
           "bookmaker": "Tipsport",
           "stake": 528.4
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Brazílie, hranice 7.5",
+      "isArbitrage": true,
+      "profitPct": 0.17,
+      "sumInverse": 0.9983,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1001.75,
+      "guaranteedProfit": 1.75,
+      "legs": [
+        {
+          "key": "shots|team|home|over|7.5",
+          "label": "Více než 7.5 (Brazílie)",
+          "odd": 2.06,
+          "bookmaker": "Tipsport",
+          "stake": 486.28
+        },
+        {
+          "key": "shots|team|home|under|7.5",
+          "label": "Méně než 7.5 (Brazílie)",
+          "odd": 1.95,
+          "bookmaker": "Rainbet",
+          "stake": 513.72
         }
       ],
       "sport": "fotbal"
