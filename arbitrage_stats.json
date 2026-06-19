@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T19:43:19.599274+00:00",
+  "generatedAt": "2026-06-19T20:45:11.180485+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,12 +14,13 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 11,
-  "opportunitiesFound": 8,
+  "matchesPaired": 4,
+  "opportunitiesFound": 13,
   "byStat": {
-    "corners": 3,
-    "offsides": 2,
-    "fouls": 2,
+    "corners": 2,
+    "cards": 2,
+    "fouls": 5,
+    "offsides": 3,
     "shots": 1
   },
   "opportunities": [
@@ -29,12 +30,12 @@
       "stat": "corners",
       "market": "Počet rohy — Austrálie, hranice 2.5",
       "isArbitrage": true,
-      "profitPct": 21.68,
-      "sumInverse": 0.8218,
+      "profitPct": 19.3,
+      "sumInverse": 0.8382,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1216.8,
-      "guaranteedProfit": 216.8,
+      "guaranteedReturn": 1193.01,
+      "guaranteedProfit": 193.01,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "nízká",
@@ -44,14 +45,14 @@
           "label": "Více než 2.5 (Austrálie)",
           "odd": 1.63,
           "bookmaker": "Tipsport",
-          "stake": 746.5
+          "stake": 731.91
         },
         {
           "key": "corners|team|away|under|2.5",
           "label": "Méně než 2.5 (Austrálie)",
-          "odd": 4.8,
+          "odd": 4.45,
           "bookmaker": "Fortuna",
-          "stake": 253.5
+          "stake": 268.09
         }
       ],
       "sport": "fotbal"
@@ -59,79 +60,131 @@
     {
       "match": "USA - Austrálie",
       "startTime": "2026-06-19T21:00:00.000+02:00",
-      "stat": "corners",
-      "market": "Kdo víc — rohy (1x2)",
+      "stat": "cards",
+      "market": "Počet žluté karty — USA, hranice 1.5",
       "isArbitrage": true,
-      "profitPct": 5.72,
-      "sumInverse": 0.9459,
+      "profitPct": 15.06,
+      "sumInverse": 0.8691,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1057.22,
-      "guaranteedProfit": 57.22,
+      "guaranteedReturn": 1150.57,
+      "guaranteedProfit": 150.57,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "nízká",
       "legs": [
         {
-          "key": "corners|1x2|home",
-          "label": "USA více",
-          "odd": 1.62,
+          "key": "cards|team|home|over|1.5",
+          "label": "Více než 1.5 (USA)",
+          "odd": 4.55,
           "bookmaker": "Fortuna",
-          "stake": 652.6
+          "stake": 252.87
         },
         {
-          "key": "corners|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 9.07,
+          "key": "cards|team|home|under|1.5",
+          "label": "Méně než 1.5 (USA)",
+          "odd": 1.54,
           "bookmaker": "Tipsport",
-          "stake": 116.56
-        },
-        {
-          "key": "corners|1x2|away",
-          "label": "Austrálie více",
-          "odd": 4.58,
-          "bookmaker": "Tipsport",
-          "stake": 230.83
+          "stake": 747.13
         }
       ],
       "sport": "fotbal"
     },
     {
-      "match": "USA - Austrálie",
-      "startTime": "2026-06-19T21:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Kdo víc — ofsajdy (1x2)",
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 24.5",
       "isArbitrage": true,
-      "profitPct": 3.24,
-      "sumInverse": 0.9686,
+      "profitPct": 11.31,
+      "sumInverse": 0.8984,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1032.41,
-      "guaranteedProfit": 32.41,
+      "guaranteedReturn": 1113.1,
+      "guaranteedProfit": 113.1,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
       "legs": [
         {
-          "key": "offsides|1x2|home",
-          "label": "USA více",
-          "odd": 2.45,
+          "key": "fouls|total|over|24.5",
+          "label": "Více než 24.5",
+          "odd": 2.75,
+          "bookmaker": "Tipsport",
+          "stake": 404.76
+        },
+        {
+          "key": "fouls|total|under|24.5",
+          "label": "Méně než 24.5",
+          "odd": 1.87,
+          "bookmaker": "Rainbet",
+          "stake": 595.24
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 23.5",
+      "isArbitrage": true,
+      "profitPct": 10.96,
+      "sumInverse": 0.9012,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1109.64,
+      "guaranteedProfit": 109.64,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|23.5",
+          "label": "Více než 23.5",
+          "odd": 2.26,
+          "bookmaker": "Tipsport",
+          "stake": 490.99
+        },
+        {
+          "key": "fouls|total|under|23.5",
+          "label": "Méně než 23.5",
+          "odd": 2.18,
+          "bookmaker": "Rainbet",
+          "stake": 509.01
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 7.03,
+      "sumInverse": 0.9343,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1070.32,
+      "guaranteedProfit": 70.32,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "nízká",
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.49,
+          "bookmaker": "Tipsport",
+          "stake": 718.34
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 3.8,
           "bookmaker": "Fortuna",
-          "stake": 421.39
-        },
-        {
-          "key": "offsides|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 3.64,
-          "bookmaker": "Tipsport",
-          "stake": 283.63
-        },
-        {
-          "key": "offsides|1x2|away",
-          "label": "Austrálie více",
-          "odd": 3.5,
-          "bookmaker": "Tipsport",
-          "stake": 294.98
+          "stake": 281.66
         }
       ],
       "sport": "fotbal"
@@ -140,31 +193,31 @@
       "match": "USA - Austrálie",
       "startTime": "2026-06-19T21:00:00.000+02:00",
       "stat": "corners",
-      "market": "Počet rohy — USA, hranice 4.5",
+      "market": "Počet — rohy, hranice 7.5",
       "isArbitrage": true,
-      "profitPct": 1.6,
-      "sumInverse": 0.9843,
+      "profitPct": 2.47,
+      "sumInverse": 0.9759,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1015.96,
-      "guaranteedProfit": 15.96,
+      "guaranteedReturn": 1024.71,
+      "guaranteedProfit": 24.71,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "nízká",
       "legs": [
         {
-          "key": "corners|team|home|over|4.5",
-          "label": "Více než 4.5 (USA)",
-          "odd": 1.64,
-          "bookmaker": "Fortuna",
-          "stake": 619.49
+          "key": "corners|total|over|7.5",
+          "label": "Více než 7.5",
+          "odd": 1.41,
+          "bookmaker": "Tipsport",
+          "stake": 726.74
         },
         {
-          "key": "corners|team|home|under|4.5",
-          "label": "Méně než 4.5 (USA)",
-          "odd": 2.67,
-          "bookmaker": "Tipsport",
-          "stake": 380.51
+          "key": "corners|total|under|7.5",
+          "label": "Méně než 7.5",
+          "odd": 3.75,
+          "bookmaker": "Fortuna",
+          "stake": 273.26
         }
       ],
       "sport": "fotbal"
@@ -231,6 +284,39 @@
           "odd": 2.12,
           "bookmaker": "Rainbet",
           "stake": 476.54
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Paraguay, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 0.98,
+      "sumInverse": 0.9903,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1009.78,
+      "guaranteedProfit": 9.78,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Paraguay)",
+          "odd": 2.05,
+          "bookmaker": "Tipsport",
+          "stake": 492.57
+        },
+        {
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Paraguay)",
+          "odd": 1.99,
+          "bookmaker": "Rainbet",
+          "stake": 507.43
         }
       ],
       "sport": "fotbal"
@@ -304,6 +390,79 @@
           "odd": 1.95,
           "bookmaker": "Rainbet",
           "stake": 513.72
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.02,
+      "sumInverse": 0.9998,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.2,
+      "guaranteedProfit": 0.2,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Turecko více",
+          "odd": 2.28,
+          "bookmaker": "Rainbet",
+          "stake": 438.68
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 4.5,
+          "bookmaker": "Tipsport",
+          "stake": 222.27
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Paraguay více",
+          "odd": 2.95,
+          "bookmaker": "Tipsport",
+          "stake": 339.05
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Turecko, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 0.01,
+      "sumInverse": 0.9999,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.12,
+      "guaranteedProfit": 0.12,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|9.5",
+          "label": "Více než 9.5 (Turecko)",
+          "odd": 2.15,
+          "bookmaker": "Tipsport",
+          "stake": 465.17
+        },
+        {
+          "key": "fouls|team|home|under|9.5",
+          "label": "Méně než 9.5 (Turecko)",
+          "odd": 1.87,
+          "bookmaker": "Rainbet",
+          "stake": 534.83
         }
       ],
       "sport": "fotbal"
