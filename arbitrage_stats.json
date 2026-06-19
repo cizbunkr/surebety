@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T07:45:06.394516+00:00",
+  "generatedAt": "2026-06-19T07:47:51.786842+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -14,9 +14,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 16,
-  "opportunitiesFound": 1,
+  "opportunitiesFound": 2,
   "byStat": {
-    "fouls": 1
+    "fouls": 1,
+    "corners": 1
   },
   "opportunities": [
     {
@@ -45,6 +46,36 @@
           "odd": 1.91,
           "bookmaker": "Tipsport",
           "stake": 530.71
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "USA - Austrálie",
+      "startTime": "2026-06-19T21:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Počet — rohy, hranice 11.5",
+      "isArbitrage": true,
+      "profitPct": 0.26,
+      "sumInverse": 0.9974,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1002.62,
+      "guaranteedProfit": 2.62,
+      "legs": [
+        {
+          "key": "corners|total|over|11.5",
+          "label": "Více než 11.5",
+          "odd": 4.17,
+          "bookmaker": "Tipsport",
+          "stake": 240.44
+        },
+        {
+          "key": "corners|total|under|11.5",
+          "label": "Méně než 11.5",
+          "odd": 1.32,
+          "bookmaker": "Rainbet",
+          "stake": 759.56
         }
       ],
       "sport": "fotbal"
