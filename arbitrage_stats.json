@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T15:37:42.622991+00:00",
+  "generatedAt": "2026-06-19T15:39:49.186599+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,7 +14,7 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 16,
+  "matchesPaired": 20,
   "opportunitiesFound": 21,
   "byStat": {
     "fouls": 12,
