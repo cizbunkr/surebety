@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:24:02.090294+00:00",
+  "generatedAt": "2026-06-19T23:26:05.035982+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,9 +15,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 18,
-  "opportunitiesFound": 24,
+  "opportunitiesFound": 25,
   "byStat": {
-    "fouls": 13,
+    "fouls": 14,
     "shots": 7,
     "offsides": 4
   },
@@ -758,6 +758,39 @@
           "odd": 2.45,
           "bookmaker": "Fortuna",
           "stake": 409.64
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Belgie - Írán",
+      "startTime": "2026-06-21T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 21.5",
+      "isArbitrage": true,
+      "profitPct": 0.24,
+      "sumInverse": 0.9976,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1002.44,
+      "guaranteedProfit": 2.44,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|21.5",
+          "label": "Více než 21.5",
+          "odd": 1.99,
+          "bookmaker": "Rainbet",
+          "stake": 503.74
+        },
+        {
+          "key": "fouls|total|under|21.5",
+          "label": "Méně než 21.5",
+          "odd": 2.02,
+          "bookmaker": "Tipsport",
+          "stake": 496.26
         }
       ],
       "sport": "fotbal"
