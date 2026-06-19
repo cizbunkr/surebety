@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T05:50:12.499867+00:00",
+  "generatedAt": "2026-06-19T05:50:34.764992+00:00",
   "sources": [
     "tipsport.cz",
     "rainbet.com"
@@ -14,11 +14,72 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 16,
-  "opportunitiesFound": 1,
+  "opportunitiesFound": 3,
   "byStat": {
-    "shots": 1
+    "shots": 2,
+    "fouls": 1
   },
   "opportunities": [
+    {
+      "match": "Brazílie - Haiti",
+      "startTime": "2026-06-20T02:30:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Haiti, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 2.16,
+      "sumInverse": 0.9789,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1021.6,
+      "guaranteedProfit": 21.6,
+      "legs": [
+        {
+          "key": "shots|team|away|over|2.5",
+          "label": "Více než 2.5 (Haiti)",
+          "odd": 2.56,
+          "bookmaker": "Tipsport",
+          "stake": 399.06
+        },
+        {
+          "key": "shots|team|away|under|2.5",
+          "label": "Méně než 2.5 (Haiti)",
+          "odd": 1.7,
+          "bookmaker": "Rainbet",
+          "stake": 600.94
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Handicap fauly (+4.5)",
+      "isArbitrage": true,
+      "profitPct": 1.37,
+      "sumInverse": 0.9865,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1013.66,
+      "guaranteedProfit": 13.66,
+      "legs": [
+        {
+          "key": "fouls|handicap|home|4.5",
+          "label": "Turecko (+4.5)",
+          "odd": 2.16,
+          "bookmaker": "Rainbet",
+          "stake": 469.29
+        },
+        {
+          "key": "fouls|handicap|away|-4.5",
+          "label": "Paraguay (-4.5)",
+          "odd": 1.91,
+          "bookmaker": "Tipsport",
+          "stake": 530.71
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Brazílie - Haiti",
       "startTime": "2026-06-20T02:30:00.000+02:00",
