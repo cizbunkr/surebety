@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:40:04.849869+00:00",
+  "generatedAt": "2026-06-19T23:42:04.368543+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -150,6 +150,72 @@
           "odd": 2.26,
           "bookmaker": "Rainbet",
           "stake": 461.9
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 25.5",
+      "isArbitrage": true,
+      "profitPct": 4.38,
+      "sumInverse": 0.958,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1043.82,
+      "guaranteedProfit": 43.82,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|25.5",
+          "label": "Více než 25.5",
+          "odd": 2.73,
+          "bookmaker": "Fortuna",
+          "stake": 382.35
+        },
+        {
+          "key": "fouls|total|under|25.5",
+          "label": "Méně než 25.5",
+          "odd": 1.69,
+          "bookmaker": "Rainbet",
+          "stake": 617.65
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - Paraguay",
+      "startTime": "2026-06-20T05:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 24.5",
+      "isArbitrage": true,
+      "profitPct": 3.88,
+      "sumInverse": 0.9627,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1038.75,
+      "guaranteedProfit": 38.75,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|24.5",
+          "label": "Více než 24.5",
+          "odd": 2.21,
+          "bookmaker": "Tipsport",
+          "stake": 470.02
+        },
+        {
+          "key": "fouls|total|under|24.5",
+          "label": "Méně než 24.5",
+          "odd": 1.96,
+          "bookmaker": "Rainbet",
+          "stake": 529.98
         }
       ],
       "sport": "fotbal"
@@ -447,39 +513,6 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 526.96
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 24.5",
-      "isArbitrage": true,
-      "profitPct": 1.29,
-      "sumInverse": 0.9872,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1012.92,
-      "guaranteedProfit": 12.92,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|24.5",
-          "label": "Více než 24.5",
-          "odd": 2.21,
-          "bookmaker": "Tipsport",
-          "stake": 458.33
-        },
-        {
-          "key": "fouls|total|under|24.5",
-          "label": "Méně než 24.5",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 541.67
         }
       ],
       "sport": "fotbal"
@@ -824,39 +857,6 @@
           "odd": 2.23,
           "bookmaker": "Tipsport",
           "stake": 449.38
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Turecko - Paraguay",
-      "startTime": "2026-06-20T05:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 23.5",
-      "isArbitrage": true,
-      "profitPct": 0.07,
-      "sumInverse": 0.9993,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1000.74,
-      "guaranteedProfit": 0.74,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|23.5",
-          "label": "Více než 23.5",
-          "odd": 1.85,
-          "bookmaker": "Tipsport",
-          "stake": 540.94
-        },
-        {
-          "key": "fouls|total|under|23.5",
-          "label": "Méně než 23.5",
-          "odd": 2.18,
-          "bookmaker": "Rainbet",
-          "stake": 459.06
         }
       ],
       "sport": "fotbal"
