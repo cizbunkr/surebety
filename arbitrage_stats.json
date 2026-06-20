@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T02:38:30.483037+00:00",
+  "generatedAt": "2026-06-20T02:55:56.394561+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,11 +14,10 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 16,
-  "opportunitiesFound": 10,
+  "matchesPaired": 3,
+  "opportunitiesFound": 4,
   "byStat": {
-    "fouls": 7,
-    "shots": 1,
+    "fouls": 2,
     "offsides": 2
   },
   "opportunities": [
@@ -84,138 +83,6 @@
           "odd": 2.06,
           "bookmaker": "Rainbet",
           "stake": 517.56
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Nový Zéland - Egypt",
-      "startTime": "2026-06-22T03:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 20.5",
-      "isArbitrage": true,
-      "profitPct": 5.32,
-      "sumInverse": 0.9495,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1053.24,
-      "guaranteedProfit": 53.24,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|20.5",
-          "label": "Více než 20.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 578.7
-        },
-        {
-          "key": "fouls|total|under|20.5",
-          "label": "Méně než 20.5",
-          "odd": 2.5,
-          "bookmaker": "Tipsport",
-          "stake": 421.3
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Nový Zéland - Egypt",
-      "startTime": "2026-06-22T03:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 19.5",
-      "isArbitrage": true,
-      "profitPct": 4.67,
-      "sumInverse": 0.9554,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1046.67,
-      "guaranteedProfit": 46.67,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|19.5",
-          "label": "Více než 19.5",
-          "odd": 1.57,
-          "bookmaker": "Rainbet",
-          "stake": 666.67
-        },
-        {
-          "key": "fouls|total|under|19.5",
-          "label": "Méně než 19.5",
-          "odd": 3.14,
-          "bookmaker": "Tipsport",
-          "stake": 333.33
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Nový Zéland - Egypt",
-      "startTime": "2026-06-22T03:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Egypt, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 2.59,
-      "sumInverse": 0.9747,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1025.94,
-      "guaranteedProfit": 25.94,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|9.5",
-          "label": "Více než 9.5 (Egypt)",
-          "odd": 1.74,
-          "bookmaker": "Rainbet",
-          "stake": 589.62
-        },
-        {
-          "key": "fouls|team|away|under|9.5",
-          "label": "Méně než 9.5 (Egypt)",
-          "odd": 2.5,
-          "bookmaker": "Fortuna",
-          "stake": 410.38
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Francie - Irák",
-      "startTime": "2026-06-22T23:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Irák, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 1.7,
-      "sumInverse": 0.9833,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1017.03,
-      "guaranteedProfit": 17.03,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|away|over|1.5",
-          "label": "Více než 1.5 (Irák)",
-          "odd": 2.15,
-          "bookmaker": "Fortuna",
-          "stake": 473.04
-        },
-        {
-          "key": "shots|team|away|under|1.5",
-          "label": "Méně než 1.5 (Irák)",
-          "odd": 1.93,
-          "bookmaker": "Rainbet",
-          "stake": 526.96
         }
       ],
       "sport": "fotbal"
@@ -289,72 +156,6 @@
           "odd": 1.99,
           "bookmaker": "Rainbet",
           "stake": 507.43
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Francie - Irák",
-      "startTime": "2026-06-22T23:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Irák, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 0.48,
-      "sumInverse": 0.9952,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.78,
-      "guaranteedProfit": 4.78,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|10.5",
-          "label": "Více než 10.5 (Irák)",
-          "odd": 1.68,
-          "bookmaker": "Rainbet",
-          "stake": 598.09
-        },
-        {
-          "key": "fouls|team|away|under|10.5",
-          "label": "Méně než 10.5 (Irák)",
-          "odd": 2.5,
-          "bookmaker": "Fortuna",
-          "stake": 401.91
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Belgie - Írán",
-      "startTime": "2026-06-21T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 21.5",
-      "isArbitrage": true,
-      "profitPct": 0.24,
-      "sumInverse": 0.9976,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1002.44,
-      "guaranteedProfit": 2.44,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|21.5",
-          "label": "Více než 21.5",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 503.74
-        },
-        {
-          "key": "fouls|total|under|21.5",
-          "label": "Méně než 21.5",
-          "odd": 2.02,
-          "bookmaker": "Tipsport",
-          "stake": 496.26
         }
       ],
       "sport": "fotbal"
