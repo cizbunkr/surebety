@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T12:49:53.670283+00:00",
+  "generatedAt": "2026-06-20T13:07:15.715284+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,7 +14,7 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 20,
+  "matchesPaired": 18,
   "opportunitiesFound": 24,
   "byStat": {
     "fouls": 8,
@@ -28,12 +28,12 @@
       "stat": "fouls",
       "market": "Kdo víc — fauly (1x2)",
       "isArbitrage": true,
-      "profitPct": 14.0,
-      "sumInverse": 0.8772,
+      "profitPct": 17.72,
+      "sumInverse": 0.8495,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1140.02,
-      "guaranteedProfit": 140.02,
+      "guaranteedReturn": 1177.21,
+      "guaranteedProfit": 177.21,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
@@ -41,23 +41,23 @@
         {
           "key": "fouls|1x2|home",
           "label": "Tunisko více",
-          "odd": 4.5,
+          "odd": 5.0,
           "bookmaker": "Rainbet",
-          "stake": 253.34
+          "stake": 235.44
         },
         {
           "key": "fouls|1x2|draw",
           "label": "Oba stejně",
-          "odd": 13.0,
+          "odd": 14.0,
           "bookmaker": "Rainbet",
-          "stake": 87.69
+          "stake": 84.09
         },
         {
           "key": "fouls|1x2|away",
           "label": "Japonsko více",
           "odd": 1.73,
           "bookmaker": "Tipsport",
-          "stake": 658.97
+          "stake": 680.47
         }
       ],
       "sport": "fotbal"
@@ -124,6 +124,39 @@
           "odd": 2.12,
           "bookmaker": "Tipsport",
           "stake": 497.63
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Tunisko - Japonsko",
+      "startTime": "2026-06-21T06:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Japonsko, hranice 12.5",
+      "isArbitrage": true,
+      "profitPct": 4.72,
+      "sumInverse": 0.9549,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1047.21,
+      "guaranteedProfit": 47.21,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|away|over|12.5",
+          "label": "Více než 12.5 (Japonsko)",
+          "odd": 2.13,
+          "bookmaker": "Tipsport",
+          "stake": 491.65
+        },
+        {
+          "key": "fouls|team|away|under|12.5",
+          "label": "Méně než 12.5 (Japonsko)",
+          "odd": 2.06,
+          "bookmaker": "Rainbet",
+          "stake": 508.35
         }
       ],
       "sport": "fotbal"
@@ -322,39 +355,6 @@
           "odd": 1.87,
           "bookmaker": "Rainbet",
           "stake": 546.12
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Tunisko - Japonsko",
-      "startTime": "2026-06-21T06:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Japonsko, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 2.07,
-      "sumInverse": 0.9797,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1020.73,
-      "guaranteedProfit": 20.73,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|12.5",
-          "label": "Více než 12.5 (Japonsko)",
-          "odd": 2.13,
-          "bookmaker": "Tipsport",
-          "stake": 479.22
-        },
-        {
-          "key": "fouls|team|away|under|12.5",
-          "label": "Méně než 12.5 (Japonsko)",
-          "odd": 1.96,
-          "bookmaker": "Rainbet",
-          "stake": 520.78
         }
       ],
       "sport": "fotbal"
