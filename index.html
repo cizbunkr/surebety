@@ -53,6 +53,8 @@
   .vk { text-align: right; font-variant-numeric: tabular-nums; }
   .capped { color: #e0a23a; }
   .foot { font-size: 12px; color: #9aa0aa; margin-top: 8px; }
+  .prov { font-size: 11.5px; margin-top: 7px; }
+  .prov.ok { color: #1ecb6b; } .prov.bad { color: #e06a6a; } .prov.warn { color: #e0a23a; }
   .empty { text-align: center; color: #9aa0aa; padding: 40px 0; }
   footer { text-align: center; font-size: 11px; color: #6b7280; margin-top: 18px; }
 </style>
@@ -68,6 +70,7 @@
   <div class="grp"><div class="glbl">Sporty</div><div class="row" id="sportFilter"></div></div>
   <div class="grp"><div class="glbl">Příležitosti</div><div class="row" id="statFilter"></div></div>
   <div class="grp"><div class="glbl">Sázkovky</div><div class="row" id="bookFilter"></div></div>
+  <div class="grp"><label class="chk"><input type="checkbox" id="onlySafe"> Jen pravé surebety (shodný dodavatel statistik)</label></div>
 </div>
 
 <div class="panel">
@@ -92,7 +95,7 @@ const bookColor = (b) => BOOK_COLOR[b] || "#7f8794";
 const LS = "surebet_settings_v3";
 let DATA = null, builtFilters = false;
 
-function defaults() { return { stats: {}, sports: {}, books: {}, total: 1000, maxStake: null, maxBook: null }; }
+function defaults() { return { stats: {}, sports: {}, books: {}, total: 1000, maxStake: null, maxBook: null, onlySafe: false }; }
 function loadSettings() { try { return Object.assign(defaults(), JSON.parse(localStorage.getItem(LS) || "{}")); } catch (e) { return defaults(); } }
 function saveSettings() { localStorage.setItem(LS, JSON.stringify(settings)); }
 let settings = loadSettings();
@@ -154,6 +157,9 @@ function bindStakeInputs() {
   m.value = settings.maxStake != null ? settings.maxStake : "";
   t.oninput = () => { settings.total = t.value === "" ? 0 : Number(t.value); saveSettings(); renderList(); };
   m.oninput = () => { settings.maxStake = m.value === "" ? null : Number(m.value); saveSettings(); renderList(); };
+  const sf = document.getElementById("onlySafe");
+  sf.checked = !!settings.onlySafe;
+  sf.onchange = () => { settings.onlySafe = sf.checked; saveSettings(); renderList(); };
 }
 
 function renderList() {
@@ -162,7 +168,8 @@ function renderList() {
   const opps = (DATA.opportunities || []).filter(o =>
     settings.sports[o.sport || "fotbal"] !== false &&
     settings.stats[o.stat] !== false &&
-    o.legs.every(l => settings.books[l.bookmaker] !== false));
+    o.legs.every(l => settings.books[l.bookmaker] !== false) &&
+    (!settings.onlySafe || o.providerSafe === true));
   document.getElementById("meta").textContent =
     `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
 
@@ -181,6 +188,7 @@ function renderList() {
         <div class="profit">+${o.profitPct}%</div>
       </div>
       <div class="legs">${legsHtml}</div>
+      <div class="prov ${o.providerSafe===true?'ok':(o.providerSafe===false?'bad':'warn')}">${o.providerSafe===true?'✅':(o.providerSafe===false?'⚠️':'❓')} ${o.providerNote||''}${o.statRisk?` · variance ${o.statRisk}`:''}</div>
       <div class="foot">vklad ${Math.round(c.T)} ${DATA.currency} → zisk ${Math.round(c.profit)} ${DATA.currency}${c.capped.some(x => x) ? " · žlutě = omezeno stropem sázkovky" : ""}</div>
     </div>`;
   }).join("");
