@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:00:57.662376+00:00",
+  "generatedAt": "2026-06-20T21:02:58.078870+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -17,13 +17,46 @@
   "matchesPaired": 19,
   "opportunitiesFound": 22,
   "byStat": {
-    "offsides": 3,
     "fouls": 8,
+    "offsides": 3,
     "shots": 9,
     "cards": 1,
     "corners": 1
   },
   "opportunities": [
+    {
+      "match": "Ekvádor - Curacao",
+      "startTime": "2026-06-21T02:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Curacao, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 6.91,
+      "sumInverse": 0.9354,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1069.09,
+      "guaranteedProfit": 69.09,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|away|over|9.5",
+          "label": "Více než 9.5 (Curacao)",
+          "odd": 1.68,
+          "bookmaker": "Rainbet",
+          "stake": 636.36
+        },
+        {
+          "key": "fouls|team|away|under|9.5",
+          "label": "Méně než 9.5 (Curacao)",
+          "odd": 2.94,
+          "bookmaker": "Tipsport",
+          "stake": 363.64
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Tunisko - Japonsko",
       "startTime": "2026-06-21T06:00:00.000+02:00",
@@ -378,39 +411,6 @@
           "odd": 3.6,
           "bookmaker": "Rainbet",
           "stake": 286.11
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Ekvádor - Curacao",
-      "startTime": "2026-06-21T02:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Curacao, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 2.82,
-      "sumInverse": 0.9726,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1028.18,
-      "guaranteedProfit": 28.18,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|9.5",
-          "label": "Více než 9.5 (Curacao)",
-          "odd": 1.68,
-          "bookmaker": "Rainbet",
-          "stake": 612.01
-        },
-        {
-          "key": "fouls|team|away|under|9.5",
-          "label": "Méně než 9.5 (Curacao)",
-          "odd": 2.65,
-          "bookmaker": "Fortuna",
-          "stake": 387.99
         }
       ],
       "sport": "fotbal"
