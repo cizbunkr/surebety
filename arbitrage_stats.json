@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:58:56.726840+00:00",
+  "generatedAt": "2026-06-20T21:00:57.662376+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -249,12 +249,12 @@
       "stat": "fouls",
       "market": "Handicap fauly (-1.5)",
       "isArbitrage": true,
-      "profitPct": 3.54,
-      "sumInverse": 0.9658,
+      "profitPct": 3.85,
+      "sumInverse": 0.9629,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1035.42,
-      "guaranteedProfit": 35.42,
+      "guaranteedReturn": 1038.48,
+      "guaranteedProfit": 38.48,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
@@ -262,16 +262,16 @@
         {
           "key": "fouls|handicap|home|-1.5",
           "label": "Ekvádor (-1.5)",
-          "odd": 1.87,
+          "odd": 1.88,
           "bookmaker": "Tipsport",
-          "stake": 553.7
+          "stake": 552.38
         },
         {
           "key": "fouls|handicap|away|1.5",
           "label": "Curacao (+1.5)",
           "odd": 2.32,
           "bookmaker": "Rainbet",
-          "stake": 446.3
+          "stake": 447.62
         }
       ],
       "sport": "fotbal"
@@ -411,39 +411,6 @@
           "odd": 2.65,
           "bookmaker": "Fortuna",
           "stake": 387.99
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Ekvádor - Curacao",
-      "startTime": "2026-06-21T02:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 22.5",
-      "isArbitrage": true,
-      "profitPct": 2.27,
-      "sumInverse": 0.9778,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1022.69,
-      "guaranteedProfit": 22.69,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|22.5",
-          "label": "Více než 22.5",
-          "odd": 1.69,
-          "bookmaker": "Rainbet",
-          "stake": 605.14
-        },
-        {
-          "key": "fouls|total|under|22.5",
-          "label": "Méně než 22.5",
-          "odd": 2.59,
-          "bookmaker": "Tipsport",
-          "stake": 394.86
         }
       ],
       "sport": "fotbal"
@@ -715,6 +682,39 @@
           "odd": 2.02,
           "bookmaker": "Tipsport",
           "stake": 496.26
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Ekvádor - Curacao",
+      "startTime": "2026-06-21T02:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 22.5",
+      "isArbitrage": true,
+      "profitPct": 0.18,
+      "sumInverse": 0.9982,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1001.78,
+      "guaranteedProfit": 1.78,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|22.5",
+          "label": "Více než 22.5",
+          "odd": 1.69,
+          "bookmaker": "Rainbet",
+          "stake": 592.77
+        },
+        {
+          "key": "fouls|total|under|22.5",
+          "label": "Méně než 22.5",
+          "odd": 2.46,
+          "bookmaker": "Tipsport",
+          "stake": 407.23
         }
       ],
       "sport": "fotbal"
