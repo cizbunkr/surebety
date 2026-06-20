@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:02:58.078870+00:00",
+  "generatedAt": "2026-06-20T21:04:56.886591+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -381,12 +381,12 @@
       "stat": "fouls",
       "market": "Kdo víc — fauly (1x2)",
       "isArbitrage": true,
-      "profitPct": 3.0,
-      "sumInverse": 0.9709,
+      "profitPct": 2.59,
+      "sumInverse": 0.9748,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1030.01,
-      "guaranteedProfit": 30.01,
+      "guaranteedReturn": 1025.87,
+      "guaranteedProfit": 25.87,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
@@ -396,21 +396,21 @@
           "label": "Ekvádor více",
           "odd": 1.64,
           "bookmaker": "Tipsport",
-          "stake": 628.05
+          "stake": 625.53
         },
         {
           "key": "fouls|1x2|draw",
           "label": "Oba stejně",
           "odd": 12.0,
           "bookmaker": "Rainbet",
-          "stake": 85.83
+          "stake": 85.49
         },
         {
           "key": "fouls|1x2|away",
           "label": "Curacao více",
-          "odd": 3.6,
+          "odd": 3.55,
           "bookmaker": "Rainbet",
-          "stake": 286.11
+          "stake": 288.98
         }
       ],
       "sport": "fotbal"
