@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T15:10:41.306015+00:00",
+  "generatedAt": "2026-06-20T15:11:26.165717+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 21,
-  "opportunitiesFound": 30,
+  "opportunitiesFound": 29,
   "byStat": {
     "offsides": 6,
     "fouls": 9,
-    "shots": 15
+    "shots": 14
   },
   "opportunities": [
     {
@@ -28,12 +28,12 @@
       "stat": "offsides",
       "market": "Kdo víc — ofsajdy (1x2)",
       "isArbitrage": true,
-      "profitPct": 25.82,
-      "sumInverse": 0.7948,
+      "profitPct": 20.94,
+      "sumInverse": 0.8268,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1258.17,
-      "guaranteedProfit": 258.17,
+      "guaranteedReturn": 1209.44,
+      "guaranteedProfit": 209.44,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
@@ -41,23 +41,23 @@
         {
           "key": "offsides|1x2|home",
           "label": "Tunisko více",
-          "odd": 3.1,
+          "odd": 2.82,
           "bookmaker": "Rainbet",
-          "stake": 405.86
+          "stake": 428.88
         },
         {
           "key": "offsides|1x2|draw",
           "label": "Oba stejně",
           "odd": 4.5,
           "bookmaker": "Fortuna",
-          "stake": 279.59
+          "stake": 268.76
         },
         {
           "key": "offsides|1x2|away",
           "label": "Japonsko více",
           "odd": 4,
           "bookmaker": "Tipsport",
-          "stake": 314.54
+          "stake": 302.36
         }
       ],
       "sport": "fotbal"
@@ -753,39 +753,6 @@
           "odd": 7.0,
           "bookmaker": "Rainbet",
           "stake": 143.97
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Kapverdy",
-      "startTime": "2026-06-22T00:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Handicap střely na branku (-2.5)",
-      "isArbitrage": true,
-      "profitPct": 0.7,
-      "sumInverse": 0.9931,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1007.0,
-      "guaranteedProfit": 7.0,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|handicap|home|-2.5",
-          "label": "Uruguay (-2.5)",
-          "odd": 2.06,
-          "bookmaker": "Rainbet",
-          "stake": 488.83
-        },
-        {
-          "key": "shots|handicap|away|2.5",
-          "label": "Kapverdy (+2.5)",
-          "odd": 1.97,
-          "bookmaker": "Tipsport",
-          "stake": 511.17
         }
       ],
       "sport": "fotbal"
