@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T14:38:53.901877+00:00",
+  "generatedAt": "2026-06-20T15:10:41.306015+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 21,
-  "opportunitiesFound": 31,
+  "opportunitiesFound": 30,
   "byStat": {
     "offsides": 6,
     "fouls": 9,
-    "shots": 16
+    "shots": 15
   },
   "opportunities": [
     {
@@ -713,39 +713,6 @@
           "odd": 2.82,
           "bookmaker": "Rainbet",
           "stake": 359.09
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Norsko - Senegal",
-      "startTime": "2026-06-23T02:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Norsko, hranice 4.5",
-      "isArbitrage": true,
-      "profitPct": 0.99,
-      "sumInverse": 0.9902,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1009.9,
-      "guaranteedProfit": 9.9,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|home|over|4.5",
-          "label": "Více než 4.5 (Norsko)",
-          "odd": 2.0,
-          "bookmaker": "Fortuna",
-          "stake": 504.95
-        },
-        {
-          "key": "shots|team|home|under|4.5",
-          "label": "Méně než 4.5 (Norsko)",
-          "odd": 2.04,
-          "bookmaker": "Rainbet",
-          "stake": 495.05
         }
       ],
       "sport": "fotbal"
