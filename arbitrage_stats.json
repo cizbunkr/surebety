@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:57:06.859430+00:00",
+  "generatedAt": "2026-06-20T20:58:56.726840+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -305,6 +305,39 @@
           "odd": 2.5,
           "bookmaker": "Rainbet",
           "stake": 413.15
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Francie - Irák",
+      "startTime": "2026-06-22T23:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 3.08,
+      "sumInverse": 0.9701,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1030.79,
+      "guaranteedProfit": 30.79,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "nízká",
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 3.45,
+          "bookmaker": "Tipsport",
+          "stake": 298.78
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.47,
+          "bookmaker": "Fortuna",
+          "stake": 701.22
         }
       ],
       "sport": "fotbal"
@@ -616,39 +649,6 @@
           "odd": 1.27,
           "bookmaker": "Fortuna",
           "stake": 791.68
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Francie - Irák",
-      "startTime": "2026-06-22T23:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 0.33,
-      "sumInverse": 0.9967,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1003.28,
-      "guaranteedProfit": 3.28,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "nízká",
-      "legs": [
-        {
-          "key": "cards|total|over|3.5",
-          "label": "Více než 3.5",
-          "odd": 3.16,
-          "bookmaker": "Tipsport",
-          "stake": 317.49
-        },
-        {
-          "key": "cards|total|under|3.5",
-          "label": "Méně než 3.5",
-          "odd": 1.47,
-          "bookmaker": "Fortuna",
-          "stake": 682.51
         }
       ],
       "sport": "fotbal"
