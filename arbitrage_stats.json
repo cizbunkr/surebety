@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:42:16.207732+00:00",
+  "generatedAt": "2026-06-20T20:09:05.215423+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,13 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 18,
+  "opportunitiesFound": 28,
   "byStat": {
-    "offsides": 3,
-    "fouls": 6,
-    "shots": 9
+    "offsides": 4,
+    "fouls": 8,
+    "shots": 11,
+    "cards": 3,
+    "corners": 2
   },
   "opportunities": [
     {
@@ -58,6 +60,39 @@
           "odd": 2.77,
           "bookmaker": "Tipsport",
           "stake": 384.94
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Portugalsko - Uzbekistán",
+      "startTime": "2026-06-23T19:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Portugalsko, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 5.81,
+      "sumInverse": 0.9451,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1058.11,
+      "guaranteedProfit": 58.11,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|8.5",
+          "label": "Více než 8.5 (Portugalsko)",
+          "odd": 1.74,
+          "bookmaker": "Rainbet",
+          "stake": 608.11
+        },
+        {
+          "key": "fouls|team|home|under|8.5",
+          "label": "Méně než 8.5 (Portugalsko)",
+          "odd": 2.7,
+          "bookmaker": "Fortuna",
+          "stake": 391.89
         }
       ],
       "sport": "fotbal"
@@ -171,6 +206,39 @@
           "odd": 1.37,
           "bookmaker": "Tipsport",
           "stake": 768.04
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 4.37,
+      "sumInverse": 0.9581,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1043.7,
+      "guaranteedProfit": 43.7,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "nízká",
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 4.6,
+          "bookmaker": "Tipsport",
+          "stake": 226.89
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.35,
+          "bookmaker": "Fortuna",
+          "stake": 773.11
         }
       ],
       "sport": "fotbal"
@@ -318,6 +386,72 @@
       "match": "Ekvádor - Curacao",
       "startTime": "2026-06-21T02:00:00.000+02:00",
       "stat": "fouls",
+      "market": "Počet fauly — Curacao, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 2.82,
+      "sumInverse": 0.9726,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1028.18,
+      "guaranteedProfit": 28.18,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|away|over|9.5",
+          "label": "Více než 9.5 (Curacao)",
+          "odd": 1.68,
+          "bookmaker": "Rainbet",
+          "stake": 612.01
+        },
+        {
+          "key": "fouls|team|away|under|9.5",
+          "label": "Méně než 9.5 (Curacao)",
+          "odd": 2.65,
+          "bookmaker": "Fortuna",
+          "stake": 387.99
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Německo, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 2.52,
+      "sumInverse": 0.9755,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1025.15,
+      "guaranteedProfit": 25.15,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "nízká",
+      "legs": [
+        {
+          "key": "cards|team|home|over|1.5",
+          "label": "Více než 1.5 (Německo)",
+          "odd": 2.63,
+          "bookmaker": "Tipsport",
+          "stake": 389.79
+        },
+        {
+          "key": "cards|team|home|under|1.5",
+          "label": "Méně než 1.5 (Německo)",
+          "odd": 1.68,
+          "bookmaker": "Fortuna",
+          "stake": 610.21
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Ekvádor - Curacao",
+      "startTime": "2026-06-21T02:00:00.000+02:00",
+      "stat": "fouls",
       "market": "Počet — fauly, hranice 22.5",
       "isArbitrage": true,
       "profitPct": 2.27,
@@ -381,34 +515,34 @@
       "sport": "fotbal"
     },
     {
-      "match": "Argentina - Rakousko",
-      "startTime": "2026-06-22T19:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Argentina, hranice 5.5",
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Počet rohy — Uruguay, hranice 5.5",
       "isArbitrage": true,
-      "profitPct": 2.12,
-      "sumInverse": 0.9792,
+      "profitPct": 1.91,
+      "sumInverse": 0.9813,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1021.24,
-      "guaranteedProfit": 21.24,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
+      "guaranteedReturn": 1019.09,
+      "guaranteedProfit": 19.09,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "nízká",
       "legs": [
         {
-          "key": "shots|team|home|over|5.5",
-          "label": "Více než 5.5 (Argentina)",
-          "odd": 2.25,
-          "bookmaker": "Fortuna",
-          "stake": 453.88
+          "key": "corners|team|home|over|5.5",
+          "label": "Více než 5.5 (Uruguay)",
+          "odd": 1.75,
+          "bookmaker": "Rainbet",
+          "stake": 582.34
         },
         {
-          "key": "shots|team|home|under|5.5",
-          "label": "Méně než 5.5 (Argentina)",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 546.12
+          "key": "corners|team|home|under|5.5",
+          "label": "Méně než 5.5 (Uruguay)",
+          "odd": 2.44,
+          "bookmaker": "Tipsport",
+          "stake": 417.66
         }
       ],
       "sport": "fotbal"
@@ -450,71 +584,163 @@
       "match": "Portugalsko - Uzbekistán",
       "startTime": "2026-06-23T19:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet fauly — Portugalsko, hranice 8.5",
+      "market": "Počet — fauly, hranice 19.5",
       "isArbitrage": true,
-      "profitPct": 1.74,
-      "sumInverse": 0.9829,
+      "profitPct": 1.55,
+      "sumInverse": 0.9848,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1017.42,
-      "guaranteedProfit": 17.42,
+      "guaranteedReturn": 1015.48,
+      "guaranteedProfit": 15.48,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
       "legs": [
         {
-          "key": "fouls|team|home|over|8.5",
-          "label": "Více než 8.5 (Portugalsko)",
-          "odd": 1.74,
+          "key": "fouls|total|over|19.5",
+          "label": "Více než 19.5",
+          "odd": 1.61,
           "bookmaker": "Rainbet",
-          "stake": 584.73
+          "stake": 630.73
         },
         {
-          "key": "fouls|team|home|under|8.5",
-          "label": "Méně než 8.5 (Portugalsko)",
-          "odd": 2.45,
+          "key": "fouls|total|under|19.5",
+          "label": "Méně než 19.5",
+          "odd": 2.75,
           "bookmaker": "Fortuna",
-          "stake": 415.27
+          "stake": 369.27
         }
       ],
       "sport": "fotbal"
     },
     {
-      "match": "Argentina - Rakousko",
-      "startTime": "2026-06-22T19:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Kdo víc — střely na branku (1x2)",
+      "match": "Tunisko - Japonsko",
+      "startTime": "2026-06-21T06:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet — ofsajdy, hranice 3.5",
       "isArbitrage": true,
-      "profitPct": 0.78,
-      "sumInverse": 0.9923,
+      "profitPct": 1.48,
+      "sumInverse": 0.9854,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1007.77,
-      "guaranteedProfit": 7.77,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "guaranteedReturn": 1014.78,
+      "guaranteedProfit": 14.78,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "offsides|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2,
+          "bookmaker": "Tipsport",
+          "stake": 507.39
+        },
+        {
+          "key": "offsides|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 2.06,
+          "bookmaker": "Rainbet",
+          "stake": 492.61
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Počet — rohy, hranice 12.5",
+      "isArbitrage": true,
+      "profitPct": 1.17,
+      "sumInverse": 0.9884,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1011.72,
+      "guaranteedProfit": 11.72,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "nízká",
+      "legs": [
+        {
+          "key": "corners|total|over|12.5",
+          "label": "Více než 12.5",
+          "odd": 4.69,
+          "bookmaker": "Tipsport",
+          "stake": 215.72
+        },
+        {
+          "key": "corners|total|under|12.5",
+          "label": "Méně než 12.5",
+          "odd": 1.29,
+          "bookmaker": "Fortuna",
+          "stake": 784.28
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 1.14,
+      "sumInverse": 0.9888,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1011.36,
+      "guaranteedProfit": 11.36,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "nízká",
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.61,
+          "bookmaker": "Tipsport",
+          "stake": 628.18
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.72,
+          "bookmaker": "Fortuna",
+          "stake": 371.82
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Německo, hranice 6.5",
+      "isArbitrage": true,
+      "profitPct": 0.83,
+      "sumInverse": 0.9918,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1008.25,
+      "guaranteedProfit": 8.25,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
       "statRisk": "střední",
       "legs": [
         {
-          "key": "shots|1x2|home",
-          "label": "Argentina více",
-          "odd": 1.35,
-          "bookmaker": "Fortuna",
-          "stake": 746.49
+          "key": "shots|team|home|over|6.5",
+          "label": "Více než 6.5 (Německo)",
+          "odd": 2.67,
+          "bookmaker": "Tipsport",
+          "stake": 377.62
         },
         {
-          "key": "shots|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 9.2,
+          "key": "shots|team|home|under|6.5",
+          "label": "Méně než 6.5 (Německo)",
+          "odd": 1.62,
           "bookmaker": "Rainbet",
-          "stake": 109.54
-        },
-        {
-          "key": "shots|1x2|away",
-          "label": "Rakousko více",
-          "odd": 7.0,
-          "bookmaker": "Rainbet",
-          "stake": 143.97
+          "stake": 622.38
         }
       ],
       "sport": "fotbal"
@@ -586,6 +812,79 @@
       "sport": "fotbal"
     },
     {
+      "match": "Panama - Chorvatsko",
+      "startTime": "2026-06-24T01:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Kdo víc — střely na branku (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.54,
+      "sumInverse": 0.9946,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.44,
+      "guaranteedProfit": 5.44,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|1x2|home",
+          "label": "Panama více",
+          "odd": 8.6,
+          "bookmaker": "Rainbet",
+          "stake": 116.91
+        },
+        {
+          "key": "shots|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 11.0,
+          "bookmaker": "Rainbet",
+          "stake": 91.4
+        },
+        {
+          "key": "shots|1x2|away",
+          "label": "Chorvatsko více",
+          "odd": 1.27,
+          "bookmaker": "Fortuna",
+          "stake": 791.68
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Německo - Pobřeží slonoviny",
+      "startTime": "2026-06-20T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Německo, hranice 5.5",
+      "isArbitrage": true,
+      "profitPct": 0.37,
+      "sumInverse": 0.9964,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1003.66,
+      "guaranteedProfit": 3.66,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|team|home|over|5.5",
+          "label": "Více než 5.5 (Německo)",
+          "odd": 1.86,
+          "bookmaker": "Tipsport",
+          "stake": 539.6
+        },
+        {
+          "key": "shots|team|home|under|5.5",
+          "label": "Méně než 5.5 (Německo)",
+          "odd": 2.18,
+          "bookmaker": "Rainbet",
+          "stake": 460.4
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Belgie - Írán",
       "startTime": "2026-06-21T21:00:00.000+02:00",
       "stat": "fouls",
@@ -647,6 +946,39 @@
           "odd": 2.06,
           "bookmaker": "Rainbet",
           "stake": 486.28
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Panama - Chorvatsko",
+      "startTime": "2026-06-24T01:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Chorvatsko, hranice 5.5",
+      "isArbitrage": true,
+      "profitPct": 0.01,
+      "sumInverse": 0.9999,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.1,
+      "guaranteedProfit": 0.1,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|team|away|over|5.5",
+          "label": "Více než 5.5 (Chorvatsko)",
+          "odd": 1.82,
+          "bookmaker": "Fortuna",
+          "stake": 549.5
+        },
+        {
+          "key": "shots|team|away|under|5.5",
+          "label": "Méně než 5.5 (Chorvatsko)",
+          "odd": 2.22,
+          "bookmaker": "Rainbet",
+          "stake": 450.5
         }
       ],
       "sport": "fotbal"
