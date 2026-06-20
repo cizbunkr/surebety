@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T22:35:05.519060+00:00",
+  "generatedAt": "2026-06-20T22:51:32.956286+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -303,6 +303,39 @@
           "odd": 2.32,
           "bookmaker": "Rainbet",
           "stake": 447.62
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Kapverdy, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 3.74,
+      "sumInverse": 0.9639,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1037.45,
+      "guaranteedProfit": 37.45,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|team|away|over|2.5",
+          "label": "Více než 2.5 (Kapverdy)",
+          "odd": 2.09,
+          "bookmaker": "Tipsport",
+          "stake": 496.39
+        },
+        {
+          "key": "shots|team|away|under|2.5",
+          "label": "Méně než 2.5 (Kapverdy)",
+          "odd": 2.06,
+          "bookmaker": "Rainbet",
+          "stake": 503.61
         }
       ],
       "sport": "fotbal"
@@ -647,39 +680,6 @@
           "odd": 2.46,
           "bookmaker": "Tipsport",
           "stake": 407.23
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Kapverdy",
-      "startTime": "2026-06-22T00:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Kapverdy, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 0.17,
-      "sumInverse": 0.9983,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1001.75,
-      "guaranteedProfit": 1.75,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|away|over|2.5",
-          "label": "Více než 2.5 (Kapverdy)",
-          "odd": 1.95,
-          "bookmaker": "Fortuna",
-          "stake": 513.72
-        },
-        {
-          "key": "shots|team|away|under|2.5",
-          "label": "Méně než 2.5 (Kapverdy)",
-          "odd": 2.06,
-          "bookmaker": "Rainbet",
-          "stake": 486.28
         }
       ],
       "sport": "fotbal"
