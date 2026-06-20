@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T12:29:46.918662+00:00",
+  "generatedAt": "2026-06-20T12:31:49.819779+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,10 +14,10 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 18,
-  "opportunitiesFound": 25,
+  "matchesPaired": 20,
+  "opportunitiesFound": 24,
   "byStat": {
-    "fouls": 8,
+    "fouls": 7,
     "shots": 13,
     "offsides": 4
   },
@@ -28,12 +28,12 @@
       "stat": "fouls",
       "market": "Kdo víc — fauly (1x2)",
       "isArbitrage": true,
-      "profitPct": 11.69,
-      "sumInverse": 0.8953,
+      "profitPct": 8.96,
+      "sumInverse": 0.9178,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1116.95,
-      "guaranteedProfit": 116.95,
+      "guaranteedReturn": 1089.59,
+      "guaranteedProfit": 89.59,
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
@@ -43,21 +43,21 @@
           "label": "Tunisko více",
           "odd": 3.9,
           "bookmaker": "Rainbet",
-          "stake": 286.4
+          "stake": 279.38
         },
         {
           "key": "fouls|1x2|draw",
           "label": "Oba stejně",
           "odd": 12.0,
           "bookmaker": "Rainbet",
-          "stake": 93.08
+          "stake": 90.8
         },
         {
           "key": "fouls|1x2|away",
           "label": "Japonsko více",
-          "odd": 1.8,
+          "odd": 1.73,
           "bookmaker": "Tipsport",
-          "stake": 620.53
+          "stake": 629.82
         }
       ],
       "sport": "fotbal"
@@ -475,39 +475,6 @@
           "odd": 4.0,
           "bookmaker": "Rainbet",
           "stake": 253.8
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Tunisko - Japonsko",
-      "startTime": "2026-06-21T06:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Japonsko, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 1.29,
-      "sumInverse": 0.9872,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1012.92,
-      "guaranteedProfit": 12.92,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|12.5",
-          "label": "Více než 12.5 (Japonsko)",
-          "odd": 2.21,
-          "bookmaker": "Tipsport",
-          "stake": 458.33
-        },
-        {
-          "key": "fouls|team|away|under|12.5",
-          "label": "Méně než 12.5 (Japonsko)",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 541.67
         }
       ],
       "sport": "fotbal"
