@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T13:45:13.211936+00:00",
+  "generatedAt": "2026-06-20T13:47:13.506318+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -105,39 +105,6 @@
     {
       "match": "Tunisko - Japonsko",
       "startTime": "2026-06-21T06:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Japonsko, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 13.48,
-      "sumInverse": 0.8812,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1134.8,
-      "guaranteedProfit": 134.8,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Japonsko)",
-          "odd": 2.3,
-          "bookmaker": "Fortuna",
-          "stake": 493.39
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Japonsko)",
-          "odd": 2.24,
-          "bookmaker": "Rainbet",
-          "stake": 506.61
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Tunisko - Japonsko",
-      "startTime": "2026-06-21T06:00:00.000+02:00",
       "stat": "shots",
       "market": "Počet střely na branku — Tunisko, hranice 2.5",
       "isArbitrage": true,
@@ -197,6 +164,39 @@
           "odd": 2.58,
           "bookmaker": "Tipsport",
           "stake": 413.64
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Tunisko - Japonsko",
+      "startTime": "2026-06-21T06:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Japonsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 6.69,
+      "sumInverse": 0.9373,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1066.9,
+      "guaranteedProfit": 66.9,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Japonsko)",
+          "odd": 2.3,
+          "bookmaker": "Fortuna",
+          "stake": 463.87
+        },
+        {
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Japonsko)",
+          "odd": 1.99,
+          "bookmaker": "Rainbet",
+          "stake": 536.13
         }
       ],
       "sport": "fotbal"
