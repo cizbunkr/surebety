@@ -106,6 +106,20 @@ let settings = loadSettings();
 const cap = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
 function fmtDate(iso) { if (!iso) return ""; const d = new Date(iso); return d.toLocaleString("cs-CZ", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }); }
 
+// spolehlivost statistiky napříč dodavateli (Opta vs Sportradar, naměřeno na MS 2026).
+// Variance hraje roli JEN když surebet kombinuje RŮZNÉ dodavatele — u shodného dodavatele jsou čísla totožná.
+function statRelHtml(o) {
+  if (o.providerSafe === true)
+    return `<div class="statrel muted">📊 shodný dodavatel → statistika settluje stejně, variance nehraje roli</div>`;
+  const p = o.statDiffPct;
+  if (p == null) return "";
+  if (p === 0)
+    return `<div class="statrel ok">📊 ${o.stat}: Opta i Sportradar settlují shodně (0 % rozdílů na MS 2026)</div>`;
+  const cls = p > 10 ? "bad" : "warn";
+  const tail = p > 10 ? " — riziko falešného surebetu rozdílem dodavatelů" : "";
+  return `<div class="statrel ${cls}">📊 ${o.stat}: Opta vs Sportradar se liší v ${p} % zápasů${tail}</div>`;
+}
+
 // rozpočet sázky: poměr 1/kurz, omezený celkovým vkladem i stropem na JEDNU vybranou sázkovku
 function computeStakes(legs) {
   const inv = legs.map(l => 1 / l.odd);
@@ -191,7 +205,8 @@ function renderList() {
         <div class="profit">+${o.profitPct}%</div>
       </div>
       <div class="legs">${legsHtml}</div>
-      <div class="prov ${o.providerSafe===true?'ok':(o.providerSafe===false?'bad':'warn')}">${o.providerSafe===true?'✅':(o.providerSafe===false?'⚠️':'❓')} ${o.providerNote||''}${o.statRisk?` · variance ${o.statRisk}`:''}</div>
+      <div class="prov ${o.providerSafe===true?'ok':(o.providerSafe===false?'bad':'warn')}">${o.providerSafe===true?'✅':(o.providerSafe===false?'⚠️':'❓')} ${o.providerNote||''}</div>
+      ${statRelHtml(o)}
       <div class="foot">vklad ${Math.round(c.T)} ${DATA.currency} → zisk ${Math.round(c.profit)} ${DATA.currency}${c.capped.some(x => x) ? " · žlutě = omezeno stropem sázkovky" : ""}</div>
     </div>`;
   }).join("");
