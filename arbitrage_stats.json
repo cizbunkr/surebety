@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T15:04:16.901370+00:00",
+  "generatedAt": "2026-06-21T15:06:13.830335+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,10 +14,10 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 23,
-  "opportunitiesFound": 23,
+  "matchesPaired": 20,
+  "opportunitiesFound": 22,
   "byStat": {
-    "shots": 12,
+    "shots": 11,
     "fouls": 10,
     "offsides": 1
   },
@@ -678,40 +678,6 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 521.09
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "JAR - Jižní Korea",
-      "startTime": "2026-06-25T03:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — JAR, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 0.54,
-      "sumInverse": 0.9946,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1005.41,
-      "guaranteedProfit": 5.41,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "legs": [
-        {
-          "key": "shots|team|home|over|2.5",
-          "label": "Více než 2.5 (JAR)",
-          "odd": 1.72,
-          "bookmaker": "Fortuna",
-          "stake": 584.54
-        },
-        {
-          "key": "shots|team|home|under|2.5",
-          "label": "Méně než 2.5 (JAR)",
-          "odd": 2.42,
-          "bookmaker": "Rainbet",
-          "stake": 415.46
         }
       ],
       "sport": "fotbal"
