@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T13:18:06.567310+00:00",
+  "generatedAt": "2026-06-21T13:20:04.299987+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -37,6 +37,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|team|away|over|3.5",
@@ -70,6 +71,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "žádná",
+      "statDiffPct": 0.0,
       "legs": [
         {
           "key": "offsides|1x2|home",
@@ -110,6 +112,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|total|over|9.5",
@@ -143,6 +146,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|total|over|8.5",
@@ -176,6 +180,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|1x2|home",
@@ -216,6 +221,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|1x2|home",
@@ -256,6 +262,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|total|over|8.5",
@@ -289,6 +296,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|handicap|home|-1.5",
@@ -322,6 +330,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|team|away|over|9.5",
@@ -355,6 +364,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|total|over|22.5",
@@ -388,6 +398,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|team|home|over|5.5",
@@ -421,6 +432,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|total|over|21.5",
@@ -454,6 +466,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|total|over|9.5",
@@ -487,6 +500,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|total|over|20.5",
@@ -520,6 +534,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|total|over|21.5",
@@ -553,6 +568,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|team|home|over|5.5",
@@ -586,6 +602,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|team|home|over|8.5",
@@ -619,6 +636,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|total|over|19.5",
@@ -652,6 +670,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|total|over|7.5",
@@ -685,6 +704,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|team|away|over|1.5",
@@ -718,6 +738,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|team|home|over|2.5",
@@ -751,6 +772,7 @@
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
           "key": "shots|team|home|over|6.5",
@@ -784,6 +806,7 @@
       "providerSafe": null,
       "providerNote": "ověř dodavatele statistik",
       "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
           "key": "fouls|total|over|18.5",
