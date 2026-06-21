@@ -59,6 +59,7 @@
   .statrel.ok { color: #1ecb6b; } .statrel.bad { color: #e06a6a; } .statrel.warn { color: #e0a23a; }
   .statrel.muted { color: #6b7280; }
   .empty { text-align: center; color: #9aa0aa; padding: 40px 0; }
+  .legend .lg { font-size: 12px; color: #c2c6cd; line-height: 1.5; margin-top: 7px; }
   footer { text-align: center; font-size: 11px; color: #6b7280; margin-top: 18px; }
 </style>
 </head>
@@ -85,6 +86,13 @@
   <div class="glbl" style="margin:10px 0 5px">Max vklad platí pro vybranou sázkovku:</div>
   <div class="row" id="maxBookSel"></div>
   <div class="foot">Vyber <b>jednu</b> sázkovku — strop se počítá jen pro ni (kulatá částka proti blokacím účtů). „Žádná" nebo prázdný max = bez limitu.</div>
+</div>
+
+<div class="panel legend">
+  <h2>Legenda spolehlivosti</h2>
+  <div class="lg"><b style="color:#1ecb6b">✅ pravý surebet</b> — obě sázkovky berou statistiky od stejného dodavatele (Tipsport i Fortuna = <b>Opta</b>), čísla settlují shodně → nemůže prohrát obě nohy.</div>
+  <div class="lg"><b style="color:#e06a6a">⚠️ různý dodavatel</b> — Opta vs Sportradar (cokoliv s <b>Rainbetem</b>); čísla se můžou lišit, „surebet" může být jen zdánlivý.</div>
+  <div class="lg">📊 <b>variance providerů</b> (Opta vs Sportradar, MS 2026): fauly <b>56 %</b> · střely <b>44 %</b> · rohy 3 % · karty 0 % · ofsajdy 0 %. Čím vyšší %, tím větší riziko u různého dodavatele.</div>
 </div>
 
 <div id="list"></div>
@@ -187,8 +195,9 @@ function renderList() {
     settings.stats[o.stat] !== false &&
     o.legs.every(l => settings.books[l.bookmaker] !== false) &&
     (!settings.onlySafe || o.providerSafe === true));
+  const nTrue = opps.filter(o => o.providerSafe === true).length;
   document.getElementById("meta").textContent =
-    `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
+    `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno (${nTrue} pravých) / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
 
   if (!opps.length) { list.innerHTML = '<div class="empty">Žádné surebety pro zvolený filtr.</div>'; return; }
   list.innerHTML = opps.map(o => {
