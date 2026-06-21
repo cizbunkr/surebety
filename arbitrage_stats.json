@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T09:30:02.664226+00:00",
+  "generatedAt": "2026-06-21T09:32:05.416107+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -162,46 +162,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Uruguay - Kapverdy",
-      "startTime": "2026-06-22T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Kdo víc — fauly (1x2)",
-      "isArbitrage": true,
-      "profitPct": 4.12,
-      "sumInverse": 0.9604,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1041.24,
-      "guaranteedProfit": 41.24,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|1x2|home",
-          "label": "Uruguay více",
-          "odd": 2.05,
-          "bookmaker": "Fortuna",
-          "stake": 507.92
-        },
-        {
-          "key": "fouls|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 11.0,
-          "bookmaker": "Rainbet",
-          "stake": 94.66
-        },
-        {
-          "key": "fouls|1x2|away",
-          "label": "Kapverdy více",
-          "odd": 2.62,
-          "bookmaker": "Rainbet",
-          "stake": 397.42
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Španělsko - Saúdská Arábie",
       "startTime": "2026-06-21T18:00:00.000+02:00",
       "stat": "offsides",
@@ -303,6 +263,46 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 531.55
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Kdo víc — fauly (1x2)",
+      "isArbitrage": true,
+      "profitPct": 2.55,
+      "sumInverse": 0.9751,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1025.53,
+      "guaranteedProfit": 25.53,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|1x2|home",
+          "label": "Uruguay více",
+          "odd": 1.99,
+          "bookmaker": "Tipsport",
+          "stake": 515.34
+        },
+        {
+          "key": "fouls|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 11.0,
+          "bookmaker": "Rainbet",
+          "stake": 93.23
+        },
+        {
+          "key": "fouls|1x2|away",
+          "label": "Kapverdy více",
+          "odd": 2.62,
+          "bookmaker": "Rainbet",
+          "stake": 391.43
         }
       ],
       "sport": "fotbal"
