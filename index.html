@@ -202,19 +202,48 @@ function buildFilters() {
   builtFilters = true;
 }
 
+function fmtAmt(n) { return Math.round(n).toLocaleString("cs-CZ") + " " + ((DATA && DATA.currency) || "Kč"); }
+
+// žluté BET tlačítko: velká částka = celkový vklad, malý řádek = vybraná sázkovka + její strop
+function updateBet() {
+  const amt = document.getElementById("betAmt"), capEl = document.getElementById("betCap");
+  if (!amt) return;
+  amt.textContent = settings.total > 0 ? fmtAmt(settings.total) : "bez vkladu";
+  capEl.innerHTML = (settings.maxBook && settings.maxStake > 0)
+    ? `<span class="dot" style="background:${bookColor(settings.maxBook)}"></span>strop pro ${settings.maxBook} · ${fmtAmt(settings.maxStake)}`
+    : `<span class="dot" style="background:#3a3f4a"></span>bez stropu sázkovky`;
+}
+
+// accordion: jeden otevřený panel; ikona drží stav „on"
+function togglePanel(panelId) {
+  ["panFilt", "panBet", "panInfo"].forEach(p => {
+    const pan = document.getElementById(p);
+    pan.hidden = (p === panelId) ? !pan.hidden : true;
+  });
+  [["btnFilt", "panFilt"], ["btnBet", "panBet"], ["btnInfo", "panInfo"]].forEach(([b, p]) =>
+    document.getElementById(b).classList.toggle("on", !document.getElementById(p).hidden));
+}
+
+function bindBar() {
+  document.getElementById("btnFilt").onclick = () => togglePanel("panFilt");
+  document.getElementById("btnBet").onclick = () => togglePanel("panBet");
+  document.getElementById("btnInfo").onclick = () => togglePanel("panInfo");
+  const sf = document.getElementById("btnSafe");
+  sf.classList.toggle("on", !!settings.onlySafe);
+  sf.onclick = () => { settings.onlySafe = !settings.onlySafe; sf.classList.toggle("on", settings.onlySafe); saveSettings(); renderList(); };
+}
+
 function bindStakeInputs() {
   const t = document.getElementById("total"), m = document.getElementById("maxStake");
   t.value = settings.total ?? 1000;
   m.value = settings.maxStake != null ? settings.maxStake : "";
-  t.oninput = () => { settings.total = t.value === "" ? 0 : Number(t.value); saveSettings(); renderList(); };
-  m.oninput = () => { settings.maxStake = m.value === "" ? null : Number(m.value); saveSettings(); renderList(); };
-  const sf = document.getElementById("onlySafe");
-  sf.checked = !!settings.onlySafe;
-  sf.onchange = () => { settings.onlySafe = sf.checked; saveSettings(); renderList(); };
+  t.oninput = () => { settings.total = t.value === "" ? 0 : Number(t.value); saveSettings(); updateBet(); renderList(); };
+  m.oninput = () => { settings.maxStake = m.value === "" ? null : Number(m.value); saveSettings(); updateBet(); renderList(); };
 }
 
 function renderList() {
   const list = document.getElementById("list");
+  updateBet();
   if (!DATA) { list.innerHTML = '<div class="empty">Nepodařilo se načíst data.</div>'; return; }
   const opps = (DATA.opportunities || []).filter(o =>
     settings.sports[o.sport || "fotbal"] !== false &&
@@ -257,6 +286,8 @@ async function load() {
 }
 
 bindStakeInputs();
+bindBar();
+updateBet();
 load();
 setInterval(load, 60000);
 </script>
