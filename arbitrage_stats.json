@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T18:19:17.181293+00:00",
+  "generatedAt": "2026-06-21T18:21:16.600448+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -17,8 +17,8 @@
   "matchesPaired": 23,
   "opportunitiesFound": 21,
   "byStat": {
-    "shots": 13,
-    "fouls": 7,
+    "shots": 14,
+    "fouls": 6,
     "offsides": 1
   },
   "opportunities": [
@@ -724,35 +724,35 @@
       "sport": "fotbal"
     },
     {
-      "match": "Anglie - Ghana",
-      "startTime": "2026-06-23T22:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 20.5",
+      "match": "Kolumbie - DR Kongo",
+      "startTime": "2026-06-24T04:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Kolumbie, hranice 5.5",
       "isArbitrage": true,
-      "profitPct": 0.21,
-      "sumInverse": 0.9979,
+      "profitPct": 0.08,
+      "sumInverse": 0.9992,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1002.12,
-      "guaranteedProfit": 2.12,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "guaranteedReturn": 1000.79,
+      "guaranteedProfit": 0.79,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
       "statRisk": "vysoká",
-      "statDiffPct": 55.6,
+      "statDiffPct": 43.5,
       "legs": [
         {
-          "key": "fouls|total|over|20.5",
-          "label": "Více než 20.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 550.62
+          "key": "shots|team|home|over|5.5",
+          "label": "Více než 5.5 (Kolumbie)",
+          "odd": 2.73,
+          "bookmaker": "Tipsport",
+          "stake": 366.59
         },
         {
-          "key": "fouls|total|under|20.5",
-          "label": "Méně než 20.5",
-          "odd": 2.23,
-          "bookmaker": "Tipsport",
-          "stake": 449.38
+          "key": "shots|team|home|under|5.5",
+          "label": "Méně než 5.5 (Kolumbie)",
+          "odd": 1.58,
+          "bookmaker": "Fortuna",
+          "stake": 633.41
         }
       ],
       "sport": "fotbal"
