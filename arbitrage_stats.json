@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T11:40:02.447729+00:00",
+  "generatedAt": "2026-06-21T11:42:00.330681+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 25,
+  "opportunitiesFound": 26,
   "byStat": {
     "shots": 13,
     "offsides": 1,
     "fouls": 10,
-    "corners": 1
+    "corners": 2
   },
   "opportunities": [
     {
@@ -606,6 +606,39 @@
       "sport": "fotbal"
     },
     {
+      "match": "Španělsko - Saúdská Arábie",
+      "startTime": "2026-06-21T18:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Počet rohy — Španělsko, hranice 6.5",
+      "isArbitrage": true,
+      "profitPct": 1.41,
+      "sumInverse": 0.9861,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1014.12,
+      "guaranteedProfit": 14.12,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "nízká",
+      "legs": [
+        {
+          "key": "corners|team|home|over|6.5",
+          "label": "Více než 6.5 (Španělsko)",
+          "odd": 1.59,
+          "bookmaker": "Rainbet",
+          "stake": 637.81
+        },
+        {
+          "key": "corners|team|home|under|6.5",
+          "label": "Méně než 6.5 (Španělsko)",
+          "odd": 2.8,
+          "bookmaker": "Fortuna",
+          "stake": 362.19
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Portugalsko - Uzbekistán",
       "startTime": "2026-06-23T19:00:00.000+02:00",
       "stat": "fouls",
@@ -807,31 +840,31 @@
       "match": "Španělsko - Saúdská Arábie",
       "startTime": "2026-06-21T18:00:00.000+02:00",
       "stat": "corners",
-      "market": "Počet rohy — Španělsko, hranice 6.5",
+      "market": "Počet rohy — Španělsko, hranice 8.5",
       "isArbitrage": true,
-      "profitPct": 0.18,
-      "sumInverse": 0.9982,
+      "profitPct": 0.15,
+      "sumInverse": 0.9985,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1001.83,
-      "guaranteedProfit": 1.83,
+      "guaranteedReturn": 1001.54,
+      "guaranteedProfit": 1.54,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "nízká",
       "legs": [
         {
-          "key": "corners|team|home|over|6.5",
-          "label": "Více než 6.5 (Španělsko)",
-          "odd": 1.56,
+          "key": "corners|team|home|over|8.5",
+          "label": "Více než 8.5 (Španělsko)",
+          "odd": 2.48,
           "bookmaker": "Rainbet",
-          "stake": 642.2
+          "stake": 403.85
         },
         {
-          "key": "corners|team|home|under|6.5",
-          "label": "Méně než 6.5 (Španělsko)",
-          "odd": 2.8,
+          "key": "corners|team|home|under|8.5",
+          "label": "Méně než 8.5 (Španělsko)",
+          "odd": 1.68,
           "bookmaker": "Fortuna",
-          "stake": 357.8
+          "stake": 596.15
         }
       ],
       "sport": "fotbal"
