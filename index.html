@@ -90,7 +90,7 @@
   .ibtn .em { font-size: 15px; line-height: 1; }
   .bet { flex: 1 1 150px; display: flex; align-items: stretch; border: none; border-radius: 11px; overflow: hidden;
          cursor: pointer; padding: 0; height: 46px; font-family: inherit; }
-  .bet-tab { background: var(--gold); color: var(--gold-ink); font-weight: 700; font-size: 13px; letter-spacing: .08em;
+  .bet-tab { background: var(--brand); color: #06272D; font-weight: 700; font-size: 13px; letter-spacing: .08em;
              display: flex; align-items: center; padding: 0 13px; }
   .bet-body { flex: 1; min-width: 0; background: var(--betbody); display: flex; flex-direction: column;
               align-items: flex-start; justify-content: center; padding: 0 12px; text-align: left; }
@@ -104,6 +104,13 @@
   .blogo { display: inline-flex; align-items: center; justify-content: center; border-radius: 4px;
            color: #fff; font-weight: 700; line-height: 1; flex: 0 0 auto; }
   footer { text-align: center; font-size: 11px; color: var(--faint); margin-top: 18px; }
+
+  /* jen mobil: taby doprava + lišta filtrů přehledně do dvou řádků (3 tlačítka = šířka BET) */
+  @media (max-width: 640px) {
+    .tabs { width: 100%; margin-left: 0; justify-content: flex-end; }
+    .ibtn { flex: 1 1 0; justify-content: center; padding: 0 8px; }
+    .bet { flex-basis: 100%; }
+  }
 </style>
 </head>
 <body>
@@ -126,7 +133,7 @@
 <div class="bar">
   <button class="ibtn" id="btnFilt"><span class="em">⚙</span>Filtry</button>
   <button class="ibtn" id="btnSafe"><span class="em">💚</span>Reálné</button>
-  <button class="ibtn" id="btnInfo" aria-label="Legenda spolehlivosti"><span class="em">ℹ️</span></button>
+  <button class="ibtn" id="btnInfo"><span class="em">ℹ️</span>Dodatky</button>
   <button class="bet" id="btnBet">
     <span class="bet-tab">BET</span>
     <span class="bet-body"><span class="bet-amt" id="betAmt">—</span><span class="bet-sub" id="betCap">—</span></span>
