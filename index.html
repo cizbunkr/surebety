@@ -125,7 +125,7 @@
 
 <div class="bar">
   <button class="ibtn" id="btnFilt"><span class="em">⚙</span>Filtry</button>
-  <button class="ibtn" id="btnSafe"><span class="em">🛡</span>Pravé</button>
+  <button class="ibtn" id="btnSafe"><span class="em">💚</span>Reálné</button>
   <button class="ibtn" id="btnInfo" aria-label="Legenda spolehlivosti"><span class="em">ℹ️</span></button>
   <button class="bet" id="btnBet">
     <span class="bet-tab">BET</span>
@@ -151,7 +151,7 @@
 </div>
 
 <div class="panel legend" id="panInfo" hidden>
-  <div class="lg"><b style="color:#1ecb6b">✅ pravý surebet</b> — obě sázkovky berou statistiky od stejného dodavatele (Tipsport i Fortuna = <b>Opta</b>), čísla settlují shodně → nemůže prohrát obě nohy.</div>
+  <div class="lg"><b style="color:#2BD46D">💚 reálný surebet</b> — obě sázkovky berou statistiky od stejného dodavatele (Tipsport i Fortuna = <b>Opta</b>), čísla settlují shodně → nemůže prohrát obě nohy.</div>
   <div class="lg"><b style="color:#e06a6a">⚠️ různý dodavatel</b> — Opta vs Sportradar (cokoliv s <b>Rainbetem</b>); čísla se můžou lišit, „surebet" může být jen zdánlivý.</div>
   <div class="lg">📊 <b>variance providerů</b> (Opta vs Sportradar, MS 2026): fauly <b>56 %</b> · střely <b>44 %</b> · rohy 3 % · karty 0 % · ofsajdy 0 %. Čím vyšší %, tím větší riziko u různého dodavatele.</div>
 </div>
@@ -173,12 +173,18 @@
 <script>
 const STAT_CZ = { fouls: "Fauly", cards: "Žluté karty", shots: "Střely na branku", corners: "Rohy", offsides: "Ofsajdy" };
 const SPORT_CZ = { fotbal: "Fotbal" };
-const BOOK_COLOR = { Tipsport: "#1aa34a", Rainbet: "#6c5ce7", Fortuna: "#e2001a" };
+const BOOK_COLOR = { Tipsport: "#38B6F1", Rainbet: "#3B38C7", Fortuna: "#FFC400" };
 const bookColor = (b) => BOOK_COLOR[b] || "#7f8794";
+// čitelná barva textu na daném pozadí (tmavá na světlém, bílá na tmavém)
+function textOn(hex) {
+  const c = hex.replace("#", "");
+  const r = parseInt(c.slice(0, 2), 16), g = parseInt(c.slice(2, 4), 16), b = parseInt(c.slice(4, 6), 16);
+  return (0.299 * r + 0.587 * g + 0.114 * b) > 150 ? "#1a1205" : "#fff";
+}
 // monogramová dlaždice sázkovky (brandová barva + iniciála) místo puntíku
 function bookLogo(b, sz = 16) {
   const ch = (b || "?").charAt(0).toUpperCase();
-  return `<span class="blogo" style="background:${bookColor(b)};width:${sz}px;height:${sz}px;font-size:${Math.round(sz * 0.6)}px">${ch}</span>`;
+  return `<span class="blogo" style="background:${bookColor(b)};color:${textOn(bookColor(b))};width:${sz}px;height:${sz}px;font-size:${Math.round(sz * 0.6)}px">${ch}</span>`;
 }
 const LS = "surebet_settings_v3";
 let DATA = null, builtFilters = false;
@@ -312,7 +318,7 @@ function renderList() {
     (!settings.onlySafe || o.providerSafe === true));
   const nTrue = opps.filter(o => o.providerSafe === true).length;
   document.getElementById("meta").textContent =
-    `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno (${nTrue} pravých) / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
+    `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno (${nTrue} reálných) / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
 
   if (!opps.length) { list.innerHTML = '<div class="empty">Žádné surebety pro zvolený filtr.</div>'; return; }
   list.innerHTML = opps.map(o => {
