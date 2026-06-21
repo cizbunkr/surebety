@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:51:38.088024+00:00",
+  "generatedAt": "2026-06-21T02:32:01.267482+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,10 +15,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 18,
-  "opportunitiesFound": 22,
+  "opportunitiesFound": 25,
   "byStat": {
-    "offsides": 3,
-    "fouls": 8,
+    "offsides": 2,
+    "fouls": 12,
     "shots": 11
   },
   "opportunities": [
@@ -268,6 +268,39 @@
       "sport": "fotbal"
     },
     {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 22.5",
+      "isArbitrage": true,
+      "profitPct": 2.95,
+      "sumInverse": 0.9714,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1029.45,
+      "guaranteedProfit": 29.45,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|22.5",
+          "label": "Více než 22.5",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 565.63
+        },
+        {
+          "key": "fouls|total|under|22.5",
+          "label": "Méně než 22.5",
+          "odd": 2.37,
+          "bookmaker": "Tipsport",
+          "stake": 434.37
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Nový Zéland - Egypt",
       "startTime": "2026-06-22T03:00:00.000+02:00",
       "stat": "shots",
@@ -296,6 +329,105 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 531.55
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 21.5",
+      "isArbitrage": true,
+      "profitPct": 2.52,
+      "sumInverse": 0.9754,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1025.24,
+      "guaranteedProfit": 25.24,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|21.5",
+          "label": "Více než 21.5",
+          "odd": 1.58,
+          "bookmaker": "Rainbet",
+          "stake": 648.89
+        },
+        {
+          "key": "fouls|total|under|21.5",
+          "label": "Méně než 21.5",
+          "odd": 2.92,
+          "bookmaker": "Tipsport",
+          "stake": 351.11
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Uruguay, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 2.48,
+      "sumInverse": 0.9758,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1024.77,
+      "guaranteedProfit": 24.77,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|10.5",
+          "label": "Více než 10.5 (Uruguay)",
+          "odd": 1.7,
+          "bookmaker": "Fortuna",
+          "stake": 602.8
+        },
+        {
+          "key": "fouls|team|home|under|10.5",
+          "label": "Méně než 10.5 (Uruguay)",
+          "odd": 2.58,
+          "bookmaker": "Tipsport",
+          "stake": 397.2
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Uruguay, hranice 11.5",
+      "isArbitrage": true,
+      "profitPct": 2.44,
+      "sumInverse": 0.9762,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1024.39,
+      "guaranteedProfit": 24.39,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|11.5",
+          "label": "Více než 11.5 (Uruguay)",
+          "odd": 2.1,
+          "bookmaker": "Fortuna",
+          "stake": 487.8
+        },
+        {
+          "key": "fouls|team|home|under|11.5",
+          "label": "Méně než 11.5 (Uruguay)",
+          "odd": 2,
+          "bookmaker": "Tipsport",
+          "stake": 512.2
         }
       ],
       "sport": "fotbal"
@@ -362,39 +494,6 @@
           "odd": 2.04,
           "bookmaker": "Rainbet",
           "stake": 501.22
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Španělsko - Saúdská Arábie",
-      "startTime": "2026-06-21T18:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Saúdská Arábie, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 1.87,
-      "sumInverse": 0.9816,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1018.71,
-      "guaranteedProfit": 18.71,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Saúdská Arábie)",
-          "odd": 2.4,
-          "bookmaker": "Fortuna",
-          "stake": 424.46
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Saúdská Arábie)",
-          "odd": 1.77,
-          "bookmaker": "Rainbet",
-          "stake": 575.54
         }
       ],
       "sport": "fotbal"
