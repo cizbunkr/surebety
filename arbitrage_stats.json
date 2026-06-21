@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T07:20:29.029789+00:00",
+  "generatedAt": "2026-06-21T07:34:15.644930+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,13 +15,46 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 17,
-  "opportunitiesFound": 19,
+  "opportunitiesFound": 21,
   "byStat": {
-    "shots": 11,
-    "offsides": 2,
-    "fouls": 6
+    "fouls": 6,
+    "shots": 13,
+    "offsides": 2
   },
   "opportunities": [
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 21.5",
+      "isArbitrage": true,
+      "profitPct": 12.12,
+      "sumInverse": 0.8919,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1121.18,
+      "guaranteedProfit": 121.18,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|21.5",
+          "label": "Více než 21.5",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 616.03
+        },
+        {
+          "key": "fouls|total|under|21.5",
+          "label": "Méně než 21.5",
+          "odd": 2.92,
+          "bookmaker": "Tipsport",
+          "stake": 383.97
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Maroko - Haiti",
       "startTime": "2026-06-25T00:00:00.000+02:00",
@@ -124,6 +157,39 @@
           "odd": 2.42,
           "bookmaker": "Rainbet",
           "stake": 437.21
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 20.5",
+      "isArbitrage": true,
+      "profitPct": 5.77,
+      "sumInverse": 0.9454,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1057.74,
+      "guaranteedProfit": 57.74,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|20.5",
+          "label": "Více než 20.5",
+          "odd": 1.58,
+          "bookmaker": "Rainbet",
+          "stake": 669.46
+        },
+        {
+          "key": "fouls|total|under|20.5",
+          "label": "Méně než 20.5",
+          "odd": 3.2,
+          "bookmaker": "Fortuna",
+          "stake": 330.54
         }
       ],
       "sport": "fotbal"
@@ -237,39 +303,6 @@
     {
       "match": "Uruguay - Kapverdy",
       "startTime": "2026-06-22T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 22.5",
-      "isArbitrage": true,
-      "profitPct": 2.95,
-      "sumInverse": 0.9714,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1029.45,
-      "guaranteedProfit": 29.45,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|22.5",
-          "label": "Více než 22.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 565.63
-        },
-        {
-          "key": "fouls|total|under|22.5",
-          "label": "Méně než 22.5",
-          "odd": 2.37,
-          "bookmaker": "Tipsport",
-          "stake": 434.37
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Kapverdy",
-      "startTime": "2026-06-22T00:00:00.000+02:00",
       "stat": "offsides",
       "market": "Počet ofsajdy — Uruguay, hranice 1.5",
       "isArbitrage": true,
@@ -329,39 +362,6 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 531.55
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Kapverdy",
-      "startTime": "2026-06-22T00:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 21.5",
-      "isArbitrage": true,
-      "profitPct": 2.52,
-      "sumInverse": 0.9754,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1025.24,
-      "guaranteedProfit": 25.24,
-      "providerSafe": null,
-      "providerNote": "ověř dodavatele statistik",
-      "statRisk": "vysoká",
-      "legs": [
-        {
-          "key": "fouls|total|over|21.5",
-          "label": "Více než 21.5",
-          "odd": 1.58,
-          "bookmaker": "Rainbet",
-          "stake": 648.89
-        },
-        {
-          "key": "fouls|total|under|21.5",
-          "label": "Méně než 21.5",
-          "odd": 2.92,
-          "bookmaker": "Tipsport",
-          "stake": 351.11
         }
       ],
       "sport": "fotbal"
@@ -532,6 +532,39 @@
       "sport": "fotbal"
     },
     {
+      "match": "Nový Zéland - Egypt",
+      "startTime": "2026-06-22T03:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Nový Zéland, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 1.22,
+      "sumInverse": 0.9879,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1012.25,
+      "guaranteedProfit": 12.25,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|team|home|over|2.5",
+          "label": "Více než 2.5 (Nový Zéland)",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 588.52
+        },
+        {
+          "key": "shots|team|home|under|2.5",
+          "label": "Méně než 2.5 (Nový Zéland)",
+          "odd": 2.46,
+          "bookmaker": "Rainbet",
+          "stake": 411.48
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Portugalsko - Uzbekistán",
       "startTime": "2026-06-23T19:00:00.000+02:00",
       "stat": "fouls",
@@ -659,6 +692,39 @@
           "odd": 2.42,
           "bookmaker": "Rainbet",
           "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Nový Zéland - Egypt",
+      "startTime": "2026-06-22T03:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Nový Zéland, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.47,
+      "sumInverse": 0.9954,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1004.65,
+      "guaranteedProfit": 4.65,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|team|home|over|3.5",
+          "label": "Více než 3.5 (Nový Zéland)",
+          "odd": 2.7,
+          "bookmaker": "Fortuna",
+          "stake": 372.09
+        },
+        {
+          "key": "shots|team|home|under|3.5",
+          "label": "Méně než 3.5 (Nový Zéland)",
+          "odd": 1.6,
+          "bookmaker": "Rainbet",
+          "stake": 627.91
         }
       ],
       "sport": "fotbal"
