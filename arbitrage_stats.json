@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T12:28:01.710664+00:00",
+  "generatedAt": "2026-06-21T12:30:09.166355+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -22,6 +22,79 @@
     "fouls": 10
   },
   "opportunities": [
+    {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Haiti, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 7.06,
+      "sumInverse": 0.9341,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1070.59,
+      "guaranteedProfit": 70.59,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|team|away|over|2.5",
+          "label": "Více než 2.5 (Haiti)",
+          "odd": 2.6,
+          "bookmaker": "Fortuna",
+          "stake": 411.76
+        },
+        {
+          "key": "shots|team|away|under|2.5",
+          "label": "Méně než 2.5 (Haiti)",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 588.24
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Kdo víc — střely na branku (1x2)",
+      "isArbitrage": true,
+      "profitPct": 6.68,
+      "sumInverse": 0.9374,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1066.78,
+      "guaranteedProfit": 66.78,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "střední",
+      "legs": [
+        {
+          "key": "shots|1x2|home",
+          "label": "Maroko více",
+          "odd": 1.27,
+          "bookmaker": "Rainbet",
+          "stake": 839.98
+        },
+        {
+          "key": "shots|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 15.0,
+          "bookmaker": "Fortuna",
+          "stake": 71.12
+        },
+        {
+          "key": "shots|1x2|away",
+          "label": "Haiti více",
+          "odd": 12.0,
+          "bookmaker": "Fortuna",
+          "stake": 88.9
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Švýcarsko - Kanada",
       "startTime": "2026-06-24T21:00:00.000+02:00",
@@ -51,46 +124,6 @@
           "odd": 2.42,
           "bookmaker": "Rainbet",
           "stake": 437.21
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Maroko - Haiti",
-      "startTime": "2026-06-25T00:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Kdo víc — střely na branku (1x2)",
-      "isArbitrage": true,
-      "profitPct": 4.29,
-      "sumInverse": 0.9588,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1042.94,
-      "guaranteedProfit": 42.94,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|1x2|home",
-          "label": "Maroko více",
-          "odd": 1.27,
-          "bookmaker": "Rainbet",
-          "stake": 821.21
-        },
-        {
-          "key": "shots|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 14.0,
-          "bookmaker": "Fortuna",
-          "stake": 74.5
-        },
-        {
-          "key": "shots|1x2|away",
-          "label": "Haiti více",
-          "odd": 10.0,
-          "bookmaker": "Fortuna",
-          "stake": 104.29
         }
       ],
       "sport": "fotbal"
@@ -435,39 +468,6 @@
           "odd": 2.3,
           "bookmaker": "Tipsport",
           "stake": 441.75
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Maroko - Haiti",
-      "startTime": "2026-06-25T00:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Haiti, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 1.6,
-      "sumInverse": 0.9842,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1016.02,
-      "guaranteedProfit": 16.02,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "střední",
-      "legs": [
-        {
-          "key": "shots|team|away|over|2.5",
-          "label": "Více než 2.5 (Haiti)",
-          "odd": 2.3,
-          "bookmaker": "Fortuna",
-          "stake": 441.75
-        },
-        {
-          "key": "shots|team|away|under|2.5",
-          "label": "Méně než 2.5 (Haiti)",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 558.25
         }
       ],
       "sport": "fotbal"
