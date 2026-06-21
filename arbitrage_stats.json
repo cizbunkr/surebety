@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T11:30:02.067291+00:00",
+  "generatedAt": "2026-06-21T11:32:05.928456+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 23,
+  "opportunitiesFound": 25,
   "byStat": {
     "shots": 13,
     "offsides": 1,
-    "fouls": 8,
+    "fouls": 10,
     "corners": 1
   },
   "opportunities": [
@@ -639,6 +639,39 @@
       "sport": "fotbal"
     },
     {
+      "match": "Španělsko - Saúdská Arábie",
+      "startTime": "2026-06-21T18:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 19.5",
+      "isArbitrage": true,
+      "profitPct": 0.81,
+      "sumInverse": 0.9919,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1008.14,
+      "guaranteedProfit": 8.14,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|19.5",
+          "label": "Více než 19.5",
+          "odd": 2.26,
+          "bookmaker": "Tipsport",
+          "stake": 446.08
+        },
+        {
+          "key": "fouls|total|under|19.5",
+          "label": "Méně než 19.5",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 553.92
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Nový Zéland - Egypt",
       "startTime": "2026-06-22T03:00:00.000+02:00",
       "stat": "shots",
@@ -799,6 +832,39 @@
           "odd": 2.8,
           "bookmaker": "Fortuna",
           "stake": 357.8
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Španělsko - Saúdská Arábie",
+      "startTime": "2026-06-21T18:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 18.5",
+      "isArbitrage": true,
+      "profitPct": 0.07,
+      "sumInverse": 0.9993,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.74,
+      "guaranteedProfit": 0.74,
+      "providerSafe": null,
+      "providerNote": "ověř dodavatele statistik",
+      "statRisk": "vysoká",
+      "legs": [
+        {
+          "key": "fouls|total|over|18.5",
+          "label": "Více než 18.5",
+          "odd": 1.85,
+          "bookmaker": "Tipsport",
+          "stake": 540.94
+        },
+        {
+          "key": "fouls|total|under|18.5",
+          "label": "Méně než 18.5",
+          "odd": 2.18,
+          "bookmaker": "Rainbet",
+          "stake": 459.06
         }
       ],
       "sport": "fotbal"
