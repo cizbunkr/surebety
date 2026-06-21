@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T18:13:14.596897+00:00",
+  "generatedAt": "2026-06-21T18:15:15.223970+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,10 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 23,
-  "opportunitiesFound": 20,
+  "opportunitiesFound": 21,
   "byStat": {
     "shots": 13,
-    "fouls": 7
+    "fouls": 7,
+    "offsides": 1
   },
   "opportunities": [
     {
@@ -391,6 +392,47 @@
           "odd": 2.84,
           "bookmaker": "Tipsport",
           "stake": 357.47
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Kapverdy",
+      "startTime": "2026-06-22T00:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 1.49,
+      "sumInverse": 0.9853,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1014.93,
+      "guaranteedProfit": 14.93,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Uruguay více",
+          "odd": 2,
+          "bookmaker": "Tipsport",
+          "stake": 507.46
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 4.25,
+          "bookmaker": "Fortuna",
+          "stake": 238.81
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Kapverdy více",
+          "odd": 4.0,
+          "bookmaker": "Rainbet",
+          "stake": 253.73
         }
       ],
       "sport": "fotbal"
