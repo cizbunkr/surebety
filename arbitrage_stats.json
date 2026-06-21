@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T14:10:10.745688+00:00",
+  "generatedAt": "2026-06-21T14:12:09.439485+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -18,8 +18,8 @@
   "opportunitiesFound": 23,
   "byStat": {
     "shots": 12,
-    "offsides": 1,
-    "fouls": 10
+    "fouls": 10,
+    "offsides": 1
   },
   "opportunities": [
     {
@@ -52,47 +52,6 @@
           "odd": 2.42,
           "bookmaker": "Rainbet",
           "stake": 437.21
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Španělsko - Saúdská Arábie",
-      "startTime": "2026-06-21T18:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Kdo víc — ofsajdy (1x2)",
-      "isArbitrage": true,
-      "profitPct": 3.76,
-      "sumInverse": 0.9638,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1037.59,
-      "guaranteedProfit": 37.59,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "offsides|1x2|home",
-          "label": "Španělsko více",
-          "odd": 1.75,
-          "bookmaker": "Tipsport",
-          "stake": 592.91
-        },
-        {
-          "key": "offsides|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 5.5,
-          "bookmaker": "Fortuna",
-          "stake": 188.65
-        },
-        {
-          "key": "offsides|1x2|away",
-          "label": "Saúdská Arábie více",
-          "odd": 4.75,
-          "bookmaker": "Fortuna",
-          "stake": 218.44
         }
       ],
       "sport": "fotbal"
@@ -787,6 +746,47 @@
           "odd": 1.52,
           "bookmaker": "Rainbet",
           "stake": 659.96
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Španělsko - Saúdská Arábie",
+      "startTime": "2026-06-21T18:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.16,
+      "sumInverse": 0.9984,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1001.6,
+      "guaranteedProfit": 1.6,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Španělsko více",
+          "odd": 1.65,
+          "bookmaker": "Tipsport",
+          "stake": 607.03
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 5.5,
+          "bookmaker": "Fortuna",
+          "stake": 182.11
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Saúdská Arábie více",
+          "odd": 4.75,
+          "bookmaker": "Fortuna",
+          "stake": 210.86
         }
       ],
       "sport": "fotbal"
