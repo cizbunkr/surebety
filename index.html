@@ -88,27 +88,34 @@
   <div class="meta" id="meta">načítám…</div>
 </header>
 
-<div class="panel">
-  <h2>Filtr</h2>
-  <div class="grp"><div class="glbl">Sporty</div><div class="row" id="sportFilter"></div></div>
-  <div class="grp"><div class="glbl">Příležitosti</div><div class="row" id="statFilter"></div></div>
-  <div class="grp"><div class="glbl">Sázkovky</div><div class="row" id="bookFilter"></div></div>
-  <div class="grp"><label class="chk"><input type="checkbox" id="onlySafe"> Jen pravé surebety (shodný dodavatel statistik)</label></div>
+<div class="bar">
+  <button class="ibtn" id="btnFilt"><span class="em">⚙</span>Filtry</button>
+  <button class="ibtn" id="btnSafe"><span class="em">🛡</span>Pravé</button>
+  <button class="ibtn" id="btnInfo" aria-label="Legenda spolehlivosti"><span class="em">ℹ️</span></button>
+  <button class="bet" id="btnBet">
+    <span class="bet-tab">BET</span>
+    <span class="bet-body"><span class="bet-amt" id="betAmt">—</span><span class="bet-sub" id="betCap">—</span></span>
+    <span class="bet-chev">▾</span>
+  </button>
 </div>
 
-<div class="panel">
-  <h2>Vklad</h2>
+<div class="panel" id="panFilt" hidden>
+  <div class="grp"><div class="glbl">Příležitosti</div><div class="row" id="statFilter"></div></div>
+  <div class="grp"><div class="glbl">Sázkovky</div><div class="row" id="bookFilter"></div></div>
+  <div class="grp"><div class="glbl">Sporty</div><div class="row" id="sportFilter"></div></div>
+</div>
+
+<div class="panel" id="panBet" hidden>
   <div class="stakes">
     <div class="field"><span>Celkový vklad na příležitost (Kč)</span><input id="total" type="number" inputmode="numeric" min="0" placeholder="1000"></div>
-    <div class="field"><span>Max vklad (Kč)</span><input id="maxStake" type="number" inputmode="numeric" min="0" placeholder="bez limitu"></div>
+    <div class="field"><span>Max vklad – strop (Kč)</span><input id="maxStake" type="number" inputmode="numeric" min="0" placeholder="bez limitu"></div>
   </div>
-  <div class="glbl" style="margin:10px 0 5px">Max vklad platí pro vybranou sázkovku:</div>
+  <div class="glbl" style="margin:10px 0 5px">Strop platí pro vybranou sázkovku:</div>
   <div class="row" id="maxBookSel"></div>
   <div class="foot">Vyber <b>jednu</b> sázkovku — strop se počítá jen pro ni (kulatá částka proti blokacím účtů). „Žádná" nebo prázdný max = bez limitu.</div>
 </div>
 
-<div class="panel legend">
-  <h2>Legenda spolehlivosti</h2>
+<div class="panel legend" id="panInfo" hidden>
   <div class="lg"><b style="color:#1ecb6b">✅ pravý surebet</b> — obě sázkovky berou statistiky od stejného dodavatele (Tipsport i Fortuna = <b>Opta</b>), čísla settlují shodně → nemůže prohrát obě nohy.</div>
   <div class="lg"><b style="color:#e06a6a">⚠️ různý dodavatel</b> — Opta vs Sportradar (cokoliv s <b>Rainbetem</b>); čísla se můžou lišit, „surebet" může být jen zdánlivý.</div>
   <div class="lg">📊 <b>variance providerů</b> (Opta vs Sportradar, MS 2026): fauly <b>56 %</b> · střely <b>44 %</b> · rohy 3 % · karty 0 % · ofsajdy 0 %. Čím vyšší %, tím větší riziko u různého dodavatele.</div>
