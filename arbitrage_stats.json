@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:55:40.360870+00:00",
+  "generatedAt": "2026-06-21T20:46:23.684323+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -22,40 +22,6 @@
     "offsides": 1
   },
   "opportunities": [
-    {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Kanada, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 5.8,
-      "sumInverse": 0.9451,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1058.05,
-      "guaranteedProfit": 58.05,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "legs": [
-        {
-          "key": "shots|team|away|over|3.5",
-          "label": "Více než 3.5 (Kanada)",
-          "odd": 1.88,
-          "bookmaker": "Fortuna",
-          "stake": 562.79
-        },
-        {
-          "key": "shots|team|away|under|3.5",
-          "label": "Méně než 3.5 (Kanada)",
-          "odd": 2.42,
-          "bookmaker": "Rainbet",
-          "stake": 437.21
-        }
-      ],
-      "sport": "fotbal"
-    },
     {
       "match": "Uruguay - Kapverdy",
       "startTime": "2026-06-22T00:00:00.000+02:00",
@@ -86,40 +52,6 @@
           "odd": 2.14,
           "bookmaker": "Rainbet",
           "stake": 491.69
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 3.52,
-      "sumInverse": 0.966,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1035.19,
-      "guaranteedProfit": 35.19,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "legs": [
-        {
-          "key": "shots|total|over|9.5",
-          "label": "Více než 9.5",
-          "odd": 2.6,
-          "bookmaker": "Fortuna",
-          "stake": 398.15
-        },
-        {
-          "key": "shots|total|under|9.5",
-          "label": "Méně než 9.5",
-          "odd": 1.72,
-          "bookmaker": "Rainbet",
-          "stake": 601.85
         }
       ],
       "sport": "fotbal"
@@ -188,40 +120,6 @@
           "odd": 2.53,
           "bookmaker": "Tipsport",
           "stake": 404.71
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 8.5",
-      "isArbitrage": true,
-      "profitPct": 2.38,
-      "sumInverse": 0.9768,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1023.79,
-      "guaranteedProfit": 23.79,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "legs": [
-        {
-          "key": "shots|total|over|8.5",
-          "label": "Více než 8.5",
-          "odd": 1.9,
-          "bookmaker": "Fortuna",
-          "stake": 538.83
-        },
-        {
-          "key": "shots|total|under|8.5",
-          "label": "Méně než 8.5",
-          "odd": 2.22,
-          "bookmaker": "Rainbet",
-          "stake": 461.17
         }
       ],
       "sport": "fotbal"
@@ -574,6 +472,74 @@
       "sport": "fotbal"
     },
     {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Kanada, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.54,
+      "sumInverse": 0.9946,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.41,
+      "guaranteedProfit": 5.41,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|3.5",
+          "label": "Více než 3.5 (Kanada)",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 584.54
+        },
+        {
+          "key": "shots|team|away|under|3.5",
+          "label": "Méně než 3.5 (Kanada)",
+          "odd": 2.42,
+          "bookmaker": "Rainbet",
+          "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "JAR - Jižní Korea",
+      "startTime": "2026-06-25T03:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — JAR, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.54,
+      "sumInverse": 0.9946,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.41,
+      "guaranteedProfit": 5.41,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|2.5",
+          "label": "Více než 2.5 (JAR)",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 584.54
+        },
+        {
+          "key": "shots|team|home|under|2.5",
+          "label": "Méně než 2.5 (JAR)",
+          "odd": 2.42,
+          "bookmaker": "Rainbet",
+          "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Uruguay - Kapverdy",
       "startTime": "2026-06-22T00:00:00.000+02:00",
       "stat": "fouls",
@@ -637,6 +603,40 @@
           "odd": 1.59,
           "bookmaker": "Rainbet",
           "stake": 629.37
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 0.01,
+      "sumInverse": 0.9999,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.1,
+      "guaranteedProfit": 0.1,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 1.82,
+          "bookmaker": "Fortuna",
+          "stake": 549.5
+        },
+        {
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 2.22,
+          "bookmaker": "Rainbet",
+          "stake": 450.5
         }
       ],
       "sport": "fotbal"
