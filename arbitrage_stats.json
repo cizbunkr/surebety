@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:13:28.238816+00:00",
+  "generatedAt": "2026-06-22T03:41:20.423376+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,47 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 7,
+  "opportunitiesFound": 10,
   "byStat": {
+    "cards": 3,
     "shots": 6,
     "fouls": 1
   },
   "opportunities": [
+    {
+      "match": "Panama - Chorvatsko",
+      "startTime": "2026-06-24T01:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 4.98,
+      "sumInverse": 0.9526,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1049.79,
+      "guaranteedProfit": 49.79,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2.41,
+          "bookmaker": "Tipsport",
+          "stake": 435.6
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.86,
+          "bookmaker": "Fortuna",
+          "stake": 564.4
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Maroko - Haiti",
       "startTime": "2026-06-25T00:00:00.000+02:00",
@@ -85,6 +120,40 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 522.28
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Panama - Chorvatsko",
+      "startTime": "2026-06-24T01:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.64,
+      "sumInverse": 0.9936,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1006.45,
+      "guaranteedProfit": 6.45,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.55,
+          "bookmaker": "Tipsport",
+          "stake": 649.32
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.87,
+          "bookmaker": "Fortuna",
+          "stake": 350.68
         }
       ],
       "sport": "fotbal"
@@ -221,6 +290,40 @@
           "odd": 2.42,
           "bookmaker": "Rainbet",
           "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Panama - Chorvatsko",
+      "startTime": "2026-06-24T01:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Chorvatsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 0.41,
+      "sumInverse": 0.9959,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1004.14,
+      "guaranteedProfit": 4.14,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (Chorvatsko)",
+          "odd": 2.24,
+          "bookmaker": "Tipsport",
+          "stake": 448.28
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (Chorvatsko)",
+          "odd": 1.82,
+          "bookmaker": "Fortuna",
+          "stake": 551.72
         }
       ],
       "sport": "fotbal"
