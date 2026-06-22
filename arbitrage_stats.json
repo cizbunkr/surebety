@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T13:23:02.969659+00:00",
+  "generatedAt": "2026-06-22T13:23:29.099045+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,9 +15,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 65,
+  "opportunitiesFound": 64,
   "byStat": {
-    "cards": 13,
+    "cards": 12,
     "fouls": 27,
     "shots": 24,
     "offsides": 1
@@ -1148,40 +1148,6 @@
           "odd": 1.44,
           "bookmaker": "Tipsport",
           "stake": 714.29
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Maroko - Haiti",
-      "startTime": "2026-06-25T00:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Maroko, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 2.77,
-      "sumInverse": 0.973,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1027.7,
-      "guaranteedProfit": 27.7,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "cards|team|home|over|1.5",
-          "label": "Více než 1.5 (Maroko)",
-          "odd": 2.94,
-          "bookmaker": "Rainbet",
-          "stake": 349.56
-        },
-        {
-          "key": "cards|team|home|under|1.5",
-          "label": "Méně než 1.5 (Maroko)",
-          "odd": 1.58,
-          "bookmaker": "Fortuna",
-          "stake": 650.44
         }
       ],
       "sport": "fotbal"
