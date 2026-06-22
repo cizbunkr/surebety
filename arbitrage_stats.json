@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T06:29:21.501685+00:00",
+  "generatedAt": "2026-06-22T06:31:24.674118+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,13 +14,838 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 8,
-  "opportunitiesFound": 2,
+  "matchesPaired": 20,
+  "opportunitiesFound": 29,
   "byStat": {
-    "fouls": 1,
-    "shots": 1
+    "cards": 11,
+    "offsides": 2,
+    "shots": 15,
+    "fouls": 1
   },
   "opportunities": [
+    {
+      "match": "Turecko - USA",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 10.27,
+      "sumInverse": 0.9069,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1102.7,
+      "guaranteedProfit": 102.7,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 2.04,
+          "bookmaker": "Rainbet",
+          "stake": 540.54
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.4,
+          "bookmaker": "Fortuna",
+          "stake": 459.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Švédsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 8.43,
+      "sumInverse": 0.9222,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1084.34,
+      "guaranteedProfit": 84.34,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Švédsko)",
+          "odd": 1.85,
+          "bookmaker": "Fortuna",
+          "stake": 586.13
+        },
+        {
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Švédsko)",
+          "odd": 2.62,
+          "bookmaker": "Rainbet",
+          "stake": 413.87
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - USA",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 7.55,
+      "sumInverse": 0.9298,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1075.52,
+      "guaranteedProfit": 75.52,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 3.2,
+          "bookmaker": "Rainbet",
+          "stake": 336.1
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.62,
+          "bookmaker": "Fortuna",
+          "stake": 663.9
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Curacao - Pobřeží slonoviny",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Curacao, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 5.94,
+      "sumInverse": 0.9439,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1059.44,
+      "guaranteedProfit": 59.44,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|1.5",
+          "label": "Více než 1.5 (Curacao)",
+          "odd": 1.65,
+          "bookmaker": "Fortuna",
+          "stake": 642.08
+        },
+        {
+          "key": "shots|team|home|under|1.5",
+          "label": "Méně než 1.5 (Curacao)",
+          "odd": 2.96,
+          "bookmaker": "Rainbet",
+          "stake": 357.92
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - USA",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Turecko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 5.42,
+      "sumInverse": 0.9486,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1054.21,
+      "guaranteedProfit": 54.21,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|team|home|over|1.5",
+          "label": "Více než 1.5 (Turecko)",
+          "odd": 2.4,
+          "bookmaker": "Rainbet",
+          "stake": 439.25
+        },
+        {
+          "key": "cards|team|home|under|1.5",
+          "label": "Méně než 1.5 (Turecko)",
+          "odd": 1.88,
+          "bookmaker": "Fortuna",
+          "stake": 560.75
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - USA",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 5.34,
+      "sumInverse": 0.9493,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1053.4,
+      "guaranteedProfit": 53.4,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|1.5",
+          "label": "Více než 1.5",
+          "odd": 1.39,
+          "bookmaker": "Rainbet",
+          "stake": 757.84
+        },
+        {
+          "key": "cards|total|under|1.5",
+          "label": "Méně než 1.5",
+          "odd": 4.35,
+          "bookmaker": "Fortuna",
+          "stake": 242.16
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Švédsko, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 4.45,
+      "sumInverse": 0.9574,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1044.55,
+      "guaranteedProfit": 44.55,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|3.5",
+          "label": "Více než 3.5 (Švédsko)",
+          "odd": 1.9,
+          "bookmaker": "Fortuna",
+          "stake": 549.76
+        },
+        {
+          "key": "shots|team|away|under|3.5",
+          "label": "Méně než 3.5 (Švédsko)",
+          "odd": 2.32,
+          "bookmaker": "Rainbet",
+          "stake": 450.24
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Tunisko - Nizozemsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Tunisko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 4.27,
+      "sumInverse": 0.959,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1042.73,
+      "guaranteedProfit": 42.73,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|1.5",
+          "label": "Více než 1.5 (Tunisko)",
+          "odd": 1.75,
+          "bookmaker": "Fortuna",
+          "stake": 595.84
+        },
+        {
+          "key": "shots|team|home|under|1.5",
+          "label": "Méně než 1.5 (Tunisko)",
+          "odd": 2.58,
+          "bookmaker": "Rainbet",
+          "stake": 404.16
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Ekvádor - Německo",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Německo, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 3.27,
+      "sumInverse": 0.9683,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1032.74,
+      "guaranteedProfit": 32.74,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|4.5",
+          "label": "Více než 4.5 (Německo)",
+          "odd": 1.78,
+          "bookmaker": "Fortuna",
+          "stake": 580.19
+        },
+        {
+          "key": "shots|team|away|under|4.5",
+          "label": "Méně než 4.5 (Německo)",
+          "odd": 2.46,
+          "bookmaker": "Rainbet",
+          "stake": 419.81
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Paraguay - Austrálie",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 3.24,
+      "sumInverse": 0.9686,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1032.45,
+      "guaranteedProfit": 32.45,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2.08,
+          "bookmaker": "Rainbet",
+          "stake": 496.37
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 2.05,
+          "bookmaker": "Fortuna",
+          "stake": 503.63
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Paraguay - Austrálie",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Austrálie, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 3.18,
+      "sumInverse": 0.9692,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1031.83,
+      "guaranteedProfit": 31.83,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|3.5",
+          "label": "Více než 3.5 (Austrálie)",
+          "odd": 2.4,
+          "bookmaker": "Fortuna",
+          "stake": 429.93
+        },
+        {
+          "key": "shots|team|away|under|3.5",
+          "label": "Méně než 3.5 (Austrálie)",
+          "odd": 1.81,
+          "bookmaker": "Rainbet",
+          "stake": 570.07
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 2.93,
+      "sumInverse": 0.9715,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1029.3,
+      "guaranteedProfit": 29.3,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2.52,
+          "bookmaker": "Rainbet",
+          "stake": 408.45
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.74,
+          "bookmaker": "Fortuna",
+          "stake": 591.55
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Turecko - USA",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — USA, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 2.88,
+      "sumInverse": 0.972,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1028.79,
+      "guaranteedProfit": 28.79,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (USA)",
+          "odd": 2.56,
+          "bookmaker": "Rainbet",
+          "stake": 401.87
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (USA)",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 598.13
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 2.73,
+      "sumInverse": 0.9734,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1027.33,
+      "guaranteedProfit": 27.33,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.69,
+          "bookmaker": "Rainbet",
+          "stake": 607.89
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.62,
+          "bookmaker": "Fortuna",
+          "stake": 392.11
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Paraguay - Austrálie",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 2.63,
+      "sumInverse": 0.9744,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1026.32,
+      "guaranteedProfit": 26.32,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.5,
+          "bookmaker": "Rainbet",
+          "stake": 684.21
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 3.25,
+          "bookmaker": "Fortuna",
+          "stake": 315.79
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Curacao - Pobřeží slonoviny",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 2.55,
+      "sumInverse": 0.9751,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1025.54,
+      "guaranteedProfit": 25.54,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 596.24
+        },
+        {
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 2.54,
+          "bookmaker": "Rainbet",
+          "stake": 403.76
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Curacao - Pobřeží slonoviny",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 2.52,
+      "sumInverse": 0.9754,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1025.24,
+      "guaranteedProfit": 25.24,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|total|over|9.5",
+          "label": "Více než 9.5",
+          "odd": 2.2,
+          "bookmaker": "Fortuna",
+          "stake": 466.02
+        },
+        {
+          "key": "shots|total|under|9.5",
+          "label": "Méně než 9.5",
+          "odd": 1.92,
+          "bookmaker": "Rainbet",
+          "stake": 533.98
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Švédsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 2.44,
+      "sumInverse": 0.9762,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1024.39,
+      "guaranteedProfit": 24.39,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (Švédsko)",
+          "odd": 2.0,
+          "bookmaker": "Rainbet",
+          "stake": 512.2
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (Švédsko)",
+          "odd": 2.1,
+          "bookmaker": "Fortuna",
+          "stake": 487.8
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Maroko, hranice 5.5",
+      "isArbitrage": true,
+      "profitPct": 2.12,
+      "sumInverse": 0.9792,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1021.24,
+      "guaranteedProfit": 21.24,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|5.5",
+          "label": "Více než 5.5 (Maroko)",
+          "odd": 1.87,
+          "bookmaker": "Rainbet",
+          "stake": 546.12
+        },
+        {
+          "key": "shots|team|home|under|5.5",
+          "label": "Méně než 5.5 (Maroko)",
+          "odd": 2.25,
+          "bookmaker": "Fortuna",
+          "stake": 453.88
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Japonsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 2.03,
+      "sumInverse": 0.9801,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1020.29,
+      "guaranteedProfit": 20.29,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "offsides|team|home|over|1.5",
+          "label": "Více než 1.5 (Japonsko)",
+          "odd": 2.14,
+          "bookmaker": "Rainbet",
+          "stake": 476.77
+        },
+        {
+          "key": "offsides|team|home|under|1.5",
+          "label": "Méně než 1.5 (Japonsko)",
+          "odd": 1.95,
+          "bookmaker": "Fortuna",
+          "stake": 523.23
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Ekvádor - Německo",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Kdo víc — střely na branku (1x2)",
+      "isArbitrage": true,
+      "profitPct": 1.96,
+      "sumInverse": 0.9807,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1019.64,
+      "guaranteedProfit": 19.64,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|1x2|home",
+          "label": "Ekvádor více",
+          "odd": 4.2,
+          "bookmaker": "Rainbet",
+          "stake": 242.77
+        },
+        {
+          "key": "shots|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 8.5,
+          "bookmaker": "Fortuna",
+          "stake": 119.96
+        },
+        {
+          "key": "shots|1x2|away",
+          "label": "Německo více",
+          "odd": 1.6,
+          "bookmaker": "Fortuna",
+          "stake": 637.27
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Paraguay - Austrálie",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Austrálie, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 1.6,
+      "sumInverse": 0.9842,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1016.02,
+      "guaranteedProfit": 16.02,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (Austrálie)",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 558.25
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (Austrálie)",
+          "odd": 2.3,
+          "bookmaker": "Fortuna",
+          "stake": 441.75
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Paraguay - Austrálie",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 7.5",
+      "isArbitrage": true,
+      "profitPct": 0.96,
+      "sumInverse": 0.9905,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1009.59,
+      "guaranteedProfit": 9.59,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|total|over|7.5",
+          "label": "Více než 7.5",
+          "odd": 2.35,
+          "bookmaker": "Fortuna",
+          "stake": 429.61
+        },
+        {
+          "key": "shots|total|under|7.5",
+          "label": "Méně než 7.5",
+          "odd": 1.77,
+          "bookmaker": "Rainbet",
+          "stake": 570.39
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Paraguay - Austrálie",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 6.5",
+      "isArbitrage": true,
+      "profitPct": 0.85,
+      "sumInverse": 0.9916,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1008.47,
+      "guaranteedProfit": 8.47,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|total|over|6.5",
+          "label": "Více než 6.5",
+          "odd": 1.75,
+          "bookmaker": "Fortuna",
+          "stake": 576.27
+        },
+        {
+          "key": "shots|total|under|6.5",
+          "label": "Méně než 6.5",
+          "odd": 2.38,
+          "bookmaker": "Rainbet",
+          "stake": 423.73
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Kolumbie - DR Kongo",
       "startTime": "2026-06-24T04:00:00.000+02:00",
@@ -85,6 +910,108 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 521.09
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 0.57,
+      "sumInverse": 0.9943,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.71,
+      "guaranteedProfit": 5.71,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 1.93,
+          "bookmaker": "Rainbet",
+          "stake": 521.09
+        },
+        {
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 2.1,
+          "bookmaker": "Fortuna",
+          "stake": 478.91
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Kanada, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.54,
+      "sumInverse": 0.9946,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.41,
+      "guaranteedProfit": 5.41,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|3.5",
+          "label": "Více než 3.5 (Kanada)",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 584.54
+        },
+        {
+          "key": "shots|team|away|under|3.5",
+          "label": "Méně než 3.5 (Kanada)",
+          "odd": 2.42,
+          "bookmaker": "Rainbet",
+          "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 0.01,
+      "sumInverse": 0.9999,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.1,
+      "guaranteedProfit": 0.1,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 1.82,
+          "bookmaker": "Fortuna",
+          "stake": 549.5
+        },
+        {
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 2.22,
+          "bookmaker": "Rainbet",
+          "stake": 450.5
         }
       ],
       "sport": "fotbal"
