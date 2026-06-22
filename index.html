@@ -159,7 +159,8 @@
 
 <div class="panel legend" id="panInfo" hidden>
   <div class="lg"><b style="color:#2BD46D">💚 reálný surebet</b> — obě sázkovky berou statistiky od stejného dodavatele (Tipsport i Fortuna = <b>Opta</b>), čísla settlují shodně → nemůže prohrát obě nohy.</div>
-  <div class="lg"><b style="color:#e06a6a">⚠️ různý dodavatel</b> — Opta vs Sportradar (cokoliv s <b>Rainbetem</b>); čísla se můžou lišit, „surebet" může být jen zdánlivý.</div>
+  <div class="lg"><b style="color:#1FC8DE">🛡 bias-chráněno</b> — různý dodavatel, ale OVER je na knize, jejíž provider danou statistiku pravidelně počítá <b>výš</b> (fauly: Opta výš → OVER Fortuna/Tipsport; střely: Sportradar výš → OVER Rainbet). Rozdíl providerů pak hraje pro tebe. Filtr „Reálné" je zahrnuje.</div>
+  <div class="lg"><b style="color:#e06a6a">⚠️ různý dodavatel</b> — Opta vs Sportradar (cokoliv s <b>Rainbetem</b>) bez ochranné orientace; čísla se můžou lišit, „surebet" může být jen zdánlivý.</div>
   <div class="lg">📊 <b>variance providerů</b> (Opta vs Sportradar, MS 2026): fauly <b>56 %</b> · střely <b>44 %</b> · rohy 3 % · karty 0 % · ofsajdy 0 %. Čím vyšší %, tím větší riziko u různého dodavatele.</div>
 </div>
 
@@ -206,10 +207,19 @@ function fmtDate(iso) { if (!iso) return ""; const d = new Date(iso); return d.t
 
 // spolehlivost statistiky napříč dodavateli (Opta vs Sportradar, naměřeno na MS 2026).
 // Variance hraje roli JEN když surebet kombinuje RŮZNÉ dodavatele — u shodného dodavatele jsou čísla totožná.
+function provHtml(o) {
+  if (o.providerSafe === true) return `<div class="prov ok">✅ ${o.providerNote || ''}</div>`;
+  if (o.biasProtected === true) return `<div class="prov ok">🛡 ${o.biasNote || 'bias-chráněno — různý dodavatel, ale orientováno ve tvůj prospěch'}</div>`;
+  if (o.providerSafe === false) return `<div class="prov bad">⚠️ ${o.providerNote || ''}</div>`;
+  return `<div class="prov warn">❓ ${o.providerNote || ''}</div>`;
+}
+
 function statRelHtml(o) {
   if (o.providerSafe === true)
     return `<div class="statrel muted">📊 shodný dodavatel → statistika settluje stejně, variance nehraje roli</div>`;
   const p = o.statDiffPct;
+  if (o.biasProtected === true)
+    return `<div class="statrel muted">📊 ${o.stat} se jinak liší v ${p} % zápasů, ale rozdíl je orientován ve tvůj prospěch (OVER na výš-počítající knize)</div>`;
   if (p == null) return "";
   if (p === 0)
     return `<div class="statrel ok">📊 ${o.stat}: Opta i Sportradar settlují shodně (0 % rozdílů na MS 2026)</div>`;
@@ -322,8 +332,8 @@ function renderList() {
     settings.sports[o.sport || "fotbal"] !== false &&
     settings.stats[o.stat] !== false &&
     o.legs.every(l => settings.books[l.bookmaker] !== false) &&
-    (!settings.onlySafe || o.providerSafe === true));
-  const nTrue = opps.filter(o => o.providerSafe === true).length;
+    (!settings.onlySafe || o.providerSafe === true || o.biasProtected === true));
+  const nTrue = opps.filter(o => o.providerSafe === true || o.biasProtected === true).length;
   document.getElementById("meta").textContent =
     `aktualizováno ${fmtDate(DATA.generatedAt)} · ${opps.length} zobrazeno (${nTrue} reálných) / ${DATA.opportunitiesFound || 0} · ${DATA.matchesPaired || 0} spárováno`;
 
@@ -342,7 +352,7 @@ function renderList() {
         <div class="profit">+${o.profitPct}%</div>
       </div>
       <div class="legs">${legsHtml}</div>
-      <div class="prov ${o.providerSafe===true?'ok':(o.providerSafe===false?'bad':'warn')}">${o.providerSafe===true?'✅':(o.providerSafe===false?'⚠️':'❓')} ${o.providerNote||''}</div>
+      ${provHtml(o)}
       ${statRelHtml(o)}
       <div class="foot">vklad ${Math.round(c.T)} ${DATA.currency} → zisk ${Math.round(c.profit)} ${DATA.currency}${c.capped.some(x => x) ? " · žlutě = omezeno stropem sázkovky" : ""}</div>
     </div>`;
