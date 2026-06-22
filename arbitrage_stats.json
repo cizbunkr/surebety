@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T09:32:16.141014+00:00",
+  "generatedAt": "2026-06-22T09:32:42.825559+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -813,40 +813,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 1.03,
-      "sumInverse": 0.9898,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1010.27,
-      "guaranteedProfit": 10.27,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "cards|total|over|2.5",
-          "label": "Více než 2.5",
-          "odd": 1.75,
-          "bookmaker": "Rainbet",
-          "stake": 577.29
-        },
-        {
-          "key": "cards|total|under|2.5",
-          "label": "Méně než 2.5",
-          "odd": 2.39,
-          "bookmaker": "Fortuna",
-          "stake": 422.71
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "shots",
@@ -952,32 +918,32 @@
       "match": "Švýcarsko - Kanada",
       "startTime": "2026-06-24T21:00:00.000+02:00",
       "stat": "cards",
-      "market": "Počet — žluté karty, hranice 3.5",
+      "market": "Počet — žluté karty, hranice 2.5",
       "isArbitrage": true,
-      "profitPct": 0.68,
-      "sumInverse": 0.9932,
+      "profitPct": 0.69,
+      "sumInverse": 0.9931,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1006.82,
-      "guaranteedProfit": 6.82,
+      "guaranteedReturn": 1006.92,
+      "guaranteedProfit": 6.92,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "žádná",
       "statDiffPct": 0.0,
       "legs": [
         {
-          "key": "cards|total|over|3.5",
-          "label": "Více než 3.5",
-          "odd": 2.66,
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.74,
           "bookmaker": "Rainbet",
-          "stake": 378.5
+          "stake": 578.69
         },
         {
-          "key": "cards|total|under|3.5",
-          "label": "Méně než 3.5",
-          "odd": 1.62,
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.39,
           "bookmaker": "Fortuna",
-          "stake": 621.5
+          "stake": 421.31
         }
       ],
       "sport": "fotbal"
@@ -1080,6 +1046,40 @@
           "odd": 2.42,
           "bookmaker": "Rainbet",
           "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.1,
+      "sumInverse": 0.999,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1001.04,
+      "guaranteedProfit": 1.04,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2.62,
+          "bookmaker": "Rainbet",
+          "stake": 382.08
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.62,
+          "bookmaker": "Fortuna",
+          "stake": 617.92
         }
       ],
       "sport": "fotbal"
