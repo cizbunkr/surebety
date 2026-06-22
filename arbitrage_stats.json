@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T11:34:36.133013+00:00",
+  "generatedAt": "2026-06-22T11:36:36.849774+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -1704,40 +1704,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 1.71,
-      "sumInverse": 0.9832,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1017.09,
-      "guaranteedProfit": 17.09,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "cards|total|over|2.5",
-          "label": "Více než 2.5",
-          "odd": 1.71,
-          "bookmaker": "Rainbet",
-          "stake": 594.79
-        },
-        {
-          "key": "cards|total|under|2.5",
-          "label": "Méně než 2.5",
-          "odd": 2.51,
-          "bookmaker": "Tipsport",
-          "stake": 405.21
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "cards",
@@ -2182,6 +2148,40 @@
           "odd": 2.56,
           "bookmaker": "Rainbet",
           "stake": 391.8
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.28,
+      "sumInverse": 0.9972,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1002.8,
+      "guaranteedProfit": 2.8,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.67,
+          "bookmaker": "Rainbet",
+          "stake": 600.48
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.51,
+          "bookmaker": "Tipsport",
+          "stake": 399.52
         }
       ],
       "sport": "fotbal"
