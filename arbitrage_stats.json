@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T15:12:19.809444+00:00",
+  "generatedAt": "2026-06-22T15:14:19.745915+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,9 +15,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 22,
-  "opportunitiesFound": 73,
+  "opportunitiesFound": 75,
   "byStat": {
-    "cards": 13,
+    "cards": 15,
     "fouls": 32,
     "shots": 25,
     "offsides": 1,
@@ -1460,6 +1460,40 @@
       "sport": "fotbal"
     },
     {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 1.96,
+      "sumInverse": 0.9808,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1019.63,
+      "guaranteedProfit": 19.63,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 4.6,
+          "bookmaker": "Tipsport",
+          "stake": 221.66
+        },
+        {
+          "key": "cards|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.31,
+          "bookmaker": "Fortuna",
+          "stake": 778.34
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Ekvádor - Německo",
       "startTime": "2026-06-25T22:00:00.000+02:00",
       "stat": "shots",
@@ -1564,6 +1598,40 @@
           "odd": 1.9,
           "bookmaker": "Fortuna",
           "stake": 535.45
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 1.64,
+      "sumInverse": 0.9839,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1016.39,
+      "guaranteedProfit": 16.39,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2.55,
+          "bookmaker": "Tipsport",
+          "stake": 398.58
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.69,
+          "bookmaker": "Fortuna",
+          "stake": 601.42
         }
       ],
       "sport": "fotbal"
