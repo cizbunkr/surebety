@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T07:53:38.845574+00:00",
+  "generatedAt": "2026-06-22T07:55:38.913783+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -190,40 +190,6 @@
           "odd": 4.35,
           "bookmaker": "Fortuna",
           "stake": 242.16
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Japonsko - Švédsko",
-      "startTime": "2026-06-26T01:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Švédsko, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 4.45,
-      "sumInverse": 0.9574,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1044.55,
-      "guaranteedProfit": 44.55,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "legs": [
-        {
-          "key": "shots|team|away|over|3.5",
-          "label": "Více než 3.5 (Švédsko)",
-          "odd": 1.9,
-          "bookmaker": "Fortuna",
-          "stake": 549.76
-        },
-        {
-          "key": "shots|team|away|under|3.5",
-          "label": "Méně než 3.5 (Švédsko)",
-          "odd": 2.32,
-          "bookmaker": "Rainbet",
-          "stake": 450.24
         }
       ],
       "sport": "fotbal"
@@ -843,6 +809,40 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 522.28
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Švédsko, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.72,
+      "sumInverse": 0.9928,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1007.22,
+      "guaranteedProfit": 7.22,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|3.5",
+          "label": "Více než 3.5 (Švédsko)",
+          "odd": 1.78,
+          "bookmaker": "Fortuna",
+          "stake": 565.85
+        },
+        {
+          "key": "shots|team|away|under|3.5",
+          "label": "Méně než 3.5 (Švédsko)",
+          "odd": 2.32,
+          "bookmaker": "Rainbet",
+          "stake": 434.15
         }
       ],
       "sport": "fotbal"
