@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T14:30:08.844392+00:00",
+  "generatedAt": "2026-06-22T14:34:21.489974+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -14,7 +14,7 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 20,
+  "matchesPaired": 22,
   "opportunitiesFound": 64,
   "byStat": {
     "cards": 13,
@@ -1977,6 +1977,40 @@
       "sport": "fotbal"
     },
     {
+      "match": "Argentina - Rakousko",
+      "startTime": "2026-06-22T19:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Handicap rohy (-2.5)",
+      "isArbitrage": true,
+      "profitPct": 0.59,
+      "sumInverse": 0.9942,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.88,
+      "guaranteedProfit": 5.88,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "nízká",
+      "statDiffPct": 2.9,
+      "legs": [
+        {
+          "key": "corners|handicap|home|-2.5",
+          "label": "Argentina (-2.5)",
+          "odd": 2.33,
+          "bookmaker": "Tipsport",
+          "stake": 431.71
+        },
+        {
+          "key": "corners|handicap|away|2.5",
+          "label": "Rakousko (+2.5)",
+          "odd": 1.77,
+          "bookmaker": "Fortuna",
+          "stake": 568.29
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Švýcarsko - Kanada",
       "startTime": "2026-06-24T21:00:00.000+02:00",
       "stat": "shots",
@@ -2040,40 +2074,6 @@
           "odd": 2.24,
           "bookmaker": "Tipsport",
           "stake": 448.28
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Argentina - Rakousko",
-      "startTime": "2026-06-22T19:00:00.000+02:00",
-      "stat": "corners",
-      "market": "Handicap rohy (-2.5)",
-      "isArbitrage": true,
-      "profitPct": 0.4,
-      "sumInverse": 0.996,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.01,
-      "guaranteedProfit": 4.01,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "nízká",
-      "statDiffPct": 2.9,
-      "legs": [
-        {
-          "key": "corners|handicap|home|-2.5",
-          "label": "Argentina (-2.5)",
-          "odd": 2.32,
-          "bookmaker": "Tipsport",
-          "stake": 432.76
-        },
-        {
-          "key": "corners|handicap|away|2.5",
-          "label": "Rakousko (+2.5)",
-          "odd": 1.77,
-          "bookmaker": "Fortuna",
-          "stake": 567.24
         }
       ],
       "sport": "fotbal"
