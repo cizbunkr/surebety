@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T09:51:04.377824+00:00",
+  "generatedAt": "2026-06-22T10:10:55.423062+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,10 +15,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 32,
+  "opportunitiesFound": 36,
   "byStat": {
     "cards": 14,
-    "shots": 16,
+    "shots": 20,
     "offsides": 1,
     "fouls": 1
   },
@@ -194,6 +194,40 @@
       "sport": "fotbal"
     },
     {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Maroko, hranice 6.5",
+      "isArbitrage": true,
+      "profitPct": 4.86,
+      "sumInverse": 0.9537,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1048.59,
+      "guaranteedProfit": 48.59,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|6.5",
+          "label": "Více než 6.5 (Maroko)",
+          "odd": 2.79,
+          "bookmaker": "Tipsport",
+          "stake": 375.84
+        },
+        {
+          "key": "shots|team|home|under|6.5",
+          "label": "Méně než 6.5 (Maroko)",
+          "odd": 1.68,
+          "bookmaker": "Fortuna",
+          "stake": 624.16
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Tunisko - Nizozemsko",
       "startTime": "2026-06-26T01:00:00.000+02:00",
       "stat": "shots",
@@ -223,6 +257,40 @@
           "odd": 2.58,
           "bookmaker": "Rainbet",
           "stake": 404.16
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Maroko, hranice 5.5",
+      "isArbitrage": true,
+      "profitPct": 3.89,
+      "sumInverse": 0.9626,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1038.88,
+      "guaranteedProfit": 38.88,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|5.5",
+          "label": "Více než 5.5 (Maroko)",
+          "odd": 1.93,
+          "bookmaker": "Tipsport",
+          "stake": 538.28
+        },
+        {
+          "key": "shots|team|home|under|5.5",
+          "label": "Méně než 5.5 (Maroko)",
+          "odd": 2.25,
+          "bookmaker": "Fortuna",
+          "stake": 461.72
         }
       ],
       "sport": "fotbal"
@@ -704,40 +772,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Maroko - Haiti",
-      "startTime": "2026-06-25T00:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Maroko, hranice 5.5",
-      "isArbitrage": true,
-      "profitPct": 2.12,
-      "sumInverse": 0.9792,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1021.24,
-      "guaranteedProfit": 21.24,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "legs": [
-        {
-          "key": "shots|team|home|over|5.5",
-          "label": "Více než 5.5 (Maroko)",
-          "odd": 1.87,
-          "bookmaker": "Rainbet",
-          "stake": 546.12
-        },
-        {
-          "key": "shots|team|home|under|5.5",
-          "label": "Méně než 5.5 (Maroko)",
-          "odd": 2.25,
-          "bookmaker": "Fortuna",
-          "stake": 453.88
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Ekvádor - Německo",
       "startTime": "2026-06-25T22:00:00.000+02:00",
       "stat": "shots",
@@ -949,6 +983,40 @@
       "sport": "fotbal"
     },
     {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Haiti, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.95,
+      "sumInverse": 0.9906,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1009.46,
+      "guaranteedProfit": 9.46,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|2.5",
+          "label": "Více než 2.5 (Haiti)",
+          "odd": 1.88,
+          "bookmaker": "Fortuna",
+          "stake": 536.95
+        },
+        {
+          "key": "shots|team|away|under|2.5",
+          "label": "Méně než 2.5 (Haiti)",
+          "odd": 2.18,
+          "bookmaker": "Tipsport",
+          "stake": 463.05
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "shots",
@@ -1012,6 +1080,40 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 522.28
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.68,
+      "sumInverse": 0.9932,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1006.82,
+      "guaranteedProfit": 6.82,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2.66,
+          "bookmaker": "Rainbet",
+          "stake": 378.5
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.62,
+          "bookmaker": "Fortuna",
+          "stake": 621.5
         }
       ],
       "sport": "fotbal"
@@ -1085,35 +1187,69 @@
       "sport": "fotbal"
     },
     {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 3.5",
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 9.5",
       "isArbitrage": true,
-      "profitPct": 0.1,
-      "sumInverse": 0.999,
+      "profitPct": 0.49,
+      "sumInverse": 0.9952,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1001.04,
-      "guaranteedProfit": 1.04,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
+      "guaranteedReturn": 1004.86,
+      "guaranteedProfit": 4.86,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "legs": [
         {
-          "key": "cards|total|over|3.5",
-          "label": "Více než 3.5",
-          "odd": 2.62,
-          "bookmaker": "Rainbet",
-          "stake": 382.08
+          "key": "shots|total|over|9.5",
+          "label": "Více než 9.5",
+          "odd": 2.57,
+          "bookmaker": "Tipsport",
+          "stake": 391.0
         },
         {
-          "key": "cards|total|under|3.5",
-          "label": "Méně než 3.5",
-          "odd": 1.62,
+          "key": "shots|total|under|9.5",
+          "label": "Méně než 9.5",
+          "odd": 1.65,
           "bookmaker": "Fortuna",
-          "stake": 617.92
+          "stake": 609.0
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Maroko - Haiti",
+      "startTime": "2026-06-25T00:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Maroko, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 0.25,
+      "sumInverse": 0.9975,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1002.53,
+      "guaranteedProfit": 2.53,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|4.5",
+          "label": "Více než 4.5 (Maroko)",
+          "odd": 1.44,
+          "bookmaker": "Tipsport",
+          "stake": 696.2
+        },
+        {
+          "key": "shots|team|home|under|4.5",
+          "label": "Méně než 4.5 (Maroko)",
+          "odd": 3.3,
+          "bookmaker": "Fortuna",
+          "stake": 303.8
         }
       ],
       "sport": "fotbal"
