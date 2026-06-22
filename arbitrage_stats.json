@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T11:00:42.873836+00:00",
+  "generatedAt": "2026-06-22T11:02:35.633871+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,13 +15,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 67,
+  "opportunitiesFound": 66,
   "byStat": {
     "cards": 14,
     "fouls": 26,
     "shots": 25,
-    "offsides": 1,
-    "corners": 1
+    "offsides": 1
   },
   "opportunities": [
     {
@@ -741,6 +740,74 @@
           "odd": 2.18,
           "bookmaker": "Rainbet",
           "stake": 475.96
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Bosna Hercegovina - Katar",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 27.5",
+      "isArbitrage": true,
+      "profitPct": 3.69,
+      "sumInverse": 0.9644,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1036.93,
+      "guaranteedProfit": 36.93,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "legs": [
+        {
+          "key": "fouls|total|over|27.5",
+          "label": "Více než 27.5",
+          "odd": 2.41,
+          "bookmaker": "Tipsport",
+          "stake": 430.26
+        },
+        {
+          "key": "fouls|total|under|27.5",
+          "label": "Méně než 27.5",
+          "odd": 1.82,
+          "bookmaker": "Rainbet",
+          "stake": 569.74
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Bosna Hercegovina - Katar",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 26.5",
+      "isArbitrage": true,
+      "profitPct": 3.44,
+      "sumInverse": 0.9667,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1034.4,
+      "guaranteedProfit": 34.4,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "legs": [
+        {
+          "key": "fouls|total|over|26.5",
+          "label": "Více než 26.5",
+          "odd": 2.02,
+          "bookmaker": "Tipsport",
+          "stake": 512.08
+        },
+        {
+          "key": "fouls|total|under|26.5",
+          "label": "Méně než 26.5",
+          "odd": 2.12,
+          "bookmaker": "Rainbet",
+          "stake": 487.92
         }
       ],
       "sport": "fotbal"
@@ -1739,40 +1806,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Bosna Hercegovina - Katar",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 27.5",
-      "isArbitrage": true,
-      "profitPct": 1.21,
-      "sumInverse": 0.988,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1012.1,
-      "guaranteedProfit": 12.1,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "legs": [
-        {
-          "key": "fouls|total|over|27.5",
-          "label": "Více než 27.5",
-          "odd": 2.28,
-          "bookmaker": "Tipsport",
-          "stake": 443.9
-        },
-        {
-          "key": "fouls|total|under|27.5",
-          "label": "Méně než 27.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 556.1
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Skotsko - Brazílie",
       "startTime": "2026-06-25T00:00:00.000+02:00",
       "stat": "fouls",
@@ -1904,40 +1937,6 @@
           "odd": 1.72,
           "bookmaker": "Rainbet",
           "stake": 587.53
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Kanada, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 1.06,
-      "sumInverse": 0.9896,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1010.55,
-      "guaranteedProfit": 10.55,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "legs": [
-        {
-          "key": "shots|team|away|over|3.5",
-          "label": "Více než 3.5 (Kanada)",
-          "odd": 1.72,
-          "bookmaker": "Fortuna",
-          "stake": 587.53
-        },
-        {
-          "key": "shots|team|away|under|3.5",
-          "label": "Méně než 3.5 (Kanada)",
-          "odd": 2.45,
-          "bookmaker": "Tipsport",
-          "stake": 412.47
         }
       ],
       "sport": "fotbal"
@@ -2079,40 +2078,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Bosna Hercegovina - Katar",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 26.5",
-      "isArbitrage": true,
-      "profitPct": 0.75,
-      "sumInverse": 0.9925,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1007.52,
-      "guaranteedProfit": 7.52,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "legs": [
-        {
-          "key": "fouls|total|over|26.5",
-          "label": "Více než 26.5",
-          "odd": 1.92,
-          "bookmaker": "Tipsport",
-          "stake": 524.75
-        },
-        {
-          "key": "fouls|total|under|26.5",
-          "label": "Méně než 26.5",
-          "odd": 2.12,
-          "bookmaker": "Rainbet",
-          "stake": 475.25
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Skotsko - Brazílie",
       "startTime": "2026-06-25T00:00:00.000+02:00",
       "stat": "fouls",
@@ -2215,6 +2180,40 @@
       "sport": "fotbal"
     },
     {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Kanada, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.54,
+      "sumInverse": 0.9946,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.41,
+      "guaranteedProfit": 5.41,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|away|over|3.5",
+          "label": "Více než 3.5 (Kanada)",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 584.54
+        },
+        {
+          "key": "shots|team|away|under|3.5",
+          "label": "Méně než 3.5 (Kanada)",
+          "odd": 2.42,
+          "bookmaker": "Rainbet",
+          "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "JAR - Jižní Korea",
       "startTime": "2026-06-25T03:00:00.000+02:00",
       "stat": "fouls",
@@ -2251,40 +2250,6 @@
           "odd": 2.56,
           "bookmaker": "Rainbet",
           "stake": 391.8
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Portugalsko - Uzbekistán",
-      "startTime": "2026-06-23T19:00:00.000+02:00",
-      "stat": "corners",
-      "market": "Handicap rohy (-4.5)",
-      "isArbitrage": true,
-      "profitPct": 0.08,
-      "sumInverse": 0.9992,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1000.78,
-      "guaranteedProfit": 0.78,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "nízká",
-      "statDiffPct": 2.9,
-      "legs": [
-        {
-          "key": "corners|handicap|home|-4.5",
-          "label": "Portugalsko (-4.5)",
-          "odd": 2.32,
-          "bookmaker": "Fortuna",
-          "stake": 431.37
-        },
-        {
-          "key": "corners|handicap|away|4.5",
-          "label": "Uzbekistán (+4.5)",
-          "odd": 1.76,
-          "bookmaker": "Tipsport",
-          "stake": 568.63
         }
       ],
       "sport": "fotbal"
