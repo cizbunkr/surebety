@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:51:30.520275+00:00",
+  "generatedAt": "2026-06-22T17:53:30.824192+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -257,40 +257,6 @@
           "odd": 2.58,
           "bookmaker": "Rainbet",
           "stake": 404.16
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Jordánsko - Alžírsko",
-      "startTime": "2026-06-23T05:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Alžírsko, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 4.09,
-      "sumInverse": 0.9607,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1040.94,
-      "guaranteedProfit": 40.94,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Alžírsko)",
-          "odd": 1.65,
-          "bookmaker": "Fortuna",
-          "stake": 630.87
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Alžírsko)",
-          "odd": 2.82,
-          "bookmaker": "Rainbet",
-          "stake": 369.13
         }
       ],
       "sport": "fotbal"
@@ -563,6 +529,40 @@
           "odd": 2.18,
           "bookmaker": "Rainbet",
           "stake": 472.15
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Jordánsko - Alžírsko",
+      "startTime": "2026-06-23T05:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Alžírsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 2.89,
+      "sumInverse": 0.9719,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1028.92,
+      "guaranteedProfit": 28.92,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Alžírsko)",
+          "odd": 1.62,
+          "bookmaker": "Fortuna",
+          "stake": 635.14
+        },
+        {
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Alžírsko)",
+          "odd": 2.82,
+          "bookmaker": "Rainbet",
+          "stake": 364.86
         }
       ],
       "sport": "fotbal"
