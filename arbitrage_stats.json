@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T15:30:25.987313+00:00",
+  "generatedAt": "2026-06-22T15:32:27.886840+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -360,6 +360,40 @@
           "odd": 4.35,
           "bookmaker": "Fortuna",
           "stake": 242.16
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Paraguay - Austrálie",
+      "startTime": "2026-06-26T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Austrálie, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 5.24,
+      "sumInverse": 0.9502,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1052.36,
+      "guaranteedProfit": 52.36,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (Austrálie)",
+          "odd": 1.94,
+          "bookmaker": "Rainbet",
+          "stake": 542.45
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (Austrálie)",
+          "odd": 2.3,
+          "bookmaker": "Fortuna",
+          "stake": 457.55
         }
       ],
       "sport": "fotbal"
@@ -1632,40 +1666,6 @@
           "odd": 1.69,
           "bookmaker": "Fortuna",
           "stake": 601.42
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Paraguay - Austrálie",
-      "startTime": "2026-06-26T04:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Austrálie, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 1.6,
-      "sumInverse": 0.9842,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1016.02,
-      "guaranteedProfit": 16.02,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "cards|team|away|over|1.5",
-          "label": "Více než 1.5 (Austrálie)",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 558.25
-        },
-        {
-          "key": "cards|team|away|under|1.5",
-          "label": "Méně než 1.5 (Austrálie)",
-          "odd": 2.3,
-          "bookmaker": "Fortuna",
-          "stake": 441.75
         }
       ],
       "sport": "fotbal"
