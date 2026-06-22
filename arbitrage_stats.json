@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:05:13.545490+00:00",
+  "generatedAt": "2026-06-22T17:07:15.211357+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 23,
-  "opportunitiesFound": 64,
+  "opportunitiesFound": 65,
   "byStat": {
     "cards": 11,
     "fouls": 24,
-    "shots": 24,
+    "shots": 25,
     "offsides": 5
   },
   "opportunities": [
@@ -2216,6 +2216,40 @@
           "odd": 1.45,
           "bookmaker": "Fortuna",
           "stake": 690.83
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Švýcarsko, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 0.02,
+      "sumInverse": 0.9998,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.25,
+      "guaranteedProfit": 0.25,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "legs": [
+        {
+          "key": "shots|team|home|over|4.5",
+          "label": "Více než 4.5 (Švýcarsko)",
+          "odd": 1.91,
+          "bookmaker": "Tipsport",
+          "stake": 523.69
+        },
+        {
+          "key": "shots|team|home|under|4.5",
+          "label": "Méně než 4.5 (Švýcarsko)",
+          "odd": 2.1,
+          "bookmaker": "Rainbet",
+          "stake": 476.31
         }
       ],
       "sport": "fotbal"
