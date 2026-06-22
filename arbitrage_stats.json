@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:43:29.814349+00:00",
+  "generatedAt": "2026-06-22T17:45:29.890234+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -257,6 +257,40 @@
           "odd": 2.58,
           "bookmaker": "Rainbet",
           "stake": 404.16
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Jordánsko - Alžírsko",
+      "startTime": "2026-06-23T05:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Alžírsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 4.09,
+      "sumInverse": 0.9607,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1040.94,
+      "guaranteedProfit": 40.94,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Alžírsko)",
+          "odd": 1.65,
+          "bookmaker": "Fortuna",
+          "stake": 630.87
+        },
+        {
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Alžírsko)",
+          "odd": 2.82,
+          "bookmaker": "Rainbet",
+          "stake": 369.13
         }
       ],
       "sport": "fotbal"
@@ -813,47 +847,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Jordánsko - Alžírsko",
-      "startTime": "2026-06-23T05:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Kdo víc — ofsajdy (1x2)",
-      "isArbitrage": true,
-      "profitPct": 1.19,
-      "sumInverse": 0.9882,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.93,
-      "guaranteedProfit": 11.93,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "offsides|1x2|home",
-          "label": "Jordánsko více",
-          "odd": 3.95,
-          "bookmaker": "Rainbet",
-          "stake": 256.19
-        },
-        {
-          "key": "offsides|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 4.5,
-          "bookmaker": "Fortuna",
-          "stake": 224.87
-        },
-        {
-          "key": "offsides|1x2|away",
-          "label": "Alžírsko více",
-          "odd": 1.95,
-          "bookmaker": "Fortuna",
-          "stake": 518.94
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Norsko - Senegal",
       "startTime": "2026-06-23T02:00:00.000+02:00",
       "stat": "shots",
@@ -924,6 +917,47 @@
           "odd": 1.93,
           "bookmaker": "Rainbet",
           "stake": 521.09
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Jordánsko - Alžírsko",
+      "startTime": "2026-06-23T05:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.52,
+      "sumInverse": 0.9948,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.24,
+      "guaranteedProfit": 5.24,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Jordánsko více",
+          "odd": 3.85,
+          "bookmaker": "Rainbet",
+          "stake": 261.1
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 4.5,
+          "bookmaker": "Rainbet",
+          "stake": 223.39
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Alžírsko více",
+          "odd": 1.95,
+          "bookmaker": "Fortuna",
+          "stake": 515.51
         }
       ],
       "sport": "fotbal"
@@ -1060,40 +1094,6 @@
           "odd": 2.72,
           "bookmaker": "Tipsport",
           "stake": 368.91
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Jordánsko - Alžírsko",
-      "startTime": "2026-06-23T05:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Alžírsko, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 0.33,
-      "sumInverse": 0.9967,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1003.33,
-      "guaranteedProfit": 3.33,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Alžírsko)",
-          "odd": 1.65,
-          "bookmaker": "Fortuna",
-          "stake": 608.08
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Alžírsko)",
-          "odd": 2.56,
-          "bookmaker": "Rainbet",
-          "stake": 391.92
         }
       ],
       "sport": "fotbal"
