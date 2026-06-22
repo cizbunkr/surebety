@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T11:58:41.942044+00:00",
+  "generatedAt": "2026-06-22T12:08:49.751331+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,10 +15,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 64,
+  "opportunitiesFound": 65,
   "byStat": {
     "cards": 13,
-    "fouls": 26,
+    "fouls": 27,
     "shots": 24,
     "offsides": 1
   },
@@ -2080,6 +2080,40 @@
     {
       "match": "Švýcarsko - Kanada",
       "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.64,
+      "sumInverse": 0.9936,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1006.4,
+      "guaranteedProfit": 6.4,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.68,
+          "bookmaker": "Rainbet",
+          "stake": 599.05
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.51,
+          "bookmaker": "Tipsport",
+          "stake": 400.95
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Švýcarsko - Kanada",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
       "stat": "shots",
       "market": "Počet střely na branku — Kanada, hranice 3.5",
       "isArbitrage": true,
@@ -2153,35 +2187,35 @@
       "sport": "fotbal"
     },
     {
-      "match": "Švýcarsko - Kanada",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 2.5",
+      "match": "Argentina - Rakousko",
+      "startTime": "2026-06-22T19:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Argentina, hranice 10.5",
       "isArbitrage": true,
-      "profitPct": 0.28,
-      "sumInverse": 0.9972,
+      "profitPct": 0.08,
+      "sumInverse": 0.9992,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1002.8,
-      "guaranteedProfit": 2.8,
+      "guaranteedReturn": 1000.8,
+      "guaranteedProfit": 0.8,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
       "legs": [
         {
-          "key": "cards|total|over|2.5",
-          "label": "Více než 2.5",
-          "odd": 1.67,
-          "bookmaker": "Rainbet",
-          "stake": 600.48
+          "key": "fouls|team|home|over|10.5",
+          "label": "Více než 10.5 (Argentina)",
+          "odd": 1.88,
+          "bookmaker": "Fortuna",
+          "stake": 532.34
         },
         {
-          "key": "cards|total|under|2.5",
-          "label": "Méně než 2.5",
-          "odd": 2.51,
-          "bookmaker": "Tipsport",
-          "stake": 399.52
+          "key": "fouls|team|home|under|10.5",
+          "label": "Méně než 10.5 (Argentina)",
+          "odd": 2.14,
+          "bookmaker": "Rainbet",
+          "stake": 467.66
         }
       ],
       "sport": "fotbal"
