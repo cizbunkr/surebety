@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T06:35:22.788184+00:00",
+  "generatedAt": "2026-06-22T06:37:23.257442+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,13 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 20,
-  "opportunitiesFound": 29,
+  "opportunitiesFound": 30,
   "byStat": {
     "cards": 11,
     "offsides": 2,
     "shots": 15,
-    "fouls": 1
+    "fouls": 1,
+    "corners": 1
   },
   "opportunities": [
     {
@@ -978,6 +979,40 @@
           "odd": 2.42,
           "bookmaker": "Rainbet",
           "stake": 415.46
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Portugalsko - Uzbekistán",
+      "startTime": "2026-06-23T19:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Handicap rohy (-4.5)",
+      "isArbitrage": true,
+      "profitPct": 0.08,
+      "sumInverse": 0.9992,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.78,
+      "guaranteedProfit": 0.78,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "nízká",
+      "statDiffPct": 2.9,
+      "legs": [
+        {
+          "key": "corners|handicap|home|-4.5",
+          "label": "Portugalsko (-4.5)",
+          "odd": 2.32,
+          "bookmaker": "Fortuna",
+          "stake": 431.37
+        },
+        {
+          "key": "corners|handicap|away|4.5",
+          "label": "Uzbekistán (+4.5)",
+          "odd": 1.76,
+          "bookmaker": "Tipsport",
+          "stake": 568.63
         }
       ],
       "sport": "fotbal"
