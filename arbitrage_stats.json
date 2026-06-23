@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T18:40:24.093808+00:00",
+  "generatedAt": "2026-06-23T18:42:24.310046+00:00",
   "sources": [
     "Rainbet",
     "Fortuna"
@@ -22,6 +22,78 @@
     "fouls": 1
   },
   "opportunities": [
+    {
+      "match": "Uruguay - Spain",
+      "startTime": "2026-06-27T00:00:00+00:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Uruguay, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 10.47,
+      "sumInverse": 0.9052,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1104.72,
+      "guaranteedProfit": 104.72,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|team|home|over|1.5",
+          "label": "Více než 1.5 (Uruguay)",
+          "odd": 1.8,
+          "bookmaker": "Fortuna",
+          "stake": 613.73
+        },
+        {
+          "key": "offsides|team|home|under|1.5",
+          "label": "Méně než 1.5 (Uruguay)",
+          "odd": 2.86,
+          "bookmaker": "Rainbet",
+          "stake": 386.27
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Uruguay - Spain",
+      "startTime": "2026-06-27T00:00:00+00:00",
+      "stat": "offsides",
+      "market": "Počet — ofsajdy, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 7.26,
+      "sumInverse": 0.9323,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1072.65,
+      "guaranteedProfit": 72.65,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|total|over|4.5",
+          "label": "Více než 4.5",
+          "odd": 2.85,
+          "bookmaker": "Fortuna",
+          "stake": 376.37
+        },
+        {
+          "key": "offsides|total|under|4.5",
+          "label": "Méně než 4.5",
+          "odd": 1.72,
+          "bookmaker": "Rainbet",
+          "stake": 623.63
+        }
+      ],
+      "sport": "fotbal"
+    },
     {
       "match": "Cape Verde - Saudi Arabia",
       "startTime": "2026-06-27T00:00:00+00:00",
@@ -54,42 +126,6 @@
           "odd": 1.6,
           "bookmaker": "Fortuna",
           "stake": 649.12
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Spain",
-      "startTime": "2026-06-27T00:00:00+00:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Uruguay, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 3.42,
-      "sumInverse": 0.9669,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1034.2,
-      "guaranteedProfit": 34.2,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "offsides|team|home|over|1.5",
-          "label": "Více než 1.5 (Uruguay)",
-          "odd": 1.62,
-          "bookmaker": "Fortuna",
-          "stake": 638.39
-        },
-        {
-          "key": "offsides|team|home|under|1.5",
-          "label": "Méně než 1.5 (Uruguay)",
-          "odd": 2.86,
-          "bookmaker": "Rainbet",
-          "stake": 361.61
         }
       ],
       "sport": "fotbal"
@@ -198,42 +234,6 @@
           "odd": 2.05,
           "bookmaker": "Fortuna",
           "stake": 501.22
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Spain",
-      "startTime": "2026-06-27T00:00:00+00:00",
-      "stat": "offsides",
-      "market": "Počet — ofsajdy, hranice 4.5",
-      "isArbitrage": true,
-      "profitPct": 2.72,
-      "sumInverse": 0.9736,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1027.17,
-      "guaranteedProfit": 27.17,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "offsides|total|over|4.5",
-          "label": "Více než 4.5",
-          "odd": 2.55,
-          "bookmaker": "Fortuna",
-          "stake": 402.81
-        },
-        {
-          "key": "offsides|total|under|4.5",
-          "label": "Méně než 4.5",
-          "odd": 1.72,
-          "bookmaker": "Rainbet",
-          "stake": 597.19
         }
       ],
       "sport": "fotbal"
