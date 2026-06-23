@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T18:28:35.595295+00:00",
+  "generatedAt": "2026-06-23T18:30:29.819712+00:00",
   "sources": [
     "Rainbet",
     "Fortuna"
@@ -14,9 +14,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 18,
-  "opportunitiesFound": 9,
+  "opportunitiesFound": 10,
   "byStat": {
-    "offsides": 4,
+    "offsides": 5,
     "cards": 2,
     "shots": 2,
     "fouls": 1
@@ -277,6 +277,42 @@
           "odd": 2.12,
           "bookmaker": "Rainbet",
           "stake": 479.12
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Cape Verde - Saudi Arabia",
+      "startTime": "2026-06-27T00:00:00+00:00",
+      "stat": "offsides",
+      "market": "Počet — ofsajdy, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 1.11,
+      "sumInverse": 0.989,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1011.11,
+      "guaranteedProfit": 11.11,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 1.95,
+          "bookmaker": "Rainbet",
+          "stake": 518.52
+        },
+        {
+          "key": "offsides|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 2.1,
+          "bookmaker": "Fortuna",
+          "stake": 481.48
         }
       ],
       "sport": "fotbal"
