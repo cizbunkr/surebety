@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:41:38.195941+00:00",
+  "generatedAt": "2026-06-24T16:46:37.211645+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 32,
+  "opportunitiesFound": 33,
   "byStat": {
     "offsides": 9,
     "fouls": 11,
     "cards": 8,
-    "shots": 4
+    "shots": 5
   },
   "opportunities": [
     {
@@ -1127,6 +1127,42 @@
           "odd": 2.65,
           "bookmaker": "Fortuna",
           "stake": 379.39
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Curacao - Pobřeží slonoviny",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Pobřeží slonoviny, hranice 6.5",
+      "isArbitrage": true,
+      "profitPct": 0.48,
+      "sumInverse": 0.9952,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1004.78,
+      "guaranteedProfit": 4.78,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|team|away|over|6.5",
+          "label": "Více než 6.5 (Pobřeží slonoviny)",
+          "odd": 1.68,
+          "bookmaker": "Fortuna",
+          "stake": 598.09
+        },
+        {
+          "key": "shots|team|away|under|6.5",
+          "label": "Méně než 6.5 (Pobřeží slonoviny)",
+          "odd": 2.5,
+          "bookmaker": "Tipsport",
+          "stake": 401.91
         }
       ],
       "sport": "fotbal"
