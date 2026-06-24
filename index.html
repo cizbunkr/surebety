@@ -359,9 +359,12 @@ function renderList() {
   }).join("");
 }
 
+// Data čteme z raw.githubusercontent (větev "data") — GitHub čistí raw cache při pushi,
+// takže jsou svěží do ~minuty po pushi, BEZ pomalého Pages buildu/deploye.
+const DATA_URL = "https://raw.githubusercontent.com/cizbunkr/surebety/data/arbitrage_stats.json";
 async function load() {
   try {
-    const r = await fetch("arbitrage_stats.json?t=" + Date.now(), { cache: "no-store" });
+    const r = await fetch(DATA_URL + "?t=" + Date.now(), { cache: "no-store" });
     DATA = await r.json();
   } catch (e) { /* ponech předchozí data */ }
   if (DATA && !builtFilters) buildFilters();
