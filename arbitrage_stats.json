@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:22:14.282441+00:00",
+  "generatedAt": "2026-06-24T17:24:15.862541+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 40,
+  "opportunitiesFound": 34,
   "byStat": {
-    "fouls": 15,
-    "shots": 7,
-    "offsides": 11,
-    "cards": 7
+    "fouls": 12,
+    "shots": 6,
+    "offsides": 10,
+    "cards": 6
   },
   "opportunities": [
     {
@@ -137,12 +137,12 @@
       "stat": "fouls",
       "market": "Kdo víc — fauly (1x2)",
       "isArbitrage": true,
-      "profitPct": 5.98,
-      "sumInverse": 0.9436,
+      "profitPct": 6.43,
+      "sumInverse": 0.9395,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1059.8,
-      "guaranteedProfit": 59.8,
+      "guaranteedReturn": 1064.35,
+      "guaranteedProfit": 64.35,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
@@ -153,23 +153,23 @@
         {
           "key": "fouls|1x2|home",
           "label": "Uruguay více",
-          "odd": 1.57,
+          "odd": 1.58,
           "bookmaker": "Tipsport",
-          "stake": 675.03
+          "stake": 673.64
         },
         {
           "key": "fouls|1x2|draw",
           "label": "Oba stejně",
           "odd": 13.5,
           "bookmaker": "Fortuna",
-          "stake": 78.5
+          "stake": 78.84
         },
         {
           "key": "fouls|1x2|away",
           "label": "Španělsko více",
           "odd": 4.3,
           "bookmaker": "Rainbet",
-          "stake": 246.46
+          "stake": 247.52
         }
       ],
       "sport": "fotbal"
@@ -398,42 +398,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Uruguay - Španělsko",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Uruguay, hranice 11.5",
-      "isArbitrage": true,
-      "profitPct": 3.35,
-      "sumInverse": 0.9676,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1033.45,
-      "guaranteedProfit": 33.45,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|11.5",
-          "label": "Více než 11.5 (Uruguay)",
-          "odd": 2.15,
-          "bookmaker": "Tipsport",
-          "stake": 480.68
-        },
-        {
-          "key": "fouls|team|home|under|11.5",
-          "label": "Méně než 11.5 (Uruguay)",
-          "odd": 1.99,
-          "bookmaker": "Rainbet",
-          "stake": 519.32
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "DR Kongo - Uzbekistán",
       "startTime": "2026-06-28T01:30:00.000+02:00",
       "stat": "shots",
@@ -477,42 +441,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Panama - Anglie",
-      "startTime": "2026-06-27T23:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Anglie, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 2.24,
-      "sumInverse": 0.9781,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1022.38,
-      "guaranteedProfit": 22.38,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Anglie)",
-          "odd": 1.91,
-          "bookmaker": "Rainbet",
-          "stake": 535.28
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Anglie)",
-          "odd": 2.2,
-          "bookmaker": "Fortuna",
-          "stake": 464.72
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Norsko - Francie",
       "startTime": "2026-06-26T21:00:00.000+02:00",
       "stat": "fouls",
@@ -551,42 +479,6 @@
           "odd": 2.96,
           "bookmaker": "Rainbet",
           "stake": 344.3
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Španělsko",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Uruguay, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 1.69,
-      "sumInverse": 0.9834,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1016.86,
-      "guaranteedProfit": 16.86,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|12.5",
-          "label": "Více než 12.5 (Uruguay)",
-          "odd": 2.79,
-          "bookmaker": "Tipsport",
-          "stake": 364.46
-        },
-        {
-          "key": "fouls|team|home|under|12.5",
-          "label": "Méně než 12.5 (Uruguay)",
-          "odd": 1.6,
-          "bookmaker": "Fortuna",
-          "stake": 635.54
         }
       ],
       "sport": "fotbal"
@@ -846,78 +738,6 @@
           "odd": 1.82,
           "bookmaker": "Rainbet",
           "stake": 556.1
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Španělsko",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Uruguay, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 1.19,
-      "sumInverse": 0.9882,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.9,
-      "guaranteedProfit": 11.9,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|10.5",
-          "label": "Více než 10.5 (Uruguay)",
-          "odd": 1.7,
-          "bookmaker": "Tipsport",
-          "stake": 595.24
-        },
-        {
-          "key": "fouls|team|home|under|10.5",
-          "label": "Méně než 10.5 (Uruguay)",
-          "odd": 2.5,
-          "bookmaker": "Fortuna",
-          "stake": 404.76
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Španělsko",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Uruguay, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 1.19,
-      "sumInverse": 0.9882,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.9,
-      "guaranteedProfit": 11.9,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|team|home|over|1.5",
-          "label": "Více než 1.5 (Uruguay)",
-          "odd": 1.7,
-          "bookmaker": "Fortuna",
-          "stake": 595.24
-        },
-        {
-          "key": "cards|team|home|under|1.5",
-          "label": "Méně než 1.5 (Uruguay)",
-          "odd": 2.5,
-          "bookmaker": "Tipsport",
-          "stake": 404.76
         }
       ],
       "sport": "fotbal"
@@ -1357,42 +1177,6 @@
           "odd": 2.2,
           "bookmaker": "Fortuna",
           "stake": 456.79
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Uruguay - Španělsko",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Španělsko, hranice 5.5",
-      "isArbitrage": true,
-      "profitPct": 0.49,
-      "sumInverse": 0.9952,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.86,
-      "guaranteedProfit": 4.86,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|team|away|over|5.5",
-          "label": "Více než 5.5 (Španělsko)",
-          "odd": 1.65,
-          "bookmaker": "Fortuna",
-          "stake": 609.0
-        },
-        {
-          "key": "shots|team|away|under|5.5",
-          "label": "Méně než 5.5 (Španělsko)",
-          "odd": 2.57,
-          "bookmaker": "Tipsport",
-          "stake": 391.0
         }
       ],
       "sport": "fotbal"
