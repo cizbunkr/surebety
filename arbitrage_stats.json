@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:26:15.079317+00:00",
+  "generatedAt": "2026-06-24T17:27:49.571444+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,9 +15,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 34,
+  "opportunitiesFound": 37,
   "byStat": {
-    "fouls": 12,
+    "fouls": 15,
     "shots": 6,
     "offsides": 10,
     "cards": 6
@@ -923,6 +923,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Kapverdy, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 0.86,
+      "sumInverse": 0.9914,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1008.64,
+      "guaranteedProfit": 8.64,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|10.5",
+          "label": "Více než 10.5 (Kapverdy)",
+          "odd": 1.9,
+          "bookmaker": "Fortuna",
+          "stake": 530.86
+        },
+        {
+          "key": "fouls|team|home|under|10.5",
+          "label": "Méně než 10.5 (Kapverdy)",
+          "odd": 2.15,
+          "bookmaker": "Tipsport",
+          "stake": 469.14
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "offsides",
@@ -1249,6 +1285,78 @@
           "odd": 1.6,
           "bookmaker": "Fortuna",
           "stake": 627.91
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Kapverdy, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 0.4,
+      "sumInverse": 0.996,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1003.98,
+      "guaranteedProfit": 3.98,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|9.5",
+          "label": "Více než 9.5 (Kapverdy)",
+          "odd": 1.55,
+          "bookmaker": "Fortuna",
+          "stake": 647.73
+        },
+        {
+          "key": "fouls|team|home|under|9.5",
+          "label": "Méně než 9.5 (Kapverdy)",
+          "odd": 2.85,
+          "bookmaker": "Tipsport",
+          "stake": 352.27
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Kapverdy, hranice 11.5",
+      "isArbitrage": true,
+      "profitPct": 0.36,
+      "sumInverse": 0.9964,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1003.61,
+      "guaranteedProfit": 3.61,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "fouls|team|home|over|11.5",
+          "label": "Více než 11.5 (Kapverdy)",
+          "odd": 2.45,
+          "bookmaker": "Fortuna",
+          "stake": 409.64
+        },
+        {
+          "key": "fouls|team|home|under|11.5",
+          "label": "Méně než 11.5 (Kapverdy)",
+          "odd": 1.7,
+          "bookmaker": "Tipsport",
+          "stake": 590.36
         }
       ],
       "sport": "fotbal"
