@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:05:10.845643+00:00",
+  "generatedAt": "2026-06-24T17:06:12.849324+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,10 +15,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 36,
+  "opportunitiesFound": 35,
   "byStat": {
     "fouls": 12,
-    "shots": 8,
+    "shots": 7,
     "offsides": 10,
     "cards": 6
   },
@@ -127,42 +127,6 @@
           "odd": 2.22,
           "bookmaker": "Rainbet",
           "stake": 482.52
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Kapverdy - Saúdská Arábie",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 8.5",
-      "isArbitrage": true,
-      "profitPct": 5.85,
-      "sumInverse": 0.9447,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1058.53,
-      "guaranteedProfit": 58.53,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|total|over|8.5",
-          "label": "Více než 8.5",
-          "odd": 2.53,
-          "bookmaker": "Tipsport",
-          "stake": 418.39
-        },
-        {
-          "key": "shots|total|under|8.5",
-          "label": "Méně než 8.5",
-          "odd": 1.82,
-          "bookmaker": "Fortuna",
-          "stake": 581.61
         }
       ],
       "sport": "fotbal"
@@ -314,42 +278,6 @@
           "odd": 1.7,
           "bookmaker": "Rainbet",
           "stake": 615.38
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Kapverdy - Saúdská Arábie",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 7.5",
-      "isArbitrage": true,
-      "profitPct": 4.47,
-      "sumInverse": 0.9572,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1044.71,
-      "guaranteedProfit": 44.71,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|total|over|7.5",
-          "label": "Více než 7.5",
-          "odd": 1.85,
-          "bookmaker": "Tipsport",
-          "stake": 564.71
-        },
-        {
-          "key": "shots|total|under|7.5",
-          "label": "Méně než 7.5",
-          "odd": 2.4,
-          "bookmaker": "Fortuna",
-          "stake": 435.29
         }
       ],
       "sport": "fotbal"
@@ -544,42 +472,6 @@
           "odd": 4.3,
           "bookmaker": "Rainbet",
           "stake": 238.94
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Kapverdy - Saúdská Arábie",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 6.5",
-      "isArbitrage": true,
-      "profitPct": 2.53,
-      "sumInverse": 0.9754,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1025.25,
-      "guaranteedProfit": 25.25,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|total|over|6.5",
-          "label": "Více než 6.5",
-          "odd": 1.45,
-          "bookmaker": "Tipsport",
-          "stake": 707.07
-        },
-        {
-          "key": "shots|total|under|6.5",
-          "label": "Méně než 6.5",
-          "odd": 3.5,
-          "bookmaker": "Fortuna",
-          "stake": 292.93
         }
       ],
       "sport": "fotbal"
@@ -781,42 +673,6 @@
     {
       "match": "Kapverdy - Saúdská Arábie",
       "startTime": "2026-06-27T02:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Kapverdy, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 1.28,
-      "sumInverse": 0.9874,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1012.77,
-      "guaranteedProfit": 12.77,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|team|home|over|3.5",
-          "label": "Více než 3.5 (Kapverdy)",
-          "odd": 1.68,
-          "bookmaker": "Tipsport",
-          "stake": 602.84
-        },
-        {
-          "key": "shots|team|home|under|3.5",
-          "label": "Méně než 3.5 (Kapverdy)",
-          "odd": 2.55,
-          "bookmaker": "Fortuna",
-          "stake": 397.16
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Kapverdy - Saúdská Arábie",
-      "startTime": "2026-06-27T02:00:00.000+02:00",
       "stat": "offsides",
       "market": "Počet — ofsajdy, hranice 3.5",
       "isArbitrage": true,
@@ -995,6 +851,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 0.96,
+      "sumInverse": 0.9905,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1009.6,
+      "guaranteedProfit": 9.6,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 2.53,
+          "bookmaker": "Tipsport",
+          "stake": 399.05
+        },
+        {
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 1.68,
+          "bookmaker": "Fortuna",
+          "stake": 600.95
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Kolumbie - Portugalsko",
       "startTime": "2026-06-28T01:30:00.000+02:00",
       "stat": "offsides",
@@ -1098,6 +990,42 @@
           "odd": 1.75,
           "bookmaker": "Fortuna",
           "stake": 576.27
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 6.5",
+      "isArbitrage": true,
+      "profitPct": 0.74,
+      "sumInverse": 0.9927,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1007.37,
+      "guaranteedProfit": 7.37,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|total|over|6.5",
+          "label": "Více než 6.5",
+          "odd": 1.45,
+          "bookmaker": "Tipsport",
+          "stake": 694.74
+        },
+        {
+          "key": "shots|total|under|6.5",
+          "label": "Méně než 6.5",
+          "odd": 3.3,
+          "bookmaker": "Fortuna",
+          "stake": 305.26
         }
       ],
       "sport": "fotbal"
@@ -1249,6 +1177,42 @@
           "odd": 2.65,
           "bookmaker": "Fortuna",
           "stake": 379.39
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 7.5",
+      "isArbitrage": true,
+      "profitPct": 0.49,
+      "sumInverse": 0.9951,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1004.94,
+      "guaranteedProfit": 4.94,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|total|over|7.5",
+          "label": "Více než 7.5",
+          "odd": 1.85,
+          "bookmaker": "Tipsport",
+          "stake": 543.21
+        },
+        {
+          "key": "shots|total|under|7.5",
+          "label": "Méně než 7.5",
+          "odd": 2.2,
+          "bookmaker": "Fortuna",
+          "stake": 456.79
         }
       ],
       "sport": "fotbal"
