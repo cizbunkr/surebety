@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:47:39.173857+00:00",
+  "generatedAt": "2026-06-24T17:49:39.097334+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,10 +15,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 35,
+  "opportunitiesFound": 37,
   "byStat": {
     "fouls": 14,
-    "shots": 6,
+    "shots": 8,
     "offsides": 9,
     "cards": 6
   },
@@ -1290,6 +1290,49 @@
       "sport": "fotbal"
     },
     {
+      "match": "Egypt - Írán",
+      "startTime": "2026-06-27T05:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Kdo víc — střely na branku (1x2)",
+      "isArbitrage": true,
+      "profitPct": 0.32,
+      "sumInverse": 0.9968,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1003.2,
+      "guaranteedProfit": 3.2,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|1x2|home",
+          "label": "Egypt více",
+          "odd": 1.98,
+          "bookmaker": "Rainbet",
+          "stake": 506.67
+        },
+        {
+          "key": "shots|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 7.5,
+          "bookmaker": "Fortuna",
+          "stake": 133.76
+        },
+        {
+          "key": "shots|1x2|away",
+          "label": "Írán více",
+          "odd": 2.79,
+          "bookmaker": "Tipsport",
+          "stake": 359.57
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Panama - Anglie",
       "startTime": "2026-06-27T23:00:00.000+02:00",
       "stat": "cards",
@@ -1321,6 +1364,42 @@
           "odd": 2.71,
           "bookmaker": "Fortuna",
           "stake": 369.77
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Egypt - Írán",
+      "startTime": "2026-06-27T05:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Egypt, hranice 4.5",
+      "isArbitrage": true,
+      "profitPct": 0.19,
+      "sumInverse": 0.9981,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1001.94,
+      "guaranteedProfit": 1.94,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|team|home|over|4.5",
+          "label": "Více než 4.5 (Egypt)",
+          "odd": 2.4,
+          "bookmaker": "Fortuna",
+          "stake": 417.48
+        },
+        {
+          "key": "shots|team|home|under|4.5",
+          "label": "Méně než 4.5 (Egypt)",
+          "odd": 1.72,
+          "bookmaker": "Tipsport",
+          "stake": 582.52
         }
       ],
       "sport": "fotbal"
