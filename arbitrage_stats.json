@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T06:33:13.762663+00:00",
+  "generatedAt": "2026-06-24T06:33:49.034325+00:00",
   "sources": [
     "Rainbet",
     "Fortuna"
@@ -13,7 +13,7 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 14,
+  "matchesPaired": 15,
   "opportunitiesFound": 11,
   "byStat": {
     "offsides": 4,
