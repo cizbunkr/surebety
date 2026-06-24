@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:31:20.373438+00:00",
+  "generatedAt": "2026-06-24T15:43:20.092067+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,10 +15,10 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 29,
+  "opportunitiesFound": 30,
   "byStat": {
     "offsides": 8,
-    "fouls": 10,
+    "fouls": 11,
     "cards": 7,
     "shots": 4
   },
@@ -168,6 +168,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Bosna Hercegovina - Katar",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 27.5",
+      "isArbitrage": true,
+      "profitPct": 4.89,
+      "sumInverse": 0.9533,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1048.93,
+      "guaranteedProfit": 48.93,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": true,
+      "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
+      "legs": [
+        {
+          "key": "fouls|total|over|27.5",
+          "label": "Více než 27.5",
+          "odd": 2.27,
+          "bookmaker": "Tipsport",
+          "stake": 462.09
+        },
+        {
+          "key": "fouls|total|under|27.5",
+          "label": "Méně než 27.5",
+          "odd": 1.95,
+          "bookmaker": "Rainbet",
+          "stake": 537.91
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Senegal - Irák",
       "startTime": "2026-06-26T21:00:00.000+02:00",
       "stat": "offsides",
@@ -199,6 +235,42 @@
           "odd": 2.78,
           "bookmaker": "Rainbet",
           "stake": 376.68
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Bosna Hercegovina - Katar",
+      "startTime": "2026-06-24T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet — fauly, hranice 28.5",
+      "isArbitrage": true,
+      "profitPct": 4.62,
+      "sumInverse": 0.9559,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1046.15,
+      "guaranteedProfit": 46.15,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": true,
+      "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
+      "legs": [
+        {
+          "key": "fouls|total|over|28.5",
+          "label": "Více než 28.5",
+          "odd": 2.72,
+          "bookmaker": "Tipsport",
+          "stake": 384.62
+        },
+        {
+          "key": "fouls|total|under|28.5",
+          "label": "Méně než 28.5",
+          "odd": 1.7,
+          "bookmaker": "Rainbet",
+          "stake": 615.38
         }
       ],
       "sport": "fotbal"
@@ -840,14 +912,14 @@
       "match": "Bosna Hercegovina - Katar",
       "startTime": "2026-06-24T21:00:00.000+02:00",
       "stat": "fouls",
-      "market": "Počet — fauly, hranice 27.5",
+      "market": "Počet fauly — Katar, hranice 11.5",
       "isArbitrage": true,
-      "profitPct": 1.01,
-      "sumInverse": 0.99,
+      "profitPct": 0.96,
+      "sumInverse": 0.9905,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1010.12,
-      "guaranteedProfit": 10.12,
+      "guaranteedReturn": 1009.6,
+      "guaranteedProfit": 9.6,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
@@ -856,18 +928,18 @@
       "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
       "legs": [
         {
-          "key": "fouls|total|over|27.5",
-          "label": "Více než 27.5",
-          "odd": 2.27,
+          "key": "fouls|team|away|over|11.5",
+          "label": "Více než 11.5 (Katar)",
+          "odd": 1.98,
           "bookmaker": "Tipsport",
-          "stake": 444.99
+          "stake": 509.9
         },
         {
-          "key": "fouls|total|under|27.5",
-          "label": "Méně než 27.5",
-          "odd": 1.82,
+          "key": "fouls|team|away|under|11.5",
+          "label": "Méně než 11.5 (Katar)",
+          "odd": 2.06,
           "bookmaker": "Rainbet",
-          "stake": 555.01
+          "stake": 490.1
         }
       ],
       "sport": "fotbal"
@@ -947,42 +1019,6 @@
           "odd": 1.96,
           "bookmaker": "Tipsport",
           "stake": 513.52
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Bosna Hercegovina - Katar",
-      "startTime": "2026-06-24T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 26.5",
-      "isArbitrage": true,
-      "profitPct": 0.48,
-      "sumInverse": 0.9953,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.76,
-      "guaranteedProfit": 4.76,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
-      "legs": [
-        {
-          "key": "fouls|total|over|26.5",
-          "label": "Více než 26.5",
-          "odd": 1.91,
-          "bookmaker": "Tipsport",
-          "stake": 526.05
-        },
-        {
-          "key": "fouls|total|under|26.5",
-          "label": "Méně než 26.5",
-          "odd": 2.12,
-          "bookmaker": "Rainbet",
-          "stake": 473.95
         }
       ],
       "sport": "fotbal"
