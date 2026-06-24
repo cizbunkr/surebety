@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T07:29:59.492059+00:00",
+  "generatedAt": "2026-06-24T08:48:37.551829+00:00",
   "sources": [
     "Rainbet",
     "Fortuna"
@@ -14,12 +14,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 15,
-  "opportunitiesFound": 12,
+  "opportunitiesFound": 9,
   "byStat": {
-    "offsides": 5,
-    "fouls": 2,
-    "shots": 4,
-    "cards": 1
+    "offsides": 4,
+    "fouls": 1,
+    "shots": 4
   },
   "opportunities": [
     {
@@ -174,42 +173,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "New Zealand - Belgium",
-      "startTime": "2026-06-27T03:00:00+00:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Belgium, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 2.41,
-      "sumInverse": 0.9764,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1024.14,
-      "guaranteedProfit": 24.14,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "offsides|team|away|over|1.5",
-          "label": "Více než 1.5 (Belgium)",
-          "odd": 2.7,
-          "bookmaker": "Rainbet",
-          "stake": 379.31
-        },
-        {
-          "key": "offsides|team|away|under|1.5",
-          "label": "Méně než 1.5 (Belgium)",
-          "odd": 1.65,
-          "bookmaker": "Fortuna",
-          "stake": 620.69
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Cape Verde - Saudi Arabia",
       "startTime": "2026-06-27T00:00:00+00:00",
       "stat": "shots",
@@ -241,42 +204,6 @@
           "odd": 2.3,
           "bookmaker": "Fortuna",
           "stake": 441.75
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Morocco - Haiti",
-      "startTime": "2026-06-24T22:00:00+00:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Haiti, hranice 14.5",
-      "isArbitrage": true,
-      "profitPct": 1.57,
-      "sumInverse": 0.9845,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1015.72,
-      "guaranteedProfit": 15.72,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Fortuna (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|14.5",
-          "label": "Více než 14.5 (Haiti)",
-          "odd": 1.95,
-          "bookmaker": "Fortuna",
-          "stake": 520.88
-        },
-        {
-          "key": "fouls|team|away|under|14.5",
-          "label": "Méně než 14.5 (Haiti)",
-          "odd": 2.12,
-          "bookmaker": "Rainbet",
-          "stake": 479.12
         }
       ],
       "sport": "fotbal"
@@ -325,53 +252,17 @@
       "sport": "fotbal"
     },
     {
-      "match": "Turkiye - USA",
-      "startTime": "2026-06-26T02:00:00+00:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — USA, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 0.94,
-      "sumInverse": 0.9907,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1009.41,
-      "guaranteedProfit": 9.41,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|team|away|over|1.5",
-          "label": "Více než 1.5 (USA)",
-          "odd": 2.6,
-          "bookmaker": "Rainbet",
-          "stake": 388.24
-        },
-        {
-          "key": "cards|team|away|under|1.5",
-          "label": "Méně než 1.5 (USA)",
-          "odd": 1.65,
-          "bookmaker": "Fortuna",
-          "stake": 611.76
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Paraguay - Australia",
-      "startTime": "2026-06-26T02:00:00+00:00",
+      "match": "New Zealand - Belgium",
+      "startTime": "2026-06-27T03:00:00+00:00",
       "stat": "offsides",
-      "market": "Počet ofsajdy — Paraguay, hranice 1.5",
+      "market": "Počet ofsajdy — Belgium, hranice 1.5",
       "isArbitrage": true,
-      "profitPct": 0.85,
-      "sumInverse": 0.9916,
+      "profitPct": 0.47,
+      "sumInverse": 0.9954,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1008.47,
-      "guaranteedProfit": 8.47,
+      "guaranteedReturn": 1004.65,
+      "guaranteedProfit": 4.65,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "žádná",
@@ -380,18 +271,18 @@
       "biasNote": "",
       "legs": [
         {
-          "key": "offsides|team|home|over|1.5",
-          "label": "Více než 1.5 (Paraguay)",
-          "odd": 1.75,
-          "bookmaker": "Fortuna",
-          "stake": 576.27
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Belgium)",
+          "odd": 2.7,
+          "bookmaker": "Rainbet",
+          "stake": 372.09
         },
         {
-          "key": "offsides|team|home|under|1.5",
-          "label": "Méně než 1.5 (Paraguay)",
-          "odd": 2.38,
-          "bookmaker": "Rainbet",
-          "stake": 423.73
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Belgium)",
+          "odd": 1.6,
+          "bookmaker": "Fortuna",
+          "stake": 627.91
         }
       ],
       "sport": "fotbal"
