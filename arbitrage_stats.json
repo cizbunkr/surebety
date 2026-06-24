@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:57:07.800838+00:00",
+  "generatedAt": "2026-06-24T17:01:23.717311+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 44,
+  "opportunitiesFound": 34,
   "byStat": {
-    "fouls": 16,
+    "fouls": 12,
     "offsides": 9,
-    "shots": 9,
-    "cards": 10
+    "cards": 8,
+    "shots": 5
   },
   "opportunities": [
     {
@@ -240,42 +240,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Irák, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 4.25,
-      "sumInverse": 0.9592,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1042.48,
-      "guaranteedProfit": 42.48,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|team|away|over|2.5",
-          "label": "Více než 2.5 (Irák)",
-          "odd": 1.95,
-          "bookmaker": "Fortuna",
-          "stake": 534.61
-        },
-        {
-          "key": "shots|team|away|under|2.5",
-          "label": "Méně než 2.5 (Irák)",
-          "odd": 2.24,
-          "bookmaker": "Tipsport",
-          "stake": 465.39
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Panama - Anglie",
       "startTime": "2026-06-27T23:00:00.000+02:00",
       "stat": "cards",
@@ -420,42 +384,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Irák, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 3.37,
-      "sumInverse": 0.9674,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1033.73,
-      "guaranteedProfit": 33.73,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|team|away|over|1.5",
-          "label": "Více než 1.5 (Irák)",
-          "odd": 1.95,
-          "bookmaker": "Tipsport",
-          "stake": 530.12
-        },
-        {
-          "key": "cards|team|away|under|1.5",
-          "label": "Méně než 1.5 (Irák)",
-          "odd": 2.2,
-          "bookmaker": "Fortuna",
-          "stake": 469.88
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Panama - Anglie",
       "startTime": "2026-06-27T23:00:00.000+02:00",
       "stat": "cards",
@@ -535,42 +463,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 2.74,
-      "sumInverse": 0.9733,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1027.44,
-      "guaranteedProfit": 27.44,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|total|over|3.5",
-          "label": "Více než 3.5",
-          "odd": 2.53,
-          "bookmaker": "Tipsport",
-          "stake": 406.1
-        },
-        {
-          "key": "cards|total|under|3.5",
-          "label": "Méně než 3.5",
-          "odd": 1.73,
-          "bookmaker": "Fortuna",
-          "stake": 593.9
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Uruguay - Španělsko",
       "startTime": "2026-06-27T02:00:00.000+02:00",
       "stat": "fouls",
@@ -645,42 +537,6 @@
           "odd": 2.25,
           "bookmaker": "Fortuna",
           "stake": 456.52
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Irák, hranice 11.5",
-      "isArbitrage": true,
-      "profitPct": 2.26,
-      "sumInverse": 0.9779,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1022.56,
-      "guaranteedProfit": 22.56,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|11.5",
-          "label": "Více než 11.5 (Irák)",
-          "odd": 2.15,
-          "bookmaker": "Tipsport",
-          "stake": 475.61
-        },
-        {
-          "key": "fouls|team|away|under|11.5",
-          "label": "Méně než 11.5 (Irák)",
-          "odd": 1.95,
-          "bookmaker": "Fortuna",
-          "stake": 524.39
         }
       ],
       "sport": "fotbal"
@@ -796,42 +652,6 @@
           "odd": 2.96,
           "bookmaker": "Rainbet",
           "stake": 344.3
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Irák, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 1.69,
-      "sumInverse": 0.9834,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1016.86,
-      "guaranteedProfit": 16.86,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|12.5",
-          "label": "Více než 12.5 (Irák)",
-          "odd": 2.79,
-          "bookmaker": "Tipsport",
-          "stake": 364.46
-        },
-        {
-          "key": "fouls|team|away|under|12.5",
-          "label": "Méně než 12.5 (Irák)",
-          "odd": 1.6,
-          "bookmaker": "Fortuna",
-          "stake": 635.54
         }
       ],
       "sport": "fotbal"
@@ -981,42 +801,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Norsko - Francie",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 1.37,
-      "sumInverse": 0.9865,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1013.73,
-      "guaranteedProfit": 13.73,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|total|over|9.5",
-          "label": "Více než 9.5",
-          "odd": 2.2,
-          "bookmaker": "Tipsport",
-          "stake": 460.78
-        },
-        {
-          "key": "shots|total|under|9.5",
-          "label": "Méně než 9.5",
-          "odd": 1.88,
-          "bookmaker": "Fortuna",
-          "stake": 539.22
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Chorvatsko - Ghana",
       "startTime": "2026-06-27T23:00:00.000+02:00",
       "stat": "shots",
@@ -1091,42 +875,6 @@
           "odd": 1.82,
           "bookmaker": "Rainbet",
           "stake": 556.1
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Irák, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 1.19,
-      "sumInverse": 0.9882,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.9,
-      "guaranteedProfit": 11.9,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "fouls|team|away|over|10.5",
-          "label": "Více než 10.5 (Irák)",
-          "odd": 1.7,
-          "bookmaker": "Tipsport",
-          "stake": 595.24
-        },
-        {
-          "key": "fouls|team|away|under|10.5",
-          "label": "Méně než 10.5 (Irák)",
-          "odd": 2.5,
-          "bookmaker": "Fortuna",
-          "stake": 404.76
         }
       ],
       "sport": "fotbal"
@@ -1348,78 +1096,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Norsko - Francie",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 10.5",
-      "isArbitrage": true,
-      "profitPct": 0.77,
-      "sumInverse": 0.9923,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1007.72,
-      "guaranteedProfit": 7.72,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|total|over|10.5",
-          "label": "Více než 10.5",
-          "odd": 2.99,
-          "bookmaker": "Tipsport",
-          "stake": 337.03
-        },
-        {
-          "key": "shots|total|under|10.5",
-          "label": "Méně než 10.5",
-          "odd": 1.52,
-          "bookmaker": "Fortuna",
-          "stake": 662.97
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Irák, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 0.73,
-      "sumInverse": 0.9928,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1007.28,
-      "guaranteedProfit": 7.28,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|team|away|over|3.5",
-          "label": "Více než 3.5 (Irák)",
-          "odd": 3.2,
-          "bookmaker": "Fortuna",
-          "stake": 314.78
-        },
-        {
-          "key": "shots|team|away|under|3.5",
-          "label": "Méně než 3.5 (Irák)",
-          "odd": 1.47,
-          "bookmaker": "Tipsport",
-          "stake": 685.22
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "fouls",
@@ -1458,49 +1134,6 @@
           "odd": 1.96,
           "bookmaker": "Tipsport",
           "stake": 513.52
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Kdo víc — fauly (1x2)",
-      "isArbitrage": true,
-      "profitPct": 0.6,
-      "sumInverse": 0.9941,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1005.97,
-      "guaranteedProfit": 5.97,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "fouls|1x2|home",
-          "label": "Senegal více",
-          "odd": 2.25,
-          "bookmaker": "Fortuna",
-          "stake": 447.1
-        },
-        {
-          "key": "fouls|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 11.0,
-          "bookmaker": "Fortuna",
-          "stake": 91.45
-        },
-        {
-          "key": "fouls|1x2|away",
-          "label": "Irák více",
-          "odd": 2.18,
-          "bookmaker": "Tipsport",
-          "stake": 461.45
         }
       ],
       "sport": "fotbal"
