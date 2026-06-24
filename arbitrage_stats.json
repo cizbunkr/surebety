@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:12:12.444580+00:00",
+  "generatedAt": "2026-06-24T17:14:12.501610+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 34,
+  "opportunitiesFound": 35,
   "byStat": {
     "fouls": 12,
     "shots": 6,
-    "offsides": 10,
+    "offsides": 11,
     "cards": 6
   },
   "opportunities": [
@@ -436,6 +436,42 @@
           "odd": 4.3,
           "bookmaker": "Rainbet",
           "stake": 238.94
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Panama - Anglie",
+      "startTime": "2026-06-27T23:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet ofsajdy — Anglie, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 2.24,
+      "sumInverse": 0.9781,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1022.38,
+      "guaranteedProfit": 22.38,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|team|away|over|1.5",
+          "label": "Více než 1.5 (Anglie)",
+          "odd": 1.91,
+          "bookmaker": "Rainbet",
+          "stake": 535.28
+        },
+        {
+          "key": "offsides|team|away|under|1.5",
+          "label": "Méně než 1.5 (Anglie)",
+          "odd": 2.2,
+          "bookmaker": "Fortuna",
+          "stake": 464.72
         }
       ],
       "sport": "fotbal"
