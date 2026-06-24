@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:01:23.717311+00:00",
+  "generatedAt": "2026-06-24T17:05:10.845643+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,12 +15,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 34,
+  "opportunitiesFound": 36,
   "byStat": {
     "fouls": 12,
-    "offsides": 9,
-    "cards": 8,
-    "shots": 5
+    "shots": 8,
+    "offsides": 10,
+    "cards": 6
   },
   "opportunities": [
     {
@@ -132,6 +132,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 5.85,
+      "sumInverse": 0.9447,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1058.53,
+      "guaranteedProfit": 58.53,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|total|over|8.5",
+          "label": "Více než 8.5",
+          "odd": 2.53,
+          "bookmaker": "Tipsport",
+          "stake": 418.39
+        },
+        {
+          "key": "shots|total|under|8.5",
+          "label": "Méně než 8.5",
+          "odd": 1.82,
+          "bookmaker": "Fortuna",
+          "stake": 581.61
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Bosna Hercegovina - Katar",
       "startTime": "2026-06-24T21:00:00.000+02:00",
       "stat": "fouls",
@@ -163,6 +199,49 @@
           "odd": 1.95,
           "bookmaker": "Rainbet",
           "stake": 537.91
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Kdo víc — střely na branku (1x2)",
+      "isArbitrage": true,
+      "profitPct": 4.89,
+      "sumInverse": 0.9534,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1048.9,
+      "guaranteedProfit": 48.9,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|1x2|home",
+          "label": "Kapverdy více",
+          "odd": 2.02,
+          "bookmaker": "Tipsport",
+          "stake": 519.26
+        },
+        {
+          "key": "shots|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 8.0,
+          "bookmaker": "Fortuna",
+          "stake": 131.11
+        },
+        {
+          "key": "shots|1x2|away",
+          "label": "Saúdská Arábie více",
+          "odd": 3.0,
+          "bookmaker": "Rainbet",
+          "stake": 349.63
         }
       ],
       "sport": "fotbal"
@@ -240,37 +319,37 @@
       "sport": "fotbal"
     },
     {
-      "match": "Panama - Anglie",
-      "startTime": "2026-06-27T23:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Anglie, hranice 1.5",
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet — střely na branku, hranice 7.5",
       "isArbitrage": true,
-      "profitPct": 3.94,
-      "sumInverse": 0.9621,
+      "profitPct": 4.47,
+      "sumInverse": 0.9572,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1039.44,
-      "guaranteedProfit": 39.44,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
+      "guaranteedReturn": 1044.71,
+      "guaranteedProfit": 44.71,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
       "biasProtected": null,
       "biasNote": "",
       "legs": [
         {
-          "key": "cards|team|away|over|1.5",
-          "label": "Více než 1.5 (Anglie)",
-          "odd": 2.46,
-          "bookmaker": "Rainbet",
-          "stake": 422.54
+          "key": "shots|total|over|7.5",
+          "label": "Více než 7.5",
+          "odd": 1.85,
+          "bookmaker": "Tipsport",
+          "stake": 564.71
         },
         {
-          "key": "cards|team|away|under|1.5",
-          "label": "Méně než 1.5 (Anglie)",
-          "odd": 1.8,
+          "key": "shots|total|under|7.5",
+          "label": "Méně než 7.5",
+          "odd": 2.4,
           "bookmaker": "Fortuna",
-          "stake": 577.46
+          "stake": 435.29
         }
       ],
       "sport": "fotbal"
@@ -315,34 +394,34 @@
       "match": "Kapverdy - Saúdská Arábie",
       "startTime": "2026-06-27T02:00:00.000+02:00",
       "stat": "shots",
-      "market": "Počet — střely na branku, hranice 7.5",
+      "market": "Počet střely na branku — Kapverdy, hranice 4.5",
       "isArbitrage": true,
-      "profitPct": 3.51,
-      "sumInverse": 0.9661,
+      "profitPct": 3.45,
+      "sumInverse": 0.9667,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1035.07,
-      "guaranteedProfit": 35.07,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "guaranteedReturn": 1034.46,
+      "guaranteedProfit": 34.46,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
       "statRisk": "vysoká",
       "statDiffPct": 43.5,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Rainbet (Sportradar počítá výš) + UNDER Fortuna → rozdíl providerů hraje pro tebe",
+      "biasProtected": null,
+      "biasNote": "",
       "legs": [
         {
-          "key": "shots|total|over|7.5",
-          "label": "Více než 7.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 568.72
+          "key": "shots|team|home|over|4.5",
+          "label": "Více než 4.5 (Kapverdy)",
+          "odd": 2.53,
+          "bookmaker": "Tipsport",
+          "stake": 408.88
         },
         {
-          "key": "shots|total|under|7.5",
-          "label": "Méně než 7.5",
-          "odd": 2.4,
+          "key": "shots|team|home|under|4.5",
+          "label": "Méně než 4.5 (Kapverdy)",
+          "odd": 1.75,
           "bookmaker": "Fortuna",
-          "stake": 431.28
+          "stake": 591.12
         }
       ],
       "sport": "fotbal"
@@ -379,42 +458,6 @@
           "odd": 1.45,
           "bookmaker": "Fortuna",
           "stake": 712.87
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Panama - Anglie",
-      "startTime": "2026-06-27T23:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 3.23,
-      "sumInverse": 0.9687,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1032.34,
-      "guaranteedProfit": 32.34,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|total|over|3.5",
-          "label": "Více než 3.5",
-          "odd": 2.32,
-          "bookmaker": "Rainbet",
-          "stake": 444.98
-        },
-        {
-          "key": "cards|total|under|3.5",
-          "label": "Méně než 3.5",
-          "odd": 1.86,
-          "bookmaker": "Fortuna",
-          "stake": 555.02
         }
       ],
       "sport": "fotbal"
@@ -506,109 +549,37 @@
       "sport": "fotbal"
     },
     {
-      "match": "Jordánsko - Argentina",
-      "startTime": "2026-06-28T04:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Jordánsko, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 2.72,
-      "sumInverse": 0.9735,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1027.17,
-      "guaranteedProfit": 27.17,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|team|home|over|1.5",
-          "label": "Více než 1.5 (Jordánsko)",
-          "odd": 1.89,
-          "bookmaker": "Rainbet",
-          "stake": 543.48
-        },
-        {
-          "key": "cards|team|home|under|1.5",
-          "label": "Méně než 1.5 (Jordánsko)",
-          "odd": 2.25,
-          "bookmaker": "Fortuna",
-          "stake": 456.52
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Panama - Anglie",
-      "startTime": "2026-06-27T23:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 2.19,
-      "sumInverse": 0.9786,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1021.89,
-      "guaranteedProfit": 21.89,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|total|over|2.5",
-          "label": "Více než 2.5",
-          "odd": 1.59,
-          "bookmaker": "Rainbet",
-          "stake": 642.7
-        },
-        {
-          "key": "cards|total|under|2.5",
-          "label": "Méně než 2.5",
-          "odd": 2.86,
-          "bookmaker": "Fortuna",
-          "stake": 357.3
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Kapverdy - Saúdská Arábie",
       "startTime": "2026-06-27T02:00:00.000+02:00",
       "stat": "shots",
       "market": "Počet — střely na branku, hranice 6.5",
       "isArbitrage": true,
-      "profitPct": 2.02,
-      "sumInverse": 0.9802,
+      "profitPct": 2.53,
+      "sumInverse": 0.9754,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1020.24,
-      "guaranteedProfit": 20.24,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "guaranteedReturn": 1025.25,
+      "guaranteedProfit": 25.25,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
       "statRisk": "vysoká",
       "statDiffPct": 43.5,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Rainbet (Sportradar počítá výš) + UNDER Fortuna → rozdíl providerů hraje pro tebe",
+      "biasProtected": null,
+      "biasNote": "",
       "legs": [
         {
           "key": "shots|total|over|6.5",
           "label": "Více než 6.5",
-          "odd": 1.44,
-          "bookmaker": "Rainbet",
-          "stake": 708.5
+          "odd": 1.45,
+          "bookmaker": "Tipsport",
+          "stake": 707.07
         },
         {
           "key": "shots|total|under|6.5",
           "label": "Méně než 6.5",
           "odd": 3.5,
           "bookmaker": "Fortuna",
-          "stake": 291.5
+          "stake": 292.93
         }
       ],
       "sport": "fotbal"
@@ -729,42 +700,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Jordánsko - Argentina",
-      "startTime": "2026-06-28T04:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 2.5",
-      "isArbitrage": true,
-      "profitPct": 1.48,
-      "sumInverse": 0.9854,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1014.8,
-      "guaranteedProfit": 14.8,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|total|over|2.5",
-          "label": "Více než 2.5",
-          "odd": 1.69,
-          "bookmaker": "Rainbet",
-          "stake": 600.47
-        },
-        {
-          "key": "cards|total|under|2.5",
-          "label": "Méně než 2.5",
-          "odd": 2.54,
-          "bookmaker": "Fortuna",
-          "stake": 399.53
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "fouls",
@@ -844,6 +779,114 @@
       "sport": "fotbal"
     },
     {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Počet střely na branku — Kapverdy, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 1.28,
+      "sumInverse": 0.9874,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1012.77,
+      "guaranteedProfit": 12.77,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|team|home|over|3.5",
+          "label": "Více než 3.5 (Kapverdy)",
+          "odd": 1.68,
+          "bookmaker": "Tipsport",
+          "stake": 602.84
+        },
+        {
+          "key": "shots|team|home|under|3.5",
+          "label": "Méně než 3.5 (Kapverdy)",
+          "odd": 2.55,
+          "bookmaker": "Fortuna",
+          "stake": 397.16
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Počet — ofsajdy, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 1.23,
+      "sumInverse": 0.9878,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1012.35,
+      "guaranteedProfit": 12.35,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2,
+          "bookmaker": "Tipsport",
+          "stake": 506.17
+        },
+        {
+          "key": "offsides|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 2.05,
+          "bookmaker": "Fortuna",
+          "stake": 493.83
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Panama - Anglie",
+      "startTime": "2026-06-27T23:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Anglie, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 1.22,
+      "sumInverse": 0.9879,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1012.25,
+      "guaranteedProfit": 12.25,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (Anglie)",
+          "odd": 2.46,
+          "bookmaker": "Rainbet",
+          "stake": 411.48
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (Anglie)",
+          "odd": 1.72,
+          "bookmaker": "Fortuna",
+          "stake": 588.52
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "fouls",
@@ -875,42 +918,6 @@
           "odd": 1.82,
           "bookmaker": "Rainbet",
           "stake": 556.1
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Jordánsko - Argentina",
-      "startTime": "2026-06-28T04:00:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet — žluté karty, hranice 3.5",
-      "isArbitrage": true,
-      "profitPct": 1.16,
-      "sumInverse": 0.9885,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1011.59,
-      "guaranteedProfit": 11.59,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|total|over|3.5",
-          "label": "Více než 3.5",
-          "odd": 2.52,
-          "bookmaker": "Rainbet",
-          "stake": 401.43
-        },
-        {
-          "key": "cards|total|under|3.5",
-          "label": "Méně než 3.5",
-          "odd": 1.69,
-          "bookmaker": "Fortuna",
-          "stake": 598.57
         }
       ],
       "sport": "fotbal"
@@ -1096,6 +1103,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Panama - Anglie",
+      "startTime": "2026-06-27T23:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 3.5",
+      "isArbitrage": true,
+      "profitPct": 0.72,
+      "sumInverse": 0.9928,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1007.22,
+      "guaranteedProfit": 7.22,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "cards|total|over|3.5",
+          "label": "Více než 3.5",
+          "odd": 2.32,
+          "bookmaker": "Rainbet",
+          "stake": 434.15
+        },
+        {
+          "key": "cards|total|under|3.5",
+          "label": "Méně než 3.5",
+          "odd": 1.78,
+          "bookmaker": "Fortuna",
+          "stake": 565.85
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Paraguay - Austrálie",
       "startTime": "2026-06-26T04:00:00.000+02:00",
       "stat": "fouls",
@@ -1139,6 +1182,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Jordánsko - Argentina",
+      "startTime": "2026-06-28T04:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Jordánsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 0.58,
+      "sumInverse": 0.9942,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1005.82,
+      "guaranteedProfit": 5.82,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "cards|team|home|over|1.5",
+          "label": "Více než 1.5 (Jordánsko)",
+          "odd": 1.89,
+          "bookmaker": "Rainbet",
+          "stake": 532.18
+        },
+        {
+          "key": "cards|team|home|under|1.5",
+          "label": "Méně než 1.5 (Jordánsko)",
+          "odd": 2.15,
+          "bookmaker": "Fortuna",
+          "stake": 467.82
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Kolumbie - Portugalsko",
       "startTime": "2026-06-28T01:30:00.000+02:00",
       "stat": "cards",
@@ -1170,42 +1249,6 @@
           "odd": 2.65,
           "bookmaker": "Fortuna",
           "stake": 379.39
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Curacao - Pobřeží slonoviny",
-      "startTime": "2026-06-25T22:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet střely na branku — Pobřeží slonoviny, hranice 6.5",
-      "isArbitrage": true,
-      "profitPct": 0.48,
-      "sumInverse": 0.9952,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.78,
-      "guaranteedProfit": 4.78,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|team|away|over|6.5",
-          "label": "Více než 6.5 (Pobřeží slonoviny)",
-          "odd": 1.68,
-          "bookmaker": "Fortuna",
-          "stake": 598.09
-        },
-        {
-          "key": "shots|team|away|under|6.5",
-          "label": "Méně než 6.5 (Pobřeží slonoviny)",
-          "odd": 2.5,
-          "bookmaker": "Tipsport",
-          "stake": 401.91
         }
       ],
       "sport": "fotbal"
@@ -1278,6 +1321,42 @@
           "odd": 1.6,
           "bookmaker": "Fortuna",
           "stake": 627.91
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Panama - Anglie",
+      "startTime": "2026-06-27T23:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.21,
+      "sumInverse": 0.9979,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1002.07,
+      "guaranteedProfit": 2.07,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.59,
+          "bookmaker": "Rainbet",
+          "stake": 630.23
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.71,
+          "bookmaker": "Fortuna",
+          "stake": 369.77
         }
       ],
       "sport": "fotbal"
