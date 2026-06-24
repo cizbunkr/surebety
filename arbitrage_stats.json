@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:21:14.473288+00:00",
+  "generatedAt": "2026-06-24T15:31:20.373438+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,9 +15,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 24,
-  "opportunitiesFound": 30,
+  "opportunitiesFound": 29,
   "byStat": {
-    "offsides": 9,
+    "offsides": 8,
     "fouls": 10,
     "cards": 7,
     "shots": 4
@@ -904,42 +904,6 @@
           "odd": 3.0,
           "bookmaker": "Rainbet",
           "stake": 336.28
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Paraguay - Austrálie",
-      "startTime": "2026-06-26T04:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Počet ofsajdy — Paraguay, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 0.85,
-      "sumInverse": 0.9916,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1008.47,
-      "guaranteedProfit": 8.47,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "offsides|team|home|over|1.5",
-          "label": "Více než 1.5 (Paraguay)",
-          "odd": 1.75,
-          "bookmaker": "Fortuna",
-          "stake": 576.27
-        },
-        {
-          "key": "offsides|team|home|under|1.5",
-          "label": "Méně než 1.5 (Paraguay)",
-          "odd": 2.38,
-          "bookmaker": "Rainbet",
-          "stake": 423.73
         }
       ],
       "sport": "fotbal"
