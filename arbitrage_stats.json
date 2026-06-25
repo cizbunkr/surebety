@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T05:51:40.525356+00:00",
+  "generatedAt": "2026-06-25T05:53:43.202596+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -297,6 +297,49 @@
       "sport": "fotbal"
     },
     {
+      "match": "Chorvatsko - Ghana",
+      "startTime": "2026-06-27T23:00:00.000+02:00",
+      "stat": "shots",
+      "market": "Kdo víc — střely na branku (1x2)",
+      "isArbitrage": true,
+      "profitPct": 4.3,
+      "sumInverse": 0.9588,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1042.95,
+      "guaranteedProfit": 42.95,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "vysoká",
+      "statDiffPct": 43.5,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "shots|1x2|home",
+          "label": "Chorvatsko více",
+          "odd": 1.45,
+          "bookmaker": "Fortuna",
+          "stake": 719.28
+        },
+        {
+          "key": "shots|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 8.5,
+          "bookmaker": "Fortuna",
+          "stake": 122.7
+        },
+        {
+          "key": "shots|1x2|away",
+          "label": "Ghana více",
+          "odd": 6.6,
+          "bookmaker": "Rainbet",
+          "stake": 158.02
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Curacao - Pobřeží slonoviny",
       "startTime": "2026-06-25T22:00:00.000+02:00",
       "stat": "offsides",
@@ -371,49 +414,6 @@
           "odd": 1.45,
           "bookmaker": "Fortuna",
           "stake": 712.87
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Chorvatsko - Ghana",
-      "startTime": "2026-06-27T23:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Kdo víc — střely na branku (1x2)",
-      "isArbitrage": true,
-      "profitPct": 2.73,
-      "sumInverse": 0.9734,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1027.34,
-      "guaranteedProfit": 27.34,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|1x2|home",
-          "label": "Chorvatsko více",
-          "odd": 1.42,
-          "bookmaker": "Fortuna",
-          "stake": 723.48
-        },
-        {
-          "key": "shots|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 8.5,
-          "bookmaker": "Fortuna",
-          "stake": 120.86
-        },
-        {
-          "key": "shots|1x2|away",
-          "label": "Ghana více",
-          "odd": 6.6,
-          "bookmaker": "Rainbet",
-          "stake": 155.66
         }
       ],
       "sport": "fotbal"
