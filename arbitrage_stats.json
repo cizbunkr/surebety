@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T07:15:49.420721+00:00",
+  "generatedAt": "2026-06-25T07:17:46.416222+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,9 +15,9 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 18,
-  "opportunitiesFound": 27,
+  "opportunitiesFound": 28,
   "byStat": {
-    "offsides": 9,
+    "offsides": 10,
     "shots": 6,
     "fouls": 10,
     "cards": 2
@@ -414,6 +414,49 @@
           "odd": 3.2,
           "bookmaker": "Fortuna",
           "stake": 319.01
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Japonsko - Švédsko",
+      "startTime": "2026-06-26T01:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 1.91,
+      "sumInverse": 0.9813,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1019.1,
+      "guaranteedProfit": 19.1,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Japonsko více",
+          "odd": 2.45,
+          "bookmaker": "Tipsport",
+          "stake": 415.96
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 4.5,
+          "bookmaker": "Fortuna",
+          "stake": 226.47
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Švédsko více",
+          "odd": 2.85,
+          "bookmaker": "Fortuna",
+          "stake": 357.58
         }
       ],
       "sport": "fotbal"
