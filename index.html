@@ -205,6 +205,38 @@ function bookLogo(b, sz = 16) {
   const ch = (b || "?").charAt(0).toUpperCase();
   return `<span class="blogo" style="background:${bookColor(b)};color:${textOn(bookColor(b))};width:${sz}px;height:${sz}px;font-size:${Math.round(sz * 0.6)}px">${ch}</span>`;
 }
+
+// živý indikátor stáří dat: zelená <2 min, žlutá 2–10 min, červená ≥10 min
+const AGE_GREEN = 120, AGE_RED = 600;
+let SRC_AGES = {};   // {bookmaker: Date scrapedAt}
+function ageColor(sec) { return sec < AGE_GREEN ? "var(--safe)" : (sec < AGE_RED ? "var(--warn)" : "var(--risk)"); }
+function fmtAge(sec) { const m = Math.floor(sec / 60), s = sec % 60; return m + ":" + String(s).padStart(2, "0"); }
+function renderAges() {
+  const host = document.getElementById("ages");
+  if (!host) return;
+  const ages = (DATA && DATA.sourceAges) || {};
+  const order = ["Tipsport", "Rainbet", "Fortuna"];
+  const keys = Object.keys(ages).sort((a, b) => (order.indexOf(a) + 99) % 100 - (order.indexOf(b) + 99) % 100);
+  SRC_AGES = {};
+  if (!keys.length) { host.innerHTML = ""; return; }
+  host.innerHTML = `<span class="hint">stáří dat:</span>` + keys.map(b => {
+    SRC_AGES[b] = new Date(ages[b]);
+    return `<span class="age" data-bk="${b}">${bookLogo(b, 15)}<span class="nm">${b}</span><span class="pulse"></span><span class="t"></span></span>`;
+  }).join("");
+  tickAges();
+}
+function tickAges() {
+  const now = Date.now();
+  for (const b in SRC_AGES) {
+    const el = document.querySelector(`.age[data-bk="${b}"]`);
+    if (!el) continue;
+    const sec = Math.max(0, Math.round((now - SRC_AGES[b].getTime()) / 1000));
+    const col = ageColor(sec);
+    const t = el.querySelector(".t"); t.textContent = fmtAge(sec); t.style.color = col;
+    el.querySelector(".pulse").style.background = col;
+  }
+}
+
 const LS = "surebet_settings_v3";
 let DATA = null, builtFilters = false;
 
@@ -338,6 +370,7 @@ function bindStakeInputs() {
 function renderList() {
   const list = document.getElementById("list");
   updateBet();
+  renderAges();
   if (!DATA) { list.innerHTML = '<div class="empty">Nepodařilo se načíst data.</div>'; return; }
   const opps = (DATA.opportunities || []).filter(o =>
     settings.sports[o.sport || "fotbal"] !== false &&
@@ -388,6 +421,7 @@ setupTabs();
 updateBet();
 load();
 setInterval(load, 60000);
+setInterval(tickAges, 1000);
 </script>
 </body>
 </html>
