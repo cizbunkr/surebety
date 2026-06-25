@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T04:59:39.702032+00:00",
+  "generatedAt": "2026-06-25T05:01:36.959702+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -297,6 +297,49 @@
       "sport": "fotbal"
     },
     {
+      "match": "Curacao - Pobřeží slonoviny",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 3.67,
+      "sumInverse": 0.9646,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1036.66,
+      "guaranteedProfit": 36.66,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Curacao více",
+          "odd": 2.75,
+          "bookmaker": "Fortuna",
+          "stake": 376.97
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 3.8,
+          "bookmaker": "Fortuna",
+          "stake": 272.81
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Pobřeží slonoviny více",
+          "odd": 2.96,
+          "bookmaker": "Rainbet",
+          "stake": 350.22
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Norsko - Francie",
       "startTime": "2026-06-26T21:00:00.000+02:00",
       "stat": "offsides",
@@ -414,49 +457,6 @@
           "odd": 2.96,
           "bookmaker": "Rainbet",
           "stake": 344.3
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Curacao - Pobřeží slonoviny",
-      "startTime": "2026-06-25T22:00:00.000+02:00",
-      "stat": "offsides",
-      "market": "Kdo víc — ofsajdy (1x2)",
-      "isArbitrage": true,
-      "profitPct": 1.63,
-      "sumInverse": 0.9839,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1016.33,
-      "guaranteedProfit": 16.33,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "offsides|1x2|home",
-          "label": "Curacao více",
-          "odd": 2.75,
-          "bookmaker": "Fortuna",
-          "stake": 369.57
-        },
-        {
-          "key": "offsides|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 3.8,
-          "bookmaker": "Fortuna",
-          "stake": 267.45
-        },
-        {
-          "key": "offsides|1x2|away",
-          "label": "Pobřeží slonoviny více",
-          "odd": 2.8,
-          "bookmaker": "Tipsport",
-          "stake": 362.97
         }
       ],
       "sport": "fotbal"
