@@ -1,10 +1,15 @@
 {
-  "generatedAt": "2026-06-25T10:30:57.695940+00:00",
+  "generatedAt": "2026-06-25T10:33:02.949869+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
     "Fortuna"
   ],
+  "sourceAges": {
+    "Tipsport": "2026-06-25T10:32:39.720Z",
+    "Rainbet": "2026-06-25T10:32:50.418355+00:00",
+    "Fortuna": "2026-06-25T10:33:02.541158+00:00"
+  },
   "markets": [
     "fouls",
     "cards",
