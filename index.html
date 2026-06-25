@@ -216,7 +216,8 @@ function renderAges() {
   if (!host) return;
   const ages = (DATA && DATA.sourceAges) || {};
   const order = ["Tipsport", "Rainbet", "Fortuna"];
-  const keys = Object.keys(ages).sort((a, b) => (order.indexOf(a) + 99) % 100 - (order.indexOf(b) + 99) % 100);
+  const rank = (x) => (order.indexOf(x) + 1) || 99;   // neznámé na konec
+  const keys = Object.keys(ages).sort((a, b) => rank(a) - rank(b));
   SRC_AGES = {};
   if (!keys.length) { host.innerHTML = ""; return; }
   host.innerHTML = `<span class="hint">stáří dat:</span>` + keys.map(b => {
