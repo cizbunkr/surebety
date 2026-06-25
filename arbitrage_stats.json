@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T07:27:56.167879+00:00",
+  "generatedAt": "2026-06-25T07:52:59.014763+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -18,9 +18,9 @@
   "opportunitiesFound": 28,
   "byStat": {
     "offsides": 10,
-    "shots": 6,
+    "shots": 5,
     "fouls": 10,
-    "cards": 2
+    "cards": 3
   },
   "opportunities": [
     {
@@ -800,6 +800,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Curacao - Pobřeží slonoviny",
+      "startTime": "2026-06-25T22:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet — žluté karty, hranice 2.5",
+      "isArbitrage": true,
+      "profitPct": 0.63,
+      "sumInverse": 0.9937,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1006.31,
+      "guaranteedProfit": 6.31,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "cards|total|over|2.5",
+          "label": "Více než 2.5",
+          "odd": 1.63,
+          "bookmaker": "Rainbet",
+          "stake": 617.37
+        },
+        {
+          "key": "cards|total|under|2.5",
+          "label": "Méně než 2.5",
+          "odd": 2.63,
+          "bookmaker": "Tipsport",
+          "stake": 382.63
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Kolumbie - Portugalsko",
       "startTime": "2026-06-28T01:30:00.000+02:00",
       "stat": "cards",
@@ -939,42 +975,6 @@
           "odd": 1.52,
           "bookmaker": "Fortuna",
           "stake": 660.71
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Tunisko - Nizozemsko",
-      "startTime": "2026-06-26T01:00:00.000+02:00",
-      "stat": "shots",
-      "market": "Počet — střely na branku, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 0.41,
-      "sumInverse": 0.9959,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.14,
-      "guaranteedProfit": 4.14,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|total|over|9.5",
-          "label": "Více než 9.5",
-          "odd": 2.24,
-          "bookmaker": "Tipsport",
-          "stake": 448.28
-        },
-        {
-          "key": "shots|total|under|9.5",
-          "label": "Méně než 9.5",
-          "odd": 1.82,
-          "bookmaker": "Fortuna",
-          "stake": 551.72
         }
       ],
       "sport": "fotbal"
