@@ -103,6 +103,16 @@
   /* brandová dlaždice sázkovky (monogram místo puntíku) */
   .blogo { display: inline-flex; align-items: center; justify-content: center; border-radius: 4px;
            color: #fff; font-weight: 700; line-height: 1; flex: 0 0 auto; }
+
+  /* živý indikátor stáří dat per sázkovka */
+  .ages { display: flex; flex-wrap: wrap; gap: 8px; margin: 9px 0 2px; align-items: center; }
+  .ages .hint { font-size: 11px; color: var(--faint); margin-right: 2px; }
+  .age { display: inline-flex; align-items: center; gap: 7px; font-size: 12px; padding: 5px 10px 5px 6px;
+         border-radius: 999px; background: var(--card); border: 1px solid var(--border); }
+  .age .nm { color: var(--muted); }
+  .age .t { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 30px; text-align: right; }
+  .age .pulse { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; animation: agepulse 1.7s ease-in-out infinite; }
+  @keyframes agepulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .3; transform: scale(.62); } }
   footer { text-align: center; font-size: 11px; color: var(--faint); margin-top: 18px; }
 
   /* jen mobil: taby doprava + lišta filtrů přehledně do dvou řádků (3 tlačítka = šířka BET) */
@@ -129,6 +139,7 @@
 
 <section class="page" id="page-surebety">
 <div class="meta" id="meta">načítám…</div>
+<div class="ages" id="ages"></div>
 
 <div class="bar">
   <button class="ibtn" id="btnFilt"><span class="em">⚙</span>Filtry</button>
