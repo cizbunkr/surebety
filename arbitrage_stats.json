@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T06:21:42.527931+00:00",
+  "generatedAt": "2026-06-25T06:23:44.232124+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -15,11 +15,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 18,
-  "opportunitiesFound": 29,
+  "opportunitiesFound": 25,
   "byStat": {
     "offsides": 9,
-    "shots": 6,
-    "fouls": 12,
+    "shots": 5,
+    "fouls": 9,
     "cards": 2
   },
   "opportunities": [
@@ -153,42 +153,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Tunisko - Nizozemsko",
-      "startTime": "2026-06-26T01:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet fauly — Tunisko, hranice 12.5",
-      "isArbitrage": true,
-      "profitPct": 5.76,
-      "sumInverse": 0.9455,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1057.64,
-      "guaranteedProfit": 57.64,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
-      "legs": [
-        {
-          "key": "fouls|team|home|over|12.5",
-          "label": "Více než 12.5 (Tunisko)",
-          "odd": 2.02,
-          "bookmaker": "Tipsport",
-          "stake": 523.58
-        },
-        {
-          "key": "fouls|team|home|under|12.5",
-          "label": "Méně než 12.5 (Tunisko)",
-          "odd": 2.22,
-          "bookmaker": "Rainbet",
-          "stake": 476.42
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Senegal - Irák",
       "startTime": "2026-06-26T21:00:00.000+02:00",
       "stat": "offsides",
@@ -220,78 +184,6 @@
           "odd": 2.78,
           "bookmaker": "Rainbet",
           "stake": 379.46
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Tunisko - Nizozemsko",
-      "startTime": "2026-06-26T01:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 24.5",
-      "isArbitrage": true,
-      "profitPct": 5.32,
-      "sumInverse": 0.9495,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1053.24,
-      "guaranteedProfit": 53.24,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
-      "legs": [
-        {
-          "key": "fouls|total|over|24.5",
-          "label": "Více než 24.5",
-          "odd": 2.5,
-          "bookmaker": "Tipsport",
-          "stake": 421.3
-        },
-        {
-          "key": "fouls|total|under|24.5",
-          "label": "Méně než 24.5",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 578.7
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Tunisko - Nizozemsko",
-      "startTime": "2026-06-26T01:00:00.000+02:00",
-      "stat": "fouls",
-      "market": "Počet — fauly, hranice 23.5",
-      "isArbitrage": true,
-      "profitPct": 5.22,
-      "sumInverse": 0.9504,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1052.21,
-      "guaranteedProfit": 52.21,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 55.6,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Tipsport (Opta počítá výš) + UNDER Rainbet → rozdíl providerů hraje pro tebe",
-      "legs": [
-        {
-          "key": "fouls|total|over|23.5",
-          "label": "Více než 23.5",
-          "odd": 2.07,
-          "bookmaker": "Tipsport",
-          "stake": 508.31
-        },
-        {
-          "key": "fouls|total|under|23.5",
-          "label": "Méně než 23.5",
-          "odd": 2.14,
-          "bookmaker": "Rainbet",
-          "stake": 491.69
         }
       ],
       "sport": "fotbal"
@@ -414,49 +306,6 @@
           "odd": 1.45,
           "bookmaker": "Fortuna",
           "stake": 712.87
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "DR Kongo - Uzbekistán",
-      "startTime": "2026-06-28T01:30:00.000+02:00",
-      "stat": "shots",
-      "market": "Kdo víc — střely na branku (1x2)",
-      "isArbitrage": true,
-      "profitPct": 2.08,
-      "sumInverse": 0.9796,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1020.83,
-      "guaranteedProfit": 20.83,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|1x2|home",
-          "label": "DR Kongo více",
-          "odd": 1.82,
-          "bookmaker": "Rainbet",
-          "stake": 560.89
-        },
-        {
-          "key": "shots|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 8.5,
-          "bookmaker": "Fortuna",
-          "stake": 120.1
-        },
-        {
-          "key": "shots|1x2|away",
-          "label": "Uzbekistán více",
-          "odd": 3.2,
-          "bookmaker": "Fortuna",
-          "stake": 319.01
         }
       ],
       "sport": "fotbal"
