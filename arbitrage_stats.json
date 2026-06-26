@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-26T06:09:21.780451+00:00",
+  "generatedAt": "2026-06-26T06:11:22.087435+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
     "Fortuna"
   ],
   "sourceAges": {
-    "Tipsport": "2026-06-26T06:08:16.240Z",
-    "Rainbet": "2026-06-26T06:09:11.723263+00:00",
-    "Fortuna": "2026-06-26T06:09:21.548019+00:00"
+    "Tipsport": "2026-06-26T06:10:16.234Z",
+    "Rainbet": "2026-06-26T06:11:11.934167+00:00",
+    "Fortuna": "2026-06-26T06:11:21.895233+00:00"
   },
   "markets": [
     "fouls",
@@ -20,13 +20,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 13,
-  "opportunitiesFound": 16,
+  "opportunitiesFound": 15,
   "byStat": {
     "shots": 4,
     "fouls": 4,
     "offsides": 6,
-    "corners": 1,
-    "cards": 1
+    "corners": 1
   },
   "opportunities": [
     {
@@ -571,42 +570,6 @@
           "odd": 2.14,
           "bookmaker": "Tipsport",
           "stake": 467.66
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Kolumbie - Portugalsko",
-      "startTime": "2026-06-28T01:30:00.000+02:00",
-      "stat": "cards",
-      "market": "Počet žluté karty — Portugalsko, hranice 1.5",
-      "isArbitrage": true,
-      "profitPct": 0.07,
-      "sumInverse": 0.9993,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1000.74,
-      "guaranteedProfit": 0.74,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "žádná",
-      "statDiffPct": 0.0,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "cards|team|away|over|1.5",
-          "label": "Více než 1.5 (Portugalsko)",
-          "odd": 2.18,
-          "bookmaker": "Rainbet",
-          "stake": 459.06
-        },
-        {
-          "key": "cards|team|away|under|1.5",
-          "label": "Méně než 1.5 (Portugalsko)",
-          "odd": 1.85,
-          "bookmaker": "Fortuna",
-          "stake": 540.94
         }
       ],
       "sport": "fotbal"
