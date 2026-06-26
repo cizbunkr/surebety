@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-06-26T07:46:52.215068+00:00",
+  "generatedAt": "2026-06-26T08:45:53.747613+00:00",
   "sources": [
+    "Tipsport",
     "Fortuna"
   ],
   "sourceAges": {
-    "Tipsport": "2026-06-26T06:54:16.303Z",
-    "Rainbet": "2026-06-26T07:16:20.509081+00:00",
-    "Fortuna": "2026-06-26T07:46:51.967725+00:00"
+    "Tipsport": "2026-06-26T08:23:41.069Z",
+    "Rainbet": "2026-06-26T07:49:21.985005+00:00",
+    "Fortuna": "2026-06-26T08:45:52.639657+00:00"
   },
   "markets": [
     "fouls",
@@ -17,8 +18,91 @@
   ],
   "stakeTotal": 1000,
   "currency": "CZK",
-  "matchesPaired": 0,
-  "opportunitiesFound": 0,
-  "byStat": {},
-  "opportunities": []
+  "matchesPaired": 12,
+  "opportunitiesFound": 2,
+  "byStat": {
+    "offsides": 1,
+    "corners": 1
+  },
+  "opportunities": [
+    {
+      "match": "Kapverdy - Saúdská Arábie",
+      "startTime": "2026-06-27T02:00:00.000+02:00",
+      "stat": "offsides",
+      "market": "Kdo víc — ofsajdy (1x2)",
+      "isArbitrage": true,
+      "profitPct": 2.29,
+      "sumInverse": 0.9776,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1022.94,
+      "guaranteedProfit": 22.94,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "offsides|1x2|home",
+          "label": "Kapverdy více",
+          "odd": 2.2,
+          "bookmaker": "Tipsport",
+          "stake": 464.97
+        },
+        {
+          "key": "offsides|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 4.75,
+          "bookmaker": "Fortuna",
+          "stake": 215.36
+        },
+        {
+          "key": "offsides|1x2|away",
+          "label": "Saúdská Arábie více",
+          "odd": 3.2,
+          "bookmaker": "Fortuna",
+          "stake": 319.67
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "JAR - Kanada",
+      "startTime": "2026-06-28T21:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Počet rohy — Kanada, hranice 5.5",
+      "isArbitrage": true,
+      "profitPct": 0.08,
+      "sumInverse": 0.9992,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1000.8,
+      "guaranteedProfit": 0.8,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "nízká",
+      "statDiffPct": 2.9,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "corners|team|away|over|5.5",
+          "label": "Více než 5.5 (Kanada)",
+          "odd": 1.88,
+          "bookmaker": "Fortuna",
+          "stake": 532.34
+        },
+        {
+          "key": "corners|team|away|under|5.5",
+          "label": "Méně než 5.5 (Kanada)",
+          "odd": 2.14,
+          "bookmaker": "Tipsport",
+          "stake": 467.66
+        }
+      ],
+      "sport": "fotbal"
+    }
+  ]
 }
