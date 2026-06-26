@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-26T16:53:23.082332+00:00",
+  "generatedAt": "2026-06-26T16:55:23.194935+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
     "Fortuna"
   ],
   "sourceAges": {
-    "Tipsport": "2026-06-26T16:51:25.208Z",
-    "Rainbet": "2026-06-26T16:53:13.197130+00:00",
-    "Fortuna": "2026-06-26T16:53:22.907799+00:00"
+    "Tipsport": "2026-06-26T16:53:25.207Z",
+    "Rainbet": "2026-06-26T16:55:13.263746+00:00",
+    "Fortuna": "2026-06-26T16:55:22.898409+00:00"
   },
   "markets": [
     "fouls",
@@ -20,12 +20,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 14,
-  "opportunitiesFound": 12,
+  "opportunitiesFound": 13,
   "byStat": {
     "fouls": 4,
     "offsides": 3,
     "shots": 3,
-    "cards": 1,
+    "cards": 2,
     "corners": 1
   },
   "opportunities": [
@@ -420,6 +420,42 @@
           "odd": 1.96,
           "bookmaker": "Rainbet",
           "stake": 512.44
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Egypt - Írán",
+      "startTime": "2026-06-27T05:00:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Egypt, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 0.21,
+      "sumInverse": 0.9979,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1002.13,
+      "guaranteedProfit": 2.13,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "cards|team|home|over|1.5",
+          "label": "Více než 1.5 (Egypt)",
+          "odd": 2.74,
+          "bookmaker": "Tipsport",
+          "stake": 365.74
+        },
+        {
+          "key": "cards|team|home|under|1.5",
+          "label": "Méně než 1.5 (Egypt)",
+          "odd": 1.58,
+          "bookmaker": "Fortuna",
+          "stake": 634.26
         }
       ],
       "sport": "fotbal"
