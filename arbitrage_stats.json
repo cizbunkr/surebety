@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-26T16:21:21.975677+00:00",
+  "generatedAt": "2026-06-26T16:23:24.782766+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
     "Fortuna"
   ],
   "sourceAges": {
-    "Tipsport": "2026-06-26T16:21:04.188Z",
-    "Rainbet": "2026-06-26T16:21:11.947332+00:00",
-    "Fortuna": "2026-06-26T16:21:21.737332+00:00"
+    "Tipsport": "2026-06-26T16:23:04.190Z",
+    "Rainbet": "2026-06-26T16:23:13.446623+00:00",
+    "Fortuna": "2026-06-26T16:23:24.317699+00:00"
   },
   "markets": [
     "fouls",
@@ -20,12 +20,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 14,
-  "opportunitiesFound": 12,
+  "opportunitiesFound": 13,
   "byStat": {
     "fouls": 4,
     "offsides": 3,
     "shots": 3,
-    "cards": 1,
+    "cards": 2,
     "corners": 1
   },
   "opportunities": [
@@ -233,6 +233,42 @@
           "odd": 3.1,
           "bookmaker": "Fortuna",
           "stake": 326.61
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Kolumbie - Portugalsko",
+      "startTime": "2026-06-28T01:30:00.000+02:00",
+      "stat": "cards",
+      "market": "Počet žluté karty — Portugalsko, hranice 1.5",
+      "isArbitrage": true,
+      "profitPct": 1.02,
+      "sumInverse": 0.9899,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1010.2,
+      "guaranteedProfit": 10.2,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "žádná",
+      "statDiffPct": 0.0,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "cards|team|away|over|1.5",
+          "label": "Více než 1.5 (Portugalsko)",
+          "odd": 2.24,
+          "bookmaker": "Rainbet",
+          "stake": 450.98
+        },
+        {
+          "key": "cards|team|away|under|1.5",
+          "label": "Méně než 1.5 (Portugalsko)",
+          "odd": 1.84,
+          "bookmaker": "Tipsport",
+          "stake": 549.02
         }
       ],
       "sport": "fotbal"
