@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T16:47:30.604748+00:00",
+  "generatedAt": "2026-06-26T16:49:23.273466+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
@@ -7,8 +7,8 @@
   ],
   "sourceAges": {
     "Tipsport": "2026-06-26T16:47:25.202Z",
-    "Rainbet": "2026-06-26T16:47:19.498083+00:00",
-    "Fortuna": "2026-06-26T16:47:30.306408+00:00"
+    "Rainbet": "2026-06-26T16:49:13.258386+00:00",
+    "Fortuna": "2026-06-26T16:49:22.948900+00:00"
   },
   "markets": [
     "fouls",
@@ -71,12 +71,12 @@
       "stat": "offsides",
       "market": "Kdo víc — ofsajdy (1x2)",
       "isArbitrage": true,
-      "profitPct": 3.24,
-      "sumInverse": 0.9686,
+      "profitPct": 2.64,
+      "sumInverse": 0.9743,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1032.39,
-      "guaranteedProfit": 32.39,
+      "guaranteedReturn": 1026.38,
+      "guaranteedProfit": 26.38,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "žádná",
@@ -87,23 +87,23 @@
         {
           "key": "offsides|1x2|home",
           "label": "Norsko více",
-          "odd": 5.2,
+          "odd": 4.9,
           "bookmaker": "Rainbet",
-          "stake": 198.54
+          "stake": 209.46
         },
         {
           "key": "offsides|1x2|draw",
           "label": "Oba stejně",
-          "odd": 4.0,
+          "odd": 4.1,
           "bookmaker": "Rainbet",
-          "stake": 258.1
+          "stake": 250.34
         },
         {
           "key": "offsides|1x2|away",
           "label": "Francie více",
           "odd": 1.9,
           "bookmaker": "Tipsport",
-          "stake": 543.36
+          "stake": 540.2
         }
       ],
       "sport": "fotbal"
