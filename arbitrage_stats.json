@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-26T06:41:23.296336+00:00",
+  "generatedAt": "2026-06-26T06:43:23.307437+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
     "Fortuna"
   ],
   "sourceAges": {
-    "Tipsport": "2026-06-26T06:40:16.195Z",
-    "Rainbet": "2026-06-26T06:41:13.657781+00:00",
-    "Fortuna": "2026-06-26T06:41:23.094308+00:00"
+    "Tipsport": "2026-06-26T06:42:16.199Z",
+    "Rainbet": "2026-06-26T06:43:13.488697+00:00",
+    "Fortuna": "2026-06-26T06:43:22.914844+00:00"
   },
   "markets": [
     "fouls",
@@ -20,11 +20,11 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 13,
-  "opportunitiesFound": 13,
+  "opportunitiesFound": 16,
   "byStat": {
     "shots": 4,
     "offsides": 6,
-    "fouls": 2,
+    "fouls": 5,
     "corners": 1
   },
   "opportunities": [
@@ -237,6 +237,42 @@
       "sport": "fotbal"
     },
     {
+      "match": "Norsko - Francie",
+      "startTime": "2026-06-26T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Francie, hranice 9.5",
+      "isArbitrage": true,
+      "profitPct": 1.49,
+      "sumInverse": 0.9853,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1014.9,
+      "guaranteedProfit": 14.9,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "fouls|team|away|over|9.5",
+          "label": "Více než 9.5 (Francie)",
+          "odd": 2.05,
+          "bookmaker": "Fortuna",
+          "stake": 495.07
+        },
+        {
+          "key": "fouls|team|away|under|9.5",
+          "label": "Méně než 9.5 (Francie)",
+          "odd": 2.01,
+          "bookmaker": "Tipsport",
+          "stake": 504.93
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
       "match": "Jordánsko - Argentina",
       "startTime": "2026-06-28T04:00:00.000+02:00",
       "stat": "offsides",
@@ -268,6 +304,42 @@
           "odd": 1.7,
           "bookmaker": "Rainbet",
           "stake": 595.24
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Norsko - Francie",
+      "startTime": "2026-06-26T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Francie, hranice 8.5",
+      "isArbitrage": true,
+      "profitPct": 1.11,
+      "sumInverse": 0.989,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1011.09,
+      "guaranteedProfit": 11.09,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "fouls|team|away|over|8.5",
+          "label": "Více než 8.5 (Francie)",
+          "odd": 1.62,
+          "bookmaker": "Fortuna",
+          "stake": 624.13
+        },
+        {
+          "key": "fouls|team|away|under|8.5",
+          "label": "Méně než 8.5 (Francie)",
+          "odd": 2.69,
+          "bookmaker": "Tipsport",
+          "stake": 375.87
         }
       ],
       "sport": "fotbal"
@@ -383,6 +455,42 @@
           "odd": 2.81,
           "bookmaker": "Tipsport",
           "stake": 357.93
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Norsko - Francie",
+      "startTime": "2026-06-26T21:00:00.000+02:00",
+      "stat": "fouls",
+      "market": "Počet fauly — Francie, hranice 10.5",
+      "isArbitrage": true,
+      "profitPct": 0.47,
+      "sumInverse": 0.9954,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1004.65,
+      "guaranteedProfit": 4.65,
+      "providerSafe": true,
+      "providerNote": "shodný dodavatel (Opta)",
+      "statRisk": "vysoká",
+      "statDiffPct": 55.6,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "fouls|team|away|over|10.5",
+          "label": "Více než 10.5 (Francie)",
+          "odd": 2.7,
+          "bookmaker": "Fortuna",
+          "stake": 372.09
+        },
+        {
+          "key": "fouls|team|away|under|10.5",
+          "label": "Méně než 10.5 (Francie)",
+          "odd": 1.6,
+          "bookmaker": "Tipsport",
+          "stake": 627.91
         }
       ],
       "sport": "fotbal"
