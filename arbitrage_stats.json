@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-26T15:18:29.394863+00:00",
+  "generatedAt": "2026-06-26T15:23:46.471116+00:00",
   "sources": [
     "Rainbet",
     "Fortuna"
   ],
   "sourceAges": {
     "Tipsport": "2026-06-26T13:54:32.496Z",
-    "Rainbet": "2026-06-26T15:18:19.141051+00:00",
-    "Fortuna": "2026-06-26T15:18:29.214867+00:00"
+    "Rainbet": "2026-06-26T15:23:36.196102+00:00",
+    "Fortuna": "2026-06-26T15:23:46.072579+00:00"
   },
   "markets": [
     "fouls",
@@ -19,12 +19,12 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 13,
-  "opportunitiesFound": 6,
+  "opportunitiesFound": 5,
   "byStat": {
     "fouls": 1,
     "cards": 1,
-    "shots": 2,
-    "offsides": 2
+    "offsides": 2,
+    "shots": 1
   },
   "opportunities": [
     {
@@ -100,49 +100,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Cape Verde - Saudi Arabia",
-      "startTime": "2026-06-27T00:00:00+00:00",
-      "stat": "shots",
-      "market": "Kdo víc — střely na branku (1x2)",
-      "isArbitrage": true,
-      "profitPct": 2.09,
-      "sumInverse": 0.9795,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1020.94,
-      "guaranteedProfit": 20.94,
-      "providerSafe": false,
-      "providerNote": "různý dodavatel: Opta vs Sportradar",
-      "statRisk": "vysoká",
-      "statDiffPct": 43.5,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "shots|1x2|home",
-          "label": "Cape Verde více",
-          "odd": 1.95,
-          "bookmaker": "Fortuna",
-          "stake": 523.56
-        },
-        {
-          "key": "shots|1x2|draw",
-          "label": "Oba stejně",
-          "odd": 7.5,
-          "bookmaker": "Fortuna",
-          "stake": 136.13
-        },
-        {
-          "key": "shots|1x2|away",
-          "label": "Saudi Arabia více",
-          "odd": 3.0,
-          "bookmaker": "Rainbet",
-          "stake": 340.31
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Norway - France",
       "startTime": "2026-06-26T19:00:00+00:00",
       "stat": "offsides",
@@ -189,34 +146,41 @@
       "match": "Cape Verde - Saudi Arabia",
       "startTime": "2026-06-27T00:00:00+00:00",
       "stat": "shots",
-      "market": "Počet střely na branku — Saudi Arabia, hranice 3.5",
+      "market": "Kdo víc — střely na branku (1x2)",
       "isArbitrage": true,
-      "profitPct": 1.57,
-      "sumInverse": 0.9845,
+      "profitPct": 0.91,
+      "sumInverse": 0.991,
       "stakeTotal": 1000,
       "currency": "CZK",
-      "guaranteedReturn": 1015.72,
-      "guaranteedProfit": 15.72,
+      "guaranteedReturn": 1009.1,
+      "guaranteedProfit": 9.1,
       "providerSafe": false,
       "providerNote": "různý dodavatel: Opta vs Sportradar",
       "statRisk": "vysoká",
       "statDiffPct": 43.5,
-      "biasProtected": true,
-      "biasNote": "bias-chráněno: OVER Rainbet (Sportradar počítá výš) + UNDER Fortuna → rozdíl providerů hraje pro tebe",
+      "biasProtected": null,
+      "biasNote": "",
       "legs": [
         {
-          "key": "shots|team|away|over|3.5",
-          "label": "Více než 3.5 (Saudi Arabia)",
-          "odd": 2.12,
-          "bookmaker": "Rainbet",
-          "stake": 479.12
-        },
-        {
-          "key": "shots|team|away|under|3.5",
-          "label": "Méně než 3.5 (Saudi Arabia)",
+          "key": "shots|1x2|home",
+          "label": "Cape Verde více",
           "odd": 1.95,
           "bookmaker": "Fortuna",
-          "stake": 520.88
+          "stake": 517.49
+        },
+        {
+          "key": "shots|1x2|draw",
+          "label": "Oba stejně",
+          "odd": 7.5,
+          "bookmaker": "Fortuna",
+          "stake": 134.55
+        },
+        {
+          "key": "shots|1x2|away",
+          "label": "Saudi Arabia více",
+          "odd": 2.9,
+          "bookmaker": "Rainbet",
+          "stake": 347.97
         }
       ],
       "sport": "fotbal"
