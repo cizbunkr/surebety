@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-26T18:05:40.081452+00:00",
+  "generatedAt": "2026-06-26T18:07:40.063120+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
     "Fortuna"
   ],
   "sourceAges": {
-    "Tipsport": "2026-06-26T18:05:36.935Z",
-    "Rainbet": "2026-06-26T18:05:29.382482+00:00",
-    "Fortuna": "2026-06-26T18:05:39.776494+00:00"
+    "Tipsport": "2026-06-26T18:07:36.933Z",
+    "Rainbet": "2026-06-26T18:07:29.111966+00:00",
+    "Fortuna": "2026-06-26T18:07:39.816396+00:00"
   },
   "markets": [
     "fouls",
@@ -20,13 +20,13 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 14,
-  "opportunitiesFound": 11,
+  "opportunitiesFound": 12,
   "byStat": {
     "fouls": 4,
     "offsides": 3,
     "shots": 2,
-    "cards": 1,
-    "corners": 1
+    "corners": 2,
+    "cards": 1
   },
   "opportunities": [
     {
@@ -190,6 +190,42 @@
           "odd": 2.82,
           "bookmaker": "Rainbet",
           "stake": 363.42
+        }
+      ],
+      "sport": "fotbal"
+    },
+    {
+      "match": "Norsko - Francie",
+      "startTime": "2026-06-26T21:00:00.000+02:00",
+      "stat": "corners",
+      "market": "Handicap rohy (+1.5)",
+      "isArbitrage": true,
+      "profitPct": 2.24,
+      "sumInverse": 0.9781,
+      "stakeTotal": 1000,
+      "currency": "CZK",
+      "guaranteedReturn": 1022.38,
+      "guaranteedProfit": 22.38,
+      "providerSafe": false,
+      "providerNote": "různý dodavatel: Opta vs Sportradar",
+      "statRisk": "nízká",
+      "statDiffPct": 2.9,
+      "biasProtected": null,
+      "biasNote": "",
+      "legs": [
+        {
+          "key": "corners|handicap|home|1.5",
+          "label": "Norsko (+1.5)",
+          "odd": 2.2,
+          "bookmaker": "Tipsport",
+          "stake": 464.72
+        },
+        {
+          "key": "corners|handicap|away|-1.5",
+          "label": "Francie (-1.5)",
+          "odd": 1.91,
+          "bookmaker": "Rainbet",
+          "stake": 535.28
         }
       ],
       "sport": "fotbal"
