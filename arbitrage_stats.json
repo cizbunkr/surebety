@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-26T16:39:22.806655+00:00",
+  "generatedAt": "2026-06-26T16:41:24.696843+00:00",
   "sources": [
     "Tipsport",
     "Rainbet",
     "Fortuna"
   ],
   "sourceAges": {
-    "Tipsport": "2026-06-26T16:37:25.201Z",
-    "Rainbet": "2026-06-26T16:39:12.691951+00:00",
-    "Fortuna": "2026-06-26T16:39:22.469350+00:00"
+    "Tipsport": "2026-06-26T16:39:25.201Z",
+    "Rainbet": "2026-06-26T16:41:15.033732+00:00",
+    "Fortuna": "2026-06-26T16:41:24.502795+00:00"
   },
   "markets": [
     "fouls",
@@ -20,13 +20,13 @@
   "stakeTotal": 1000,
   "currency": "CZK",
   "matchesPaired": 14,
-  "opportunitiesFound": 14,
+  "opportunitiesFound": 12,
   "byStat": {
     "fouls": 4,
     "offsides": 3,
     "shots": 3,
     "cards": 1,
-    "corners": 3
+    "corners": 1
   },
   "opportunities": [
     {
@@ -274,42 +274,6 @@
       "sport": "fotbal"
     },
     {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "corners",
-      "market": "Počet — rohy, hranice 9.5",
-      "isArbitrage": true,
-      "profitPct": 0.74,
-      "sumInverse": 0.9926,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1007.44,
-      "guaranteedProfit": 7.44,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "nízká",
-      "statDiffPct": 2.9,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "corners|total|over|9.5",
-          "label": "Více než 9.5",
-          "odd": 2.03,
-          "bookmaker": "Fortuna",
-          "stake": 496.28
-        },
-        {
-          "key": "corners|total|under|9.5",
-          "label": "Méně než 9.5",
-          "odd": 2,
-          "bookmaker": "Tipsport",
-          "stake": 503.72
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
       "match": "Egypt - Írán",
       "startTime": "2026-06-27T05:00:00.000+02:00",
       "stat": "shots",
@@ -420,42 +384,6 @@
           "odd": 1.85,
           "bookmaker": "Fortuna",
           "stake": 543.21
-        }
-      ],
-      "sport": "fotbal"
-    },
-    {
-      "match": "Senegal - Irák",
-      "startTime": "2026-06-26T21:00:00.000+02:00",
-      "stat": "corners",
-      "market": "Počet — rohy, hranice 8.5",
-      "isArbitrage": true,
-      "profitPct": 0.48,
-      "sumInverse": 0.9952,
-      "stakeTotal": 1000,
-      "currency": "CZK",
-      "guaranteedReturn": 1004.85,
-      "guaranteedProfit": 4.85,
-      "providerSafe": true,
-      "providerNote": "shodný dodavatel (Opta)",
-      "statRisk": "nízká",
-      "statDiffPct": 2.9,
-      "biasProtected": null,
-      "biasNote": "",
-      "legs": [
-        {
-          "key": "corners|total|over|8.5",
-          "label": "Více než 8.5",
-          "odd": 1.63,
-          "bookmaker": "Fortuna",
-          "stake": 616.47
-        },
-        {
-          "key": "corners|total|under|8.5",
-          "label": "Méně než 8.5",
-          "odd": 2.62,
-          "bookmaker": "Tipsport",
-          "stake": 383.53
         }
       ],
       "sport": "fotbal"
